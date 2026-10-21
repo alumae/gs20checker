@@ -9,7 +9,26 @@ from app.catalogue import Catalogue
 from app.matching import VENUE_IDENTITY_RULES, request_kwargs, validate_result
 from benchmarks.policy import POLICY_PATH, apply_policy, load_current_dataset
 from benchmarks.report import apply_audit
+from benchmarks.streaming import workbook_inputs
 from benchmarks.venue_matching import score
+
+
+def test_streaming_benchmark_uses_current_xlsx_inputs_without_changing_labels():
+    catalogue = Catalogue.load("data/venues.json")
+    dataset, _ = load_current_dataset("benchmarks/testset.json", catalogue)
+    original = deepcopy(dataset)
+    content = Path(dataset["source"]).read_bytes()
+    current, sheets = workbook_inputs(dataset, content)
+    assert dataset == original
+    assert len(current["items"]) == 100
+    for old, new in zip(original["items"], current["items"], strict=True):
+        assert new["sheet"] in sheets
+        assert new["fields"] == {"reference": old["fields"]["reference"]}
+        assert {k: v for k, v in new.items() if k != "fields"} == {
+            k: v for k, v in old.items() if k != "fields"
+        }
+    with pytest.raises(ValueError, match="Source workbook has changed"):
+        workbook_inputs(dataset, b"changed")
 
 
 def test_policy_overlay_changes_demo_only_after_hci_audit():

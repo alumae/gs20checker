@@ -48,7 +48,7 @@ def test_lrec_fixture_tracks_original_workbook(regression):
     row = next(
         r for r in rows if r["row"] == regression["row"] and r["sheet"] == regression["sheet"]
     )
-    assert row["fields"] == regression["fields"]
+    assert row["fields"] == {"reference": regression["fields"]["reference"]}
 
 
 def test_lrec_candidates_and_reviewed_types(real_catalogue, regression):

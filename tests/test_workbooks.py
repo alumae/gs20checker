@@ -22,6 +22,7 @@ def test_extract_and_export(catalogue):
     content = small_workbook()
     rows, sheets = extract_rows(content)
     assert len(rows) == 2
+    assert rows[0]["fields"] == {"reference": "A. Test Journal"}
     assert rows[1]["fields"] == {}
     result = catalogue.result(True, next(iter(catalogue.venues)), "=unsafe model formula")
     rows[0]["result"] = result
@@ -35,6 +36,31 @@ def test_extract_and_export(catalogue):
     assert book.active["E4"].value == "Pending"
     assert book["Notes"]["A1"].value == "Keep this sheet"
     assert len(book.active["G2"].value.splitlines()) == len(book.active["H2"].value.splitlines())
+
+
+@pytest.mark.parametrize("extra_columns", [False, True])
+def test_only_luhikirje_is_required_and_extracted_verbatim(extra_columns):
+    reference = "  @article{example,\n title={A title}, journal={A journal}, year={2026}}\n"
+    book = Workbook()
+    headers = ["Lühikirje"]
+    values = [reference]
+    if extra_columns:
+        headers += ["Ajakiri / jätkuväljaanne", "Konverents", "Pealkiri", "Aasta"]
+        values += ["Conflicting journal", "Conflicting conference", "Other title", 1999]
+    book.active.append(headers)
+    book.active.append(values)
+    rows, sheets = extract_rows(save_workbook(book).getvalue())
+    assert sheets == {book.active.title: len(headers)}
+    assert rows[0]["fields"] == {"reference": reference}
+
+
+@pytest.mark.parametrize("reference", [None, "", " \n\t ", '=CONCAT("A", " journal")'])
+def test_unusable_luhikirje_never_falls_back_to_other_columns(reference):
+    book = Workbook()
+    book.active.append(["Lühikirje", "Ajakiri / jätkuväljaanne", "Pealkiri"])
+    book.active.append([reference, "Test Journal", "Paper title"])
+    rows, _ = extract_rows(save_workbook(book).getvalue())
+    assert len(rows) == 1 and rows[0]["fields"] == {}
 
 
 def test_sample_workbook_full_roundtrip(catalogue, tmp_path):

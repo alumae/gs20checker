@@ -11,7 +11,7 @@ from app.candidates import CandidateIndex
 from app.catalogue import Catalogue
 from app.matching import AsyncMatcher, Matcher, request_kwargs
 from app.workbooks import save_workbook
-from tests.test_processing import FakeClient, all_negative, stream
+from tests.test_processing import FakeClient, negative, reply, stream
 
 
 @pytest.fixture(scope="module")
@@ -82,23 +82,49 @@ def test_exact_lookup_agrees_with_all_excel_regression_labels(real_catalogue):
     assert resolved == [137, 157, 519, 804, 808, 997, 1010, 1120]
 
 
-def test_mixed_batch_exports_local_and_model_results_to_correct_rows(real_catalogue):
+def test_excel_uses_only_full_references_and_exports_model_results(real_catalogue):
     book = Workbook()
     book.active.append(["Lühikirje", "Ajakiri / jätkuväljaanne"])
-    book.active.append(["Flood disasters", "International Journal of River Basin Management"])
+    reference = "Authors. Flood disasters. International Journal of River Basin Management."
+    book.active.append([reference, "International Journal of River Basin Management"])
     book.active.append(["Unlisted article", "Journal of Service Management"])
-    book.active.append(["Flood disasters", "International Journal of River Basin Management"])
-    client = FakeClient(all_negative)
+    book.active.append([reference, "International Journal of Language & Communication Disorders"])
+    book.active.append([None, "International Journal of River Basin Management"])
+    venue_id = real_catalogue.candidates.exact_journal(
+        {"journal": "International Journal of River Basin Management"}
+    )
+
+    async def handler(kwargs):
+        items = json.loads(kwargs["input"][-1]["content"])
+        results = []
+        for item in items:
+            result = negative(item["id"])
+            if item["fields"]["reference"] == reference:
+                result.update(
+                    matched=True,
+                    venue_id=venue_id,
+                    venue_name=real_catalogue.venues[venue_id]["name"],
+                    note="The reference identifies the journal.",
+                )
+            results.append(result)
+        return reply(results)
+
+    client = FakeClient(handler)
     events, engine, _ = stream(save_workbook(book).getvalue(), real_catalogue, client)
     events = [json.loads(e) for e in events]
     sent = json.loads(client.calls[0]["input"][-1]["content"])
-    assert len(sent) == 1 and sent[0]["fields"]["journal"] == "Journal of Service Management"
+    assert [item["fields"] for item in sent] == [
+        {"reference": reference},
+        {"reference": "Unlisted article"},
+    ]
     assert engine.requests == 1 and engine.fallbacks == engine.verifications == 0
     data = b"".join(base64.b64decode(e["data"]) for e in events if e["type"] == "file_chunk")
     rows = list(load_workbook(BytesIO(data)).active.values)
-    assert [r[2] for r in rows[1:]] == ["Yes", "No", "Yes"]
+    assert [r[2] for r in rows[1:]] == ["Yes", "No", "Yes", "No"]
     assert rows[1][3] == rows[3][3] == "International Journal of River Basin Management"
     assert rows[1][5] == "19"
+    assert rows[3][1] == "International Journal of Language & Communication Disorders"
+    assert rows[4][6] == "No usable publication reference."
 
 
 def test_note_precedes_decision_and_name_precedes_id_in_schema(real_catalogue):

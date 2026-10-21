@@ -39,14 +39,7 @@ def save_workbook(workbook):
 
 
 COLUMNS = ["GS Match", "GS Venue", "GS Category", "GS Rank", "GS Note", "GS Snapshot"]
-FIELDS = {
-    "Lühikirje": "reference",
-    "Ajakiri / jätkuväljaanne": "journal",
-    "Konverents": "conference",
-    "Väljaande pealkiri": "publication_title",
-    "Pealkiri": "title",
-    "Aasta": "year",
-}
+REFERENCE_HEADER = "Lühikirje"
 
 
 def read_workbook(content):
@@ -73,7 +66,7 @@ def extract_rows(content, max_rows=5000):
             if sheet.max_row > 50000 or sheet.max_column > 500:
                 raise ValueError("Workbook dimensions exceed the supported ETIS layout.")
             headers = {str(c.value).strip(): c.column for c in sheet[1] if c.value is not None}
-            if "Lühikirje" not in headers:
+            if REFERENCE_HEADER not in headers:
                 continue
             if any(name in headers for name in COLUMNS):
                 raise ValueError(
@@ -84,20 +77,18 @@ def extract_rows(content, max_rows=5000):
                 if all(c.value is None for c in cells):
                     continue
                 fields = {}
-                for header, name in FIELDS.items():
-                    if header in headers:
-                        cell = cells[headers[header] - 1]
-                        if cell.value is not None and cell.data_type != "f":
-                            fields[name] = str(cell.value).strip()
-                meaningful = any(
-                    fields.get(k)
-                    for k in ("reference", "journal", "conference", "publication_title", "title")
-                )
+                cell = cells[headers[REFERENCE_HEADER] - 1]
+                if cell.value is not None and cell.data_type != "f":
+                    reference = str(cell.value)
+                    if reference.strip():
+                        # Send the complete citation unchanged, including BibTeX-like text.
+                        # Other columns are preserved in the export but never used to match.
+                        fields["reference"] = reference
                 rows.append(
                     {
                         "sheet": sheet.title,
                         "row": cells[0].row,
-                        "fields": fields if meaningful else {},
+                        "fields": fields,
                         "result": None,
                     }
                 )

@@ -67,6 +67,18 @@ class RecordingClient:
         await self.client.close()
 
 
+def workbook_inputs(dataset, content):
+    """Use current XLSX extraction with frozen labels, never historical input fields."""
+    if hashlib.sha256(content).hexdigest() != dataset["source_sha256"]:
+        raise ValueError("Source workbook has changed")
+    rows, sheets = extract_rows(content)
+    by_row = {(row["sheet"], row["row"]): row["fields"] for row in rows}
+    current = deepcopy(dataset)
+    for item in current["items"]:
+        item["fields"] = deepcopy(by_row[(item["sheet"], item["row"])])
+    return current, sheets
+
+
 def run(output, testset=Path("benchmarks/testset.json"), baseline=None):
     load_dotenv(".env")
     key = os.getenv("OPENAI_API_KEY")
@@ -75,9 +87,7 @@ def run(output, testset=Path("benchmarks/testset.json"), baseline=None):
     dataset, source_hash = load_current_dataset(testset, catalogue)
     count = len(dataset["items"])
     content = Path(dataset["source"]).read_bytes()
-    if hashlib.sha256(content).hexdigest() != dataset["source_sha256"]:
-        raise ValueError("Source workbook has changed")
-    _, sheets = extract_rows(content)
+    dataset, sheets = workbook_inputs(dataset, content)
     if output.exists():
         raise ValueError(
             "Choose a new output directory; historical results will not be overwritten"
@@ -91,6 +101,7 @@ def run(output, testset=Path("benchmarks/testset.json"), baseline=None):
         "model": model,
         "prompt_version": PROMPT_VERSION,
         "candidate_verification": False,
+        "input_source": "Current XLSX extraction: unchanged Lühikirje text only",
         "status": "running",
         "rounds": [],
         "frozen_testset_sha256": source_hash,
@@ -106,6 +117,7 @@ def run(output, testset=Path("benchmarks/testset.json"), baseline=None):
                 "app/processing.py",
                 "app/workbooks.py",
                 "app/candidates.py",
+                "benchmarks/streaming.py",
             )
         },
     }
@@ -202,6 +214,9 @@ def write_report(output, state, dataset):
         "",
         f"Model: `{state['model']}`; prompt {state['prompt_version']}; "
         f"venue policy {state['venue_policy']['version']}; status: **{state['status']}**.",
+        "",
+        f"Inputs: {state['input_source']}. Expected labels retain the reviewed venue identity; "
+        "removing other source fields may remove evidence available to the model.",
         "",
         "Two shuffled passes through the production streaming processor, batches of ten, "
         "strict name/ID validation and malformed-output fallback. No candidate verification. "

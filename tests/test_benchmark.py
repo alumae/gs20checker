@@ -118,7 +118,10 @@ def test_frozen_annotations_reproduce_source_and_selection():
     frozen = json.loads(Path("benchmarks/testset.json").read_text())
     rebuilt = build()
     rebuilt["frozen_at"] = frozen["frozen_at"]
-    assert rebuilt == frozen
+    current_inputs = deepcopy(frozen)
+    for item in current_inputs["items"]:
+        item["fields"] = {"reference": item["fields"]["reference"]}
+    assert rebuilt == current_inputs
     assert Counter(i["subset"] for i in frozen["items"]) == {"random": 80, "challenge": 20}
     assert sum(i["policy_sensitive"] for i in frozen["items"]) == 1
     catalogue = Catalogue.load("data/venues.json")

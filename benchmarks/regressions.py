@@ -31,7 +31,7 @@ def run(output):
         for i, row in enumerate(rows)
         if row["sheet"] == case["sheet"] and row["row"] == case["row"]
     )
-    if rows[position]["fields"] != case["fields"]:
+    if rows[position]["fields"] != {"reference": case["fields"]["reference"]}:
         raise ValueError("Regression extraction has changed")
     offset = position // 10 * 10
     items = [
@@ -49,13 +49,14 @@ def run(output):
         "model": model,
         "prompt_version": PROMPT_VERSION,
         "candidate_verification": False,
+        "workbook_input_fields": ["reference"],
         "status": "running",
         "case": case,
         "original_batch": items,
         "runs": [],
         "code_sha256": {
             name: hashlib.sha256(Path(name).read_bytes()).hexdigest()
-            for name in ("app/matching.py", "app/candidates.py")
+            for name in ("app/matching.py", "app/candidates.py", "app/workbooks.py")
         },
     }
     with openai.OpenAI(api_key=key, timeout=30, max_retries=0) as client:

@@ -164,4 +164,8 @@ def test_fresh_holdout_is_reproducible_and_disjoint():
     assert not {i["id"] for i in old} & {i["id"] for i in fresh}
     assert 361 not in {i["row"] for i in fresh}
     assert len(fresh) == 50 and sum(i["expected_venue_id"] is not None for i in fresh) == 11
-    assert all(r["fields"] == i["fields"] for r, i in zip(selected, fresh, strict=True))
+    # Frozen historical datasets retain extra ETIS fields; current uploads use only the citation.
+    assert all(
+        r["fields"] == {"reference": i["fields"]["reference"]}
+        for r, i in zip(selected, fresh, strict=True)
+    )

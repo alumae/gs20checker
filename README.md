@@ -129,8 +129,9 @@ Complete structured journal names are first looked up locally in the catalogue,
 ignoring case, punctuation, spacing, and `&` / `and` / missing connectors. A unique
 whole-name match needs no API call. Word order and substantive words are preserved;
 collisions, abbreviations, conference names, and unknown names continue to the model.
-This applies to ETIS journal fields and BibTeX journal fields, not substrings of paper
-titles or free-form references. A missing exact match does not mean the venue is absent.
+This applies to journal fields parsed from the single-entry BibTeX form. XLSX uploads
+use only the complete `Lühikirje` text and always send usable, uncached references to
+the model. A missing exact match does not mean the venue is absent.
 
 The model receives every catalogue venue's ID and name in a stable developer-message
 prefix, followed by up to ten independently identified unresolved publications. Rankings and
@@ -181,9 +182,12 @@ historical experiments (`verify_candidates=True`). The web app does not enable i
 The earlier LREC regression and verification reports are retained as historical
 results; their accuracy measurements do not describe the current unverified workflow.
 
-ETIS sheets are identified by the `Lühikirje` header in row 1. The reference is
-supplemented with journal, conference, publication title, paper title, and year.
-Abstracts and unrelated fields are excluded from model requests. Files are limited
+ETIS sheets require only a `Lühikirje` header in row 1. Each nonempty reference is sent
+as the complete cell text, without decomposition or BibTeX parsing. Journal,
+conference, title, year, abstracts, and all other columns are excluded from matching
+and model requests, but preserved in the download. Blank or formula-only `Lühikirje`
+cells receive No match with a missing-reference note; other columns are never a
+fallback. Completely empty rows are left untouched. Files are limited
 to 10 MB locally or 4 MB on Vercel, 5,000 nonempty publication rows, and 100 MB expanded
 ZIP contents. Hosted requests have a 29-minute application deadline and a 4 MB total
 streamed-response budget, including progress, base64 download chunks, and completion.
@@ -226,6 +230,16 @@ negative examples through the single-reference form before processing a full wor
 
 ## Accuracy and speed benchmark
 
+Historical benchmark datasets and reports retain their original structured input
+fields. The current streaming benchmark reads inputs through the XLSX extractor,
+keeping the reviewed labels but sending only `Lühikirje` text.
+
+The [reference-only accuracy check](benchmarks/results/reference-only/report.md)
+scored **296/300 decisions (98.7%)** on two passes over 150 publications, versus
+297/300 in the saved structured-input run. Targeted Excel/LREC regressions scored
+**61/66**; River Basin Management and the Lillepalu/Alumäe LREC case passed both times.
+These are repeated decisions, not independent samples; the report lists all failures.
+
 The historical benchmark compares the initial single-reference request with ten
 publications in one structured-output request. It does not change the Flask app.
 `benchmarks/testset.json` contains 80 seeded random ETIS rows and 20 selected difficult
@@ -258,7 +272,8 @@ demo-track label was policy-sensitive; the current policy explicitly counts it a
 This legacy benchmark uses its original labels; use the production evaluation below
 for the current policy. Annotation provenance
 is in `benchmarks/annotations.tsv`; `python -m benchmarks.build_testset` reproduces
-the dataset from the original workbook and refuses to overwrite existing labels.
+the selection and labels with current reference-only inputs from the original workbook,
+and refuses to overwrite the existing frozen dataset.
 Do not revise frozen labels based on model predictions; document any later audit
 as a separately versioned test set.
 
