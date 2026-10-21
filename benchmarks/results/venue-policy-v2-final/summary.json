@@ -1,0 +1,54 @@
+{
+  "Original 100": {
+    "correct": 197,
+    "decisions": 200,
+    "prior_rescored_correct": 195,
+    "mean_matching_seconds": 112.79534522397444,
+    "false_positive": 0,
+    "false_negative": 3,
+    "fallbacks": 1
+  },
+  "Additional 50": {
+    "correct": 98,
+    "decisions": 100,
+    "prior_rescored_correct": 99,
+    "mean_matching_seconds": 56.000712295470294,
+    "false_positive": 2,
+    "false_negative": 0,
+    "fallbacks": 0
+  },
+  "policy_cases": {
+    "single": {
+      "n": 19,
+      "correct": 19,
+      "true_positive": 15,
+      "true_negative": 4,
+      "false_positive": 0,
+      "false_negative": 0,
+      "wrong_venue": 0,
+      "errors": 0,
+      "missing": 0,
+      "positive_errors": 0,
+      "negative_errors": 0,
+      "exact_accuracy": 1.0,
+      "match_precision": 1.0,
+      "match_recall": 1.0
+    },
+    "batch": {
+      "n": 19,
+      "correct": 18,
+      "true_positive": 14,
+      "true_negative": 4,
+      "false_positive": 0,
+      "false_negative": 1,
+      "wrong_venue": 0,
+      "errors": 0,
+      "missing": 0,
+      "positive_errors": 0,
+      "negative_errors": 0,
+      "exact_accuracy": 0.9473684210526315,
+      "match_precision": 1.0,
+      "match_recall": 0.9333333333333333
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "original_testset_sha256": "72050c7efa6acd21409dcf5378a449629e9a8ba717356d0fe4a68cf914f16fc4",
+  "reviewed_at": "2026-10-18T17:02:29.310724+00:00",
+  "review_trigger": "Review of a baseline disagreement after predictions began. Original labels and model requests are unchanged; report both original and corrected scores.",
+  "author": "Codex assistant; not independently human-reviewed",
+  "corrections": [
+    {
+      "id": "etis-1141",
+      "previous_expected_venue_id": null,
+      "expected_venue_id": "df767d1ca593ed3a4c98",
+      "expected_venue": "HCI International",
+      "resolved_venue": "HCI International (HCII), Late Breaking Papers",
+      "rationale": "The original annotation missed the HCI International catalogue entry and overgeneralized the companion-proceedings exclusion. The official conference proceedings inventory includes LNCS 16333 (Late Breaking Papers, Part III) as part of the HCII 2025 proceedings. Springer identifies this chapter in that volume. This provides clear venue-identity evidence; it is not an ACM CHI paper.",
+      "evidence": [
+        "data/venues.json#df767d1ca593ed3a4c98",
+        "https://2025.hci.international/proceedings.html",
+        "https://link.springer.com/chapter/10.1007/978-3-032-12660-3_9"
+      ]
+    }
+  ]
+}

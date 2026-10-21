@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scholar 20 — Publication venue checker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='stream.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="/" aria-label="Scholar 20 home"><span class="mark">20</span> Scholar<span class="wordmark-light">20</span></a>
+    <span class="header-label">PUBLICATION VENUE CHECKER</span>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">A LITTLE CLARITY FOR YOUR PUBLICATIONS</p>
+      <h1>Is your venue in<br>Google Scholar’s <em>Top 20?</em></h1>
+      <p class="lede">Check a reference or an entire ETIS export against the top venues<br class="desktop-break"> in every English research category.</p>
+    </section>
+
+    <section class="checker" aria-label="Publication checker">
+      <div class="tabs" role="tablist" aria-label="Input method">
+        <button id="single-tab" role="tab" aria-selected="true" aria-controls="single-panel" class="tab active">Single publication</button>
+        <button id="workbook-tab" role="tab" aria-selected="false" aria-controls="workbook-panel" tabindex="-1" class="tab">ETIS spreadsheet <span class="file-label">.xlsx</span></button>
+      </div>
+      {% if setup_error %}
+      <div class="setup-note" role="status"><strong>Setup needed</strong><p>{{ setup_error }}</p></div>
+      {% endif %}
+      <div id="single-panel" role="tabpanel" aria-labelledby="single-tab" class="panel">
+        <form id="reference-form">
+          <label for="reference">Publication reference</label>
+          <p class="field-help" id="reference-help">Paste a BibTeX entry or a full reference, including the journal or conference.</p>
+          <textarea id="reference" name="reference" rows="7" maxlength="20000" required aria-describedby="reference-help" placeholder="Author, A. (2025). Paper title. Journal or conference name, volume, pages."></textarea>
+          <div class="form-bottom"><span class="muted">Abbreviated venue names are welcome.</span><button class="primary" id="check-button" {% if setup_error %}disabled{% endif %}>Check publication <span aria-hidden="true">↗</span></button></div>
+        </form>
+        <div id="single-message" class="message" role="status" aria-live="polite"></div>
+        <section id="single-result" class="result" hidden aria-label="Matching result"></section>
+      </div>
+      <div id="workbook-panel" role="tabpanel" aria-labelledby="workbook-tab" class="panel" hidden>
+        <form id="upload-form">
+          <label for="workbook">Your ETIS publication export</label>
+          <p class="field-help">Keep all your original columns. Download a copy with venue matches and rankings added.</p>
+          <div class="upload-area"><span class="upload-symbol" aria-hidden="true">↑</span><label for="workbook">Choose an Excel workbook</label><input id="workbook" type="file" accept=".xlsx" data-max-bytes="{{ config.GS_MAX_UPLOAD_BYTES }}" data-limit-label="{{ config.GS_UPLOAD_LIMIT_LABEL }}" required><span class="muted">Up to {{ config.GS_UPLOAD_LIMIT_LABEL }} · 5,000 publications{% if config.GS_PROCESSING_SECONDS %} · {{ config.GS_PROCESSING_SECONDS // 60 }}-minute processing limit{% endif %}</span></div>
+          <div class="form-bottom"><span class="muted">Keep this tab open while processing.</span><button class="primary" id="upload-button" {% if setup_error %}disabled{% endif %}>Check spreadsheet <span aria-hidden="true">↗</span></button></div>
+        </form>
+        <button id="cancel-button" class="secondary" type="button" hidden>Cancel processing</button>
+        <div id="batch-message" class="message" role="status" aria-live="polite"></div>
+        <section id="job-panel" hidden aria-label="Spreadsheet progress">
+          <div class="progress-heading"><strong id="progress-label">Preparing workbook</strong><span id="progress-count"></span></div>
+          <progress id="progress" max="100" value="0"></progress>
+          <div class="stats"><span><b id="matched-count">0</b> matched</span><span><b id="unmatched-count">0</b> no match</span><span><b id="error-count">0</b> errors</span></div>
+          <div class="job-actions"><a id="download-link" class="primary" hidden>Download results ↓</a></div>
+          <p class="field-help">Results are available when processing finishes. Cancelling or closing the page discards this upload.</p>
+          <div class="table-wrap"><table><caption>Recently processed publications</caption><thead><tr><th>Row</th><th>Reference</th><th>Result</th></tr></thead><tbody id="recent-results"></tbody></table></div>
+        </section>
+      </div>
+      <div class="catalogue-status"><span class="status-dot {% if not catalogue %}inactive{% endif %}"></span>{% if catalogue %}{{ catalogue.venues|length }} venues · {{ catalogue.categories|length }} categories · Snapshot {{ catalogue.snapshot[:10] }}{% else %}Verified ranking snapshot not yet installed{% endif %}</div>
+    </section>
+
+    <section class="explainer" aria-label="How it works">
+      <div><span class="step">01</span><h2>Bring your reference</h2><p>One citation or an ETIS spreadsheet. No reformatting needed.</p></div>
+      <div><span class="step">02</span><h2>Find the venue</h2><p>AI recognizes venue names and abbreviations against a fixed Scholar catalogue.</p></div>
+      <div><span class="step">03</span><h2>See where it ranks</h2><p>Every matching category and rank, with links to the original Scholar lists.</p></div>
+    </section>
+    <p class="fine-print">Checks venue membership in a dated ranking snapshot, not an individual paper’s quality or its ranking in the year of publication. Uncertain references are reported as no match, with an explanation. References are sent to OpenAI for matching. Uploads and results stay in memory for this request only. Closing or refreshing the page cancels processing and discards the results.</p>
+  </main>
+  <footer><span>Scholar20 · Independent research tool</span><a href="https://scholar.google.com/intl/en/scholar/metrics.html" target="_blank" rel="noopener noreferrer">About Google Scholar Metrics ↗</a></footer>
+</body>
+</html>

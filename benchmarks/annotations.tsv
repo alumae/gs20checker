@@ -1,0 +1,101 @@
+row	catalogue_name	resolved_venue	rationale
+2		TalTech Journal of European Studies	Named journal is absent from the frozen catalogue; not another European studies journal.
+18		Energy Informatics Academy Conference (EI.A)	Proceedings of EI.A, not a journal named Energy Informatics; neither this conference nor LNCS is listed.
+46		ACM Transactions on Programming Languages and Systems	TOPLAS is absent; do not substitute Proceedings of the ACM on Programming Languages.
+63		Journal of Materials Science & Technology	JMST DOI and title identify this journal despite the singular Material spelling; absent from the catalogue, unlike Materials Research and Technology.
+67		IEEE Open Journal of Power Electronics	Open Journal is distinct from the listed IEEE Transactions on Power Electronics.
+79		Land	This journal is absent; do not substitute Land Use Policy or Landslides.
+89		Nordic Symposium on Building Physics / Journal of Physics: Conference Series	Both the named meeting and the proceedings series are absent from the catalogue.
+102		International Conference on Smart Technologies & Education	The named conference and Lecture Notes in Networks and Systems are absent.
+116		Ericsson Estonia workshop	An institutional workshop, not a listed research venue.
+120	Journal of Pure and Applied Algebra	Journal of Pure and Applied Algebra	Explicit journal title exactly identifies a listed venue.
+130	IEEE Access	IEEE Access	Explicit journal title exactly identifies a listed venue.
+132		RTUCON	Riga Technical University's power and electrical engineering conference is absent.
+157	Biomass and Bioenergy	Biomass and Bioenergy	The lost ampersand in the journal field and biombioe DOI identify the listed journal.
+158		Mathematical Foundations of Computer Science (MFCS)	MFCS is absent; it is not FOCS or STACS, and LIPIcs is a series rather than evidence for either conference.
+160	Ocean Modelling	Ocean Modelling	Explicit journal title exactly identifies a listed venue.
+164		EGU General Assembly abstract	The egusphere-egu26 DOI denotes a meeting abstract. The publication-title field repeats the paper title; no listed journal is supplied.
+165	Internet Policy Review	Internet Policy Review	Explicit journal title exactly identifies a listed venue.
+187		Journal of Urbanism: International Research on Placemaking and Urban Sustainability	Named journal is absent; other urban studies journals are different venues.
+199		RP: Raamatupidamise praktik	Estonian accounting practitioner periodical is absent.
+201		Eesti Arst	Named Estonian medical journal is absent.
+211		Higher Structures	Named journal is absent; it is not Structures or Engineering Structures.
+229	Astronomy & Astrophysics	Astronomy & Astrophysics	And/ampersand spelling variation of the listed journal; supported by the A&A DOI prefix.
+237	International Journal of Refractory Metals and Hard Materials	International Journal of Refractory Metals and Hard Materials	Explicit journal title exactly identifies a listed venue.
+238		Local Environment	Named journal is absent; not Global Environmental Change or Atmospheric Environment.
+239		Industry and Innovation	Named journal is absent; not Financial Innovation or another innovation journal.
+243		Transpordiamet report	Government transport report with no journal or conference venue stated.
+260		RMP Nädalakiri	Accounting newsletter is absent from the catalogue.
+275	Journal of Marine Science and Engineering	Journal of Marine Science and Engineering	Explicit journal title exactly identifies a listed venue.
+310		Data in Brief	Named data journal is absent; not Scientific Data.
+352		Äripäev	Estonian newspaper is absent from the catalogue.
+362	Control Engineering Practice	Control Engineering Practice	Explicit journal title exactly identifies a listed venue.
+382		International Conference on Security and Cryptography (SECRYPT)	SECRYPT is absent; not EUROCRYPT or the financial cryptography conference.
+388		Palgauudised.ee	Practitioner news website is absent from the catalogue.
+406		European Symposium on Artificial Neural Networks (ESANN)	ESANN is absent; do not infer a listed machine-learning conference from its subject.
+411	Journal of Marine Science and Application	Journal of Marine Science and Application	Explicit journal title exactly identifies a listed venue.
+413		Journal of Computational Neuroscience	Named journal is absent; not Journal of Neuroscience or Journal of Computational Physics.
+419		Libertas Fidei	Named publication is absent from the catalogue.
+436		Frontiers in Medicine	Named journal is absent; other Frontiers titles are not equivalent.
+447		Lignin Gordon Research Conference	Specific Gordon meeting is absent from the catalogue.
+454		International Liège Colloquium on Ocean Dynamics	Named colloquium is absent; no listed oceanography journal is claimed.
+457		Tartu Postimees	Estonian newspaper is absent from the catalogue.
+469		Journal of Building Physics	Named journal is absent; not Journal of Building Engineering.
+476	Control Engineering Practice	Control Engineering Practice	Explicit journal title exactly identifies a listed venue.
+492	Journal of Geodesy	Journal of Geodesy	Explicit journal title exactly identifies a listed venue.
+526	Scientific Reports	Scientific Reports	Explicit journal title exactly identifies a listed venue.
+560	IEEE Access	IEEE Access	Explicit journal title exactly identifies a listed venue.
+604		IEEE Transactions on Industry Applications	Named journal is absent; Industry Applications is distinct from Industrial Electronics and Industrial Informatics.
+628		Faraday Discussions	Named journal is absent from the catalogue.
+676	Scientific Reports	Scientific Reports	Explicit journal title exactly identifies a listed venue.
+692	Sustainability	Sustainability	Explicit journal title identifies Sustainability, not Nature Sustainability.
+737		Nonprofit and Voluntary Sector Quarterly	Named journal is absent; do not substitute VOLUNTAS.
+767	International Journal of Public Administration	International Journal of Public Administration	Explicit journal title exactly identifies a listed venue.
+768		Medical Informatics Europe (MIE)	MIE proceedings and Studies in Health Technology and Informatics are absent; not a listed medical informatics journal.
+820		The European Sting / World Economic Forum	Web commentary is not a listed academic venue.
+830		International Wireless Communications and Mobile Computing (IWCMC)	Named conference is absent; do not substitute a similarly named journal or other wireless conference.
+841		Nordic Symposium on Building Physics / Journal of Physics: Conference Series	Both the named meeting and proceedings series are absent from the catalogue.
+884		ChemRxiv	Explicit preprint server; do not infer a later journal publication from the title.
+914		Journal of Chromatography Open	Open is a distinct journal; the listed Journal of Chromatography A is not equivalent.
+916		IEEE Open Journal of Power Electronics	Open Journal is distinct from the listed IEEE Transactions on Power Electronics.
+934		RP: Raamatupidamise praktik	Estonian accounting practitioner periodical is absent.
+938		Applied Economics Letters	Named journal is absent; not Applied Physics Letters or another economics journal.
+943		Agronoomia 2026	Local agronomy proceedings are absent; publisher affiliation is not a journal venue.
+971		Beilstein Journal of Organic Chemistry	Named journal is absent; distinct from The Journal of Organic Chemistry.
+995	Scientific Reports	Scientific Reports	Explicit journal title exactly identifies a listed venue.
+1007		ERR Novaator	Estonian science-news website is absent; not Nature or Technovation.
+1019		ECOO project report / Zenodo	European Commission project deliverable deposited in Zenodo; no listed venue stated.
+1028	Journal of Paleontology	Journal of Paleontology	Explicit journal title exactly identifies a listed venue; forthcoming status does not change venue identity.
+1030	Advances in Building Energy Research	Advances in Building Energy Research	Explicit journal title exactly identifies a listed venue.
+1038		International Conference on Information Communication, IoT Technology, and Smart Cities (IITS)	Named conference is absent; generic conference words do not establish another venue.
+1042		Navigating the AI Frontier in Adult Education	Routledge book chapter; the book is absent and is not Frontiers in Education.
+1045		IEEE International Instrumentation and Measurement Technology Conference (I2MTC)	I2MTC is absent; not IEEE Transactions on Instrumentation and Measurement.
+1051	Quaternary Science Reviews	Quaternary Science Reviews	Explicit journal title exactly identifies a listed venue.
+1062	Algebraic & Geometric Topology	Algebraic & Geometric Topology	Lost ampersand in structured field; reference explicitly supplies and. Not the distinct Geometry & Topology journal.
+1065		Financial Markets, Institutions and Risks	Named journal is absent; not Journal of International Financial Markets, Institutions and Money.
+1074		Ennetustegevuse kavandamise, arendamise, kohandamise ja hindamise juhend	Public-health guidance book chapter, not a listed academic venue.
+1107		ERR Novaator	Estonian science-news website is absent from the catalogue.
+1118		IAHR Europe Congress abstracts	Named congress abstract book is absent; not a listed hydraulics journal.
+1123	Metals	Metals	Explicit journal title exactly identifies a listed venue.
+1141		HCI International / HCII late-breaking papers	HCII is a different conference from ACM CHI; neither this late-breaking volume nor LNCS establishes a listed venue.
+1158		Journal of Economic and Administrative Sciences	Named journal is absent; not Journal of Educational Administration.
+11		Water Research X	Separate companion journal to Water Research; X is not an ignorable suffix and is absent from the snapshot.
+32	Computers & Security	Computers & Security	ETIS has lost the ampersand; the reference and cose DOI identify the listed journal.
+35		International Conference on Machine Learning and Applications (ICMLA)	ICMLA is distinct from ICML and is absent from the snapshot.
+75		Journal of Materials Chemistry C	The publisher treats A, B and C as separate journals; C is absent while A is listed.
+147		IEEE Journal of Emerging and Selected Topics in Industrial Electronics	JESTIE is a separate journal from the listed Emerging and Selected Topics in Power Electronics.
+181	Conference on Computational Natural Language Learning (CoNLL)	Conference on Computational Natural Language Learning (CoNLL)	The named CoNLL proceedings match the listed conference; ACL is the publisher, not the venue to return.
+223	Computer Human Interaction (CHI)	ACM CHI Conference on Human Factors in Computing Systems	ACM DOI identifies main CHI proceedings; catalogue uses the abbreviated Computer Human Interaction name.
+256	PLOS ONE	PLOS ONE	Capitalization variant PLoS ONE identifies the same journal.
+280	International Journal of Electrical Power & Energy Systems	International Journal of Electrical Power & Energy Systems	Lost ampersand in ETIS; remaining full title and ijepes DOI identify the listed journal.
+284	Conference of the International Speech Communication Association (INTERSPEECH)	Interspeech	Interspeech is the listed ISCA conference, regardless of edition or host city.
+301		Proceedings of the Estonian Academy of Sciences	Estonian academy proceedings are distinct from Proceedings of the National Academy of Sciences.
+408	Clinical Journal of the American Society of Nephrology	Clinical Journal of the American Society of Nephrology	CJASN suffix is an acronym for the same fully spelled-out journal, not another venue.
+494	IEEE Transactions on Smart Grids	IEEE Transactions on Smart Grid	Scholar snapshot adds a plural s to the official IEEE journal title; identity remains the same.
+528	Proceedings of the ACM on Programming Languages	Proceedings of the ACM on Programming Languages	Explicit PACMPL journal title is listed; POPL is the issue designation, not grounds to change journal identity.
+658		Workshop on Mathematically Structured Functional Programming (MSFP)	Named workshop and EPTCS series are absent; do not promote to a main programming-languages conference.
+811		International Workshop on Security and Privacy Analytics (IWSPA)	Specific workshop is absent; not the IEEE Symposium on Security and Privacy.
+967		EACL System Demonstrations	Separate system-demonstrations proceedings. Conservatively no match under the existing companion-proceedings policy; main EACL is listed. Policy-sensitive because Scholar aggregation of this track is not verified.
+1088	IEEE Conference on Decision and Control	IEEE Conference on Decision and Control (CDC)	Numbered CDC edition matches the listed conference; forthcoming status does not change venue identity.
+1106	Computer Speech & Language	Computer Speech & Language	Lost ampersand in ETIS; full reference and csl DOI identify the listed journal.
+1152		Baltic DB&IS Conference Forum and Doctoral Consortium	Explicit forum/doctoral proceedings in CEUR-WS; neither this venue nor CEUR series is listed.

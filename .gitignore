@@ -1,0 +1,21 @@
+.env*
+!.env.example
+.venv/
+.local-deps/
+instance/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+data/scholar-pages/
+benchmarks/embedding_cache/
+.vercel/
+public/static/
+.DS_Store
+._*
+.agents/
+.codex/
+.aws/
+# Keep the original workbook used by regression tests; exclude other uploads/results.
+sample_data/*
+!sample_data/Publications.xlsx

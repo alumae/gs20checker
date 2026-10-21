@@ -1,0 +1,382 @@
+{
+  "started_at": "2026-10-18T20:20:51.733379+00:00",
+  "model": "gpt-6-luna",
+  "prompt_version": "3",
+  "status": "passed",
+  "case": {
+    "id": "etis-0361-lrec",
+    "source": "sample_data/Publications.xlsx",
+    "source_sha256": "eea548b38c41e62800dcf50105b4e103c90dac13689c24f469b5573b02906cf0",
+    "sheet": "_workSheetName",
+    "row": 361,
+    "fields": {
+      "reference": "Lillepalu, Helena Grete; Alumäe, Tanel (2026). Estonian native large language model benchmark. <i>Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026.</i>  European Language Resources Association (ELRA), 4257−4267. DOI: 10.63317/5kocg97rooga.",
+      "publication_title": "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026",
+      "title": "Estonian native large language model benchmark",
+      "year": "2026"
+    },
+    "plain_reference": "Helena Grete Lillepalu and Tanel Alumäe. 2026. Estonian Native Large Language Model Benchmark. In Proceedings of the Fifteenth Language Resources and Evaluation Conference, pages 4257–4267, Palma de Mallorca, Spain. ELRA Language Resource Association.",
+    "expected_venue_id": "573bb406d9c234d2dcbc",
+    "expected_venue": "International Conference on Language Resources and Evaluation (LREC)",
+    "expected_rank": 7,
+    "confusable_venue_id": "8f05d8fd5315cc52b8d8",
+    "observed_note": "LREC 2026 is the Language Resources and Evaluation Conference, distinct from the catalogue's Language Resources and Evaluation journal.",
+    "rationale": "The reference explicitly identifies the main LREC 2026 proceedings, not the similarly named journal. Added after a user-reported batch failure; separate from the frozen 100-item benchmark.",
+    "evidence": [
+      "data/venues.json#573bb406d9c234d2dcbc",
+      "https://lrec2026.info/",
+      "https://link.springer.com/journal/10579"
+    ]
+  },
+  "original_batch": [
+    {
+      "id": "350",
+      "fields": {
+        "reference": "Lorenz, Birgy (2026). Birgy Lorenz: IT ei ole poisteklubi. Ja ausalt öeldes pole kunagi olnud. Äripäev, 05.03.2026.",
+        "publication_title": "Äripäev",
+        "title": "Birgy Lorenz: IT ei ole poisteklubi. Ja ausalt öeldes pole kunagi olnud",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "351",
+      "fields": {
+        "reference": "Pevkur, Aive; Velthut-Meikas, Agne; Keis, Aime; Murd, Carolina; Bubõr, Ethel; Luik-Tamme, Ingeri; Ots-Vaik, Ingrid; Kask, Kristjan; Vahter, Liina; Laanpere, Made; Bachmann, Maie; Remmel, Meego; Sisask, Merike; Peterson, Pärt (2026). Bioeetika eksperdid: kui teadus teab meist kõike, siis kes kaitseb inimest? Novaator, 13.05.2026.",
+        "publication_title": "Novaator",
+        "title": "Bioeetika eksperdid: kui teadus teab meist kõike, siis kes kaitseb inimest?",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "352",
+      "fields": {
+        "reference": "Alawode, Oluwandabira O.; Valla, Elli; Toomela, Aaro; Nõmm, Sven (2026). Comparative evaluation of XAI techniques for CNN interpretation in Parkinson#39;s drawing test classification. <i>CENTERIS - International Conference on ENTERprise Information Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference on Health and Social Care Information Systems and Technologies.</i>  Elsevier,  1145−1152. (Procedia Computer Science; 278). DOI: 10.1016/j.procs.2026.03.094.",
+        "publication_title": "CENTERIS - International Conference on ENTERprise Information Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference on Health and Social Care Information Systems and Technologies",
+        "title": "Comparative evaluation of XAI techniques for CNN interpretation in Parkinson's drawing test classification",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "353",
+      "fields": {
+        "reference": "Bakeer, Abualkasim; Hussain, Shafquat; Chub, Andrii; Salama, Hossam S.; Magdy, Gaber (2026). Energy storage-enabled fractional-order virtual synchronous generator for DC-link voltage regulation in DC microgrid under load and renewable disturbances. Scientific Reports, 16 (1),  ARTN 12355. DOI: 10.1038/s41598-026-45850-1.",
+        "journal": "Scientific Reports",
+        "title": "Energy storage-enabled fractional-order virtual synchronous generator for DC-link voltage regulation in DC microgrid under load and renewable disturbances",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "354",
+      "fields": {
+        "reference": "Skljarov, Mark-Andrian; Laanearu, Janek (2026). Marine Impact on the Low-Height Leveled Point Source Thermally Varying Exhaust Air and its Pollutant Dispersion Near a Coastal-City Building Cluster. <i>Book of Abstracts: 9th IAHR Europe Congress: Innovating Hydro-Environment Engineering for a Sustainable Future: Arctic Waters and Beyond, Luleå, Sweden, 9 –12 of June 2026.</i>  Ed. Staffan Lundström, Anders Andersson, Inga Herrmann. Luleå University of Technology, Sweden: International Association for Hydro-Environment Engineering and Research, 58−59. DOI: 10.64697/iahr.proc.europe2026.abs.",
+        "conference": "Innovating Hydro-Environment Engineering for a Sustainable Future: Arctic Waters and Beyond, Luleå, Sweden, 9 –12 of June 2026",
+        "publication_title": "Book of Abstracts: 9th IAHR Europe Congress",
+        "title": "Marine Impact on the Low-Height Leveled Point Source Thermally Varying Exhaust Air and its Pollutant Dispersion Near a Coastal-City Building Cluster",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "355",
+      "fields": {
+        "reference": "Torfing, Jacob; Randma-Liiv, Tiina; Sorensen, Eva (2026). Robust Governance in Response to Societal Turbulence: The Conditioning Role of Multilevel Governance, Hybrid Governance, and Societal Intelligence. Public Policy and Administration,  1−22. DOI: 10.1177/09520767261453180.",
+        "journal": "Public Policy and Administration",
+        "title": "Robust Governance in Response to Societal Turbulence: The Conditioning Role of Multilevel Governance, Hybrid Governance, and Societal Intelligence",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "356",
+      "fields": {
+        "reference": "Linnik, Ljudmila; Sepp, Jaana; Reinhold, Karin; Hartšenko, Jelena  (2026). Psychosocial safety climate and structural empowerment in nursing. <i>Conference Abstract Book: 14-th European Conference on Mental Health, Prague, Czechia, 9–11. sept 2026.</i>  Praegue: Evipro OY, 129−130.",
+        "conference": "14-th European Conference on Mental Health, Prague, Czechia, 9–11. sept 2026",
+        "publication_title": "Conference Abstract Book",
+        "title": "Psychosocial safety climate and structural empowerment in nursing",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "357",
+      "fields": {
+        "reference": "Khalid, Sadia  (2026). Heat, Flood, Fire: The Climate Crisis and the Body. World economic forum/ The European sting, 06.07.2026.",
+        "publication_title": "World economic forum/ The European sting",
+        "title": "Heat, Flood, Fire: The Climate Crisis and the Body",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "358",
+      "fields": {
+        "reference": "Vinn, O.; Moghalu, O.A.; Toom, U.  (2026). Exceptionally preserved priapulid and other “worms” from the Upper Ordovician (Hirnantian) of Latvia. Palaeoworld,  xx−xx [ilmumas].",
+        "journal": "Palaeoworld",
+        "title": "Exceptionally preserved priapulid and other “worms” from the Upper Ordovician (Hirnantian) of Latvia",
+        "year": "2026"
+      }
+    },
+    {
+      "id": "359",
+      "fields": {
+        "reference": "Lillepalu, Helena Grete; Alumäe, Tanel (2026). Estonian native large language model benchmark. <i>Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026.</i>  European Language Resources Association (ELRA), 4257−4267. DOI: 10.63317/5kocg97rooga.",
+        "publication_title": "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026",
+        "title": "Estonian native large language model benchmark",
+        "year": "2026"
+      }
+    }
+  ],
+  "runs": [
+    {
+      "repetition": 1,
+      "method": "single",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of the Fifteenth Language Resources and Evaluation Conference, an annual LREC edition.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 6.239988505025394,
+      "requests": 2,
+      "verifications": 1,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 1,
+      "method": "batch",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of LREC 2026, matching the conference candidate.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 15.666719740955159,
+      "requests": 7,
+      "verifications": 6,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 2,
+      "method": "single",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference explicitly identifies the publication as proceedings of the Fifteenth Language Resources and Evaluation Conference, an annual edition of LREC.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 3.8943292039912194,
+      "requests": 2,
+      "verifications": 1,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 2,
+      "method": "batch",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of LREC 2026, matching the shortlisted conference; ELRA is the publisher.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 37.22864560800372,
+      "requests": 17,
+      "verifications": 6,
+      "fallbacks": 10
+    },
+    {
+      "repetition": 3,
+      "method": "single",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference explicitly identifies the publication as proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC).",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 3.4729865940171294,
+      "requests": 2,
+      "verifications": 1,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 3,
+      "method": "batch",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of LREC 2026, matching the shortlisted conference.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 13.179204758023843,
+      "requests": 7,
+      "verifications": 6,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 4,
+      "method": "single",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC), so it matches the listed conference.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 3.5994230909855105,
+      "requests": 2,
+      "verifications": 1,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 4,
+      "method": "batch",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of LREC 2026, matching the shortlisted conference.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 14.09508881001966,
+      "requests": 7,
+      "verifications": 6,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 5,
+      "method": "single",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of the Fifteenth Language Resources and Evaluation Conference, matching LREC; it is not the journal Language Resources and Evaluation.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 3.574772602005396,
+      "requests": 2,
+      "verifications": 1,
+      "fallbacks": 0
+    },
+    {
+      "repetition": 5,
+      "method": "batch",
+      "result": {
+        "status": "matched",
+        "matched": true,
+        "venue_id": "573bb406d9c234d2dcbc",
+        "venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "memberships": [
+          {
+            "category_id": "eng_computationallinguistics",
+            "category": "Engineering & Computer Science / Computational Linguistics",
+            "rank": 7,
+            "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+          }
+        ],
+        "note": "The reference identifies the publication as proceedings of LREC 2026, matching the shortlisted conference.",
+        "snapshot": "2026-10-16T13:23:26.662250+00:00"
+      },
+      "correct": true,
+      "seconds": 14.603669916978106,
+      "requests": 7,
+      "verifications": 6,
+      "fallbacks": 0
+    }
+  ],
+  "code_sha256": {
+    "app/matching.py": "9a6c39a3c8e0cc02e2da51a0f085329303d36154dedb3ec0331bba5503f65b0e",
+    "app/candidates.py": "a32ba73a2ab9ba2ae463f647aecc3760aaf086dac81840b88e1a337fc9ea5810"
+  },
+  "finished_at": "2026-10-18T20:22:50.334686+00:00"
+}

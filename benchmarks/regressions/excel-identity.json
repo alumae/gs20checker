@@ -1,0 +1,459 @@
+{
+  "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+  "source": "sample_data/Publications.xlsx",
+  "source_sha256": "eea548b38c41e62800dcf50105b4e103c90dac13689c24f469b5573b02906cf0",
+  "description": "Regression cases from Publications_result.xlsx: 23 contradictory positives, two missed exact journals, and seven valid alias matches. Assistant-reviewed development cases, not a held-out accuracy sample. Labels were fixed before new model requests.",
+  "items": [
+    {
+      "id": "etis-0056",
+      "sheet": "_workSheetName",
+      "row": 56,
+      "fields": {
+        "reference": "Bibi, Amina; Khan, Faisal; Kallaste, Ants; Hussain, Shahid; Atif, Muhammad; Tiismus, Hans; Vaimann, Toomas (2026). Performance comparison of additively manufactured and conventional stators in permanent magnet brushless direct current motor. Electrical Engineering, 108 (2),  ARTN 128. DOI: 10.1007/s00202-025-03472-2.",
+        "journal": "Electrical Engineering",
+        "title": "Performance comparison of additively manufactured and conventional stators in permanent magnet brushless direct current motor",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0085",
+      "sheet": "_workSheetName",
+      "row": 85,
+      "fields": {
+        "reference": "Pantham, Priyadarshini; Aleksejeva-Zagura, Elina; Barreiro, Karina; Burger, Dylan; Burnett, Lindsey; Fisher, Molly; Leivo, Janne; Martens, Elena; Ng, Monica Suet Ying; Nolan, John; Svenningsen, Per; Varik, Inge; Velthut-Meikas, Agne; Welsh, Joshua; Erdbrügger, Uta; Puhka, Maija (2026). Sex Differences in Urinary Extracellular Vesicles Originating from the Genitourinary System in Health and Disease. AJP Renal Physiology,  F563−F587. DOI: 10.1152/ajprenal.00402.2025.",
+        "journal": "AJP Renal Physiology",
+        "title": "Sex Differences in Urinary Extracellular Vesicles Originating from the Genitourinary System in Health and Disease",
+        "year": "2026"
+      },
+      "expected_venue_id": "31f805107809ab50f7c7",
+      "expected_venue": "American Journal of Physiology-Renal Physiology",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0137",
+      "sheet": "_workSheetName",
+      "row": 137,
+      "fields": {
+        "reference": "Ali, Muzaffar; Rehman, Ubaid ur; Shiekh, Nadeem Ahmed; Adeel Hassan, Hafiz Muhammad; Usman, Muhammad; Ferrantelli, Andrea; Arıcı, Müslüm (2026). Investigating thermal performance of PCM-integrated solar windows with multi-discharging modes in a humid subtropical climate. Energy and Buildings, 361,  art. 117457. DOI: 10.1016/j.enbuild.2026.117457.",
+        "journal": "Energy and Buildings",
+        "title": "Investigating thermal performance of PCM-integrated solar windows with multi-discharging modes in a humid subtropical climate",
+        "year": "2026"
+      },
+      "expected_venue_id": "c50e9454ec558478958d",
+      "expected_venue": "Energy and Buildings",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0157",
+      "sheet": "_workSheetName",
+      "row": 157,
+      "fields": {
+        "reference": "Ceron, Alejandro Lyons; Baqain, Mais Hanna Suleiman; Jarvik, Oliver; Nesumajev, Dmitri; Konist, Alar (2026). Chemical looping gasification of biomass and mineral-rich oil shale fuel: Opportunities for integrated valorisation and CO2-Negative syngas. Biomass amp; Bioenergy, 209,  art. 108972. DOI: 10.1016/j.biombioe.2026.108972.",
+        "journal": "Biomass  Bioenergy",
+        "title": "Chemical looping gasification of biomass and mineral-rich oil shale fuel: Opportunities for integrated valorisation and CO2-Negative syngas",
+        "year": "2026"
+      },
+      "expected_venue_id": "538a62acec901c592142",
+      "expected_venue": "Biomass and Bioenergy",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0202",
+      "sheet": "_workSheetName",
+      "row": 202,
+      "fields": {
+        "reference": "Vurma, Allan; Meister, Einar; Meister, Lya; Ross, Jaan; Raju, Marju; Kala, Veeda; Dede, Tuuri (2026). Managing reverberant acoustics in singing by extending the plosive closures in vowel-plosive-vowel sequences. Music Perception, 43 (4),  403−417. DOI: 10.1525/mp.2025.2675211.",
+        "journal": "Music Perception",
+        "title": "Managing reverberant acoustics in singing by extending the plosive closures in vowel-plosive-vowel sequences",
+        "year": "2026"
+      },
+      "expected_venue_id": "948d62b35f021501a21f",
+      "expected_venue": "Music Perception: An Interdisciplinary Journal",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0239",
+      "sheet": "_workSheetName",
+      "row": 239,
+      "fields": {
+        "reference": "Joel, Jaime; Harima, Aki; Demiankova, Ekaterina; Akter, Ruzlin (2026). Forging sustainable transitions: a systematic literature review on sustainable entrepreneurial ecosystems. Industry and Innovation, 33 (6),  645−678. DOI: 10.1080/13662716.2026.2626974.",
+        "journal": "Industry and Innovation",
+        "title": "Forging sustainable transitions: a systematic literature review on sustainable entrepreneurial ecosystems",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0336",
+      "sheet": "_workSheetName",
+      "row": 336,
+      "fields": {
+        "reference": "Raitviir, Christopher-Robin; Pikas, Ergo; Saarnak, Martin; Lill, Irene; Puust, Raido; Batum, Simay; Broekhuizen, Marjan (2026). Integrating BIM and GIS through spatial planning information modelling. Building Research amp; Information,  1−20. DOI: 10.1080/09613218.2026.2684945.",
+        "journal": "Building Research  Information",
+        "title": "Integrating BIM and GIS through spatial planning information modelling",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0401",
+      "sheet": "_workSheetName",
+      "row": 401,
+      "fields": {
+        "reference": "Lusi, Josephine Adhiambo; Nikiforova, Anastasija; Lorenz, Birgy; Pappel, Ingrid (2026). An LLM-augmented framework for interdisciplinary curriculum design and innovation: case of digital public infrastructure education. Quality amp; Quantity,  1−35. DOI: 10.1007/s11135-026-02714-0.",
+        "journal": "Quality  Quantity",
+        "title": "An LLM-augmented framework for interdisciplinary curriculum design and innovation: case of digital public infrastructure education",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0408",
+      "sheet": "_workSheetName",
+      "row": 408,
+      "fields": {
+        "reference": "Indurain, Ainhoa; Karlsson, Markus; Fernström, Anders; Uhlin, Fredrik; Segelmark, Mårten; Dahlqvist Leinhard, Olof (2026). Adverse Muscle Composition Is Associated with All-Cause Mortality in CKD: A UK Biobank Imaging Study. Clinical Journal of The American Society of Nephrology : Cjasn, 21 (6),  972−983. DOI: 10.2215/CJN.0000001049.",
+        "journal": "Clinical Journal of The American Society of Nephrology : Cjasn",
+        "title": "Adverse Muscle Composition Is Associated with All-Cause Mortality in CKD: A UK Biobank Imaging Study.",
+        "year": "2026"
+      },
+      "expected_venue_id": "492edb58c0b817d3ac16",
+      "expected_venue": "Clinical Journal of the American Society of Nephrology",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0494",
+      "sheet": "_workSheetName",
+      "row": 494,
+      "fields": {
+        "reference": "Nosrati, Komeil; Tepljakov, Aleksei; Petlenkov, Eduard; Ginzburg-Ganz, Elinor; Levron, Yoash; Belikov, Juri  (2026). A structure-preserved control approach for dynamic load-altering attacks in power systems. IEEE Transactions on Smart Grid, 17 (3),  2394−2409. DOI: 10.1109/TSG.2025.3647155.",
+        "journal": "IEEE Transactions on Smart Grid",
+        "title": "A structure-preserved control approach for dynamic load-altering attacks in power systems",
+        "year": "2026"
+      },
+      "expected_venue_id": "f2248db189bf76a7f2c8",
+      "expected_venue": "IEEE Transactions on Smart Grids",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0519",
+      "sheet": "_workSheetName",
+      "row": 519,
+      "fields": {
+        "reference": "Fjodorov, Aleksei; Ulp, Sander; Laadung, Taavi; Kuusik, Alar; Alam, Muhammad Mahtab  (2026). Vehicle Heading Estimation Using Positioning and Inertial Data-Based Adaptive Tandem Kalman Filter. IEEE Transactions on Intelligent Vehicles, 11 (6),  710−720. DOI: 10.1109/TIV.2026.3685424.",
+        "journal": "IEEE Transactions on Intelligent Vehicles",
+        "publication_title": "Vehicle Heading Estimation Using Positioning and Inertial Data-Based Adaptive Tandem Kalman Filter",
+        "title": "Vehicle Heading Estimation Using Positioning and Inertial Data-Based Adaptive Tandem Kalman Filter",
+        "year": "2026"
+      },
+      "expected_venue_id": "f3fa038e55d21b487dfa",
+      "expected_venue": "IEEE Transactions on Intelligent Vehicles",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0570",
+      "sheet": "_workSheetName",
+      "row": 570,
+      "fields": {
+        "reference": "Robra, Ben; Pazaitis, Alex (2026). Speaking out: The Elephant in the room - Why degrowth alternatives matter in organization. Organization,  1−13. DOI: 10.1177/13505084261471848.",
+        "journal": "Organization",
+        "title": "Speaking out: The Elephant in the room - Why degrowth alternatives matter in organization",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0571",
+      "sheet": "_workSheetName",
+      "row": 571,
+      "fields": {
+        "reference": "Aksoy, Levent; Munir, Muhammad Sohaib; Akleylek, Sedat (2026). Hardware-Efficient Compound IC Protection with Lightweight Cryptography. <i></i>  International Symposium on Quality Electronic Design, 1−8 [ilmumas].",
+        "title": "Hardware-Efficient Compound IC Protection with Lightweight Cryptography",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0617",
+      "sheet": "_workSheetName",
+      "row": 617,
+      "fields": {
+        "reference": "Utso, Maarius; Zaitseva-Pärnaste, Inga; Parnell, Kevin Ellis (2026). Enhancing Island–Mainland Connectivity in Estonia: Organizational and Sustainability Challenges. TransNav the International Journal on Marine Navigation and Safety of Sea Transportation, 20 (2),  449−458. DOI: 10.12716/1001.20.02.18.",
+        "journal": "TransNav the International Journal on Marine Navigation and Safety of Sea Transportation",
+        "title": "Enhancing Island–Mainland Connectivity in Estonia: Organizational and Sustainability Challenges",
+        "year": "2026"
+      },
+      "expected_venue_id": "c2c8e8f0d8e029be17f6",
+      "expected_venue": "TransNav: International Journal on Marine Navigation and Safety of Sea Transportation",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0625",
+      "sheet": "_workSheetName",
+      "row": 625,
+      "fields": {
+        "reference": "Masso, Anu; Pietarinen, Ahti-Veikko; Ibrahimi, Mergime; Ben Yahia, Sadok (2026). What shapes perceived safety in autonomous mobility? Cross-cultural evidence from large-scale online eye tracking. AI amp; Society,  1−17. DOI: 10.1007/s00146-026-03278-1.",
+        "journal": "AI  Society",
+        "title": "What shapes perceived safety in autonomous mobility? Cross-cultural evidence from large-scale online eye tracking",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0734",
+      "sheet": "_workSheetName",
+      "row": 734,
+      "fields": {
+        "reference": "Srivastava, Mukta; Hollebeek, Linda D.; Goyal, Mredu; Patel, Shivan Sanjay; Riivits-Arkonsuo, Iivi (2026). Demystifying consumers#39; climate change engagement: a knowledge–attitude–practice perspective. Marketing Intelligence amp; Planning,  1−24. DOI: 10.1108/MIP-08-2025-0656.",
+        "journal": "Marketing Intelligence  Planning",
+        "title": "Demystifying consumers' climate change engagement: a knowledge–attitude–practice perspective",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0735",
+      "sheet": "_workSheetName",
+      "row": 735,
+      "fields": {
+        "reference": "Abu ELSamen, Amjad; Hollebeek, Linda D.; Alimamy, Saifeddin; Stylos, Nikolaos; Marc Lim, Weng (2026). Customer experience, engagement, and co-creation in augmented reality retail service. Service Industries Journal, 46 (7-8),  722−751. DOI: 10.1080/02642069.2025.2599145.",
+        "journal": "Service Industries Journal",
+        "title": "Customer experience, engagement, and co-creation in augmented reality retail service",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0786",
+      "sheet": "_workSheetName",
+      "row": 786,
+      "fields": {
+        "reference": "Mele, Cristina; Russo-Spena, Tiziana; Ranieri, Angelo; Di Bernardo, Irene; Hollebeek, Linda D. (2026). Talking vs typing: how voice- vs text-based educational robots shape student engagement. Journal of Service Management, 37 (1),  141−164. DOI: 10.1108/JOSM-02-2024-0082.",
+        "journal": "Journal of Service Management",
+        "title": "Talking vs typing: how voice- vs text-based educational robots shape student engagement",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0804",
+      "sheet": "_workSheetName",
+      "row": 804,
+      "fields": {
+        "reference": "Eensalu, Mariliis; Stansell, Nathan D.; Luoto, Tomi P.; Buczynska, Anna; Poska, Anneli; Terasmaa, Jaanus; Vaasma, Tiit; Vandel, Egert; Klein, Eric S.; Blaus, Ansis; Veski, Siim; Nelson, Daniel B. (2026). Holocene hydroclimate and landscape dynamics inferred from Lake Pangodi, Estonia. Quaternary Science Reviews, 373,  109750. DOI: 10.1016/j.quascirev.2025.109750.",
+        "journal": "Quaternary Science Reviews",
+        "title": "Holocene hydroclimate and landscape dynamics inferred from Lake Pangodi, Estonia",
+        "year": "2026"
+      },
+      "expected_venue_id": "aa3b33863ba1f4668483",
+      "expected_venue": "Quaternary Science Reviews",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0807",
+      "sheet": "_workSheetName",
+      "row": 807,
+      "fields": {
+        "reference": "Hazak, A.; Liuhanen, J.; Kantojärvi, K.; Sulkava, S.; Jääskeläinen, T.; Salomaa, V.; Koskinen, S.; Perola, M.; Paunio, T. (2026). Genetic Liability to Attention-Deficit/Hyperactivity Disorder and Economic Outcomes. European Psychiatry, 69 (S1),  S75−S76. DOI: 10.1192/j.eurpsy.2026.10239.",
+        "journal": "European Psychiatry",
+        "publication_title": "European Psychiatry",
+        "title": "Genetic Liability to Attention-Deficit/Hyperactivity Disorder and Economic Outcomes",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0808",
+      "sheet": "_workSheetName",
+      "row": 808,
+      "fields": {
+        "reference": "Xi, Lixia; Zhang, Dong; Gu, Dongdong; Tian, Songmao; Jiang, Mingtao; Ramasamy, Parthiban; Prashanth, Konda Gokuldoss; Eckert, Jürgen (2026). Achieving high-performance magnesium matrix composites by laser powder bed fusion through synergistic coordination of laser processing and material constituents. Composites Part B: Engineering, 326,  art. 114088. DOI: 10.1016/j.compositesb.2026.114088.",
+        "journal": "Composites Part B: Engineering",
+        "title": "Achieving high-performance magnesium matrix composites by laser powder bed fusion through synergistic coordination of laser processing and material constituents",
+        "year": "2026"
+      },
+      "expected_venue_id": "38aa95fd96f55708b94b",
+      "expected_venue": "Composites Part B: Engineering",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0856",
+      "sheet": "_workSheetName",
+      "row": 856,
+      "fields": {
+        "reference": "Kasemets, K.; Kaarma, L.; Laanoja, J.; Kahru, A. (2026). Cytotoxicity and Cytokine Responses of Antimicrobial Silver-Chitosan Nanocomposites for Wound-Related Applications. <i>Toxicology Letters, 423 S: 60th Congress of the European Societies of Toxicology (EUROTOX) : TOXICOLOGY WITHOUT BORDERS, Vienna, Austria, September 13-16, 2026 : Abstracts.</i>  Elsevier, art. 112936. DOI: 10.1016/j.toxlet.2026.112936.",
+        "conference": "60th Congress of the European Societies of Toxicology (EUROTOX) : TOXICOLOGY WITHOUT BORDERS, Vienna, Austria, September 13-16, 2026 : Abstracts",
+        "publication_title": "Toxicology Letters",
+        "title": "Cytotoxicity and Cytokine Responses of Antimicrobial Silver-Chitosan Nanocomposites for Wound-Related Applications",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0868",
+      "sheet": "_workSheetName",
+      "row": 868,
+      "fields": {
+        "reference": "Li, Zemin; Chen, Acong; Guan, Xianghong; Zhang, Heng; Wu, Yulun; Wei, Tuo; Qiu, Guanglei; Preis, Sergei; Wei, Chaohai (2026). Mainstream Anammox Process Reducing Inhibition Effects, Accumulating Nitrite, and Providing Abundant Functional Microorganisms: A Case Study of Coking Wastewater Treatment. ACS ESamp;T Water, 6 (1),  189−201. DOI: 10.1021/acsestwater.5c00866.",
+        "journal": "ACS EST Water",
+        "title": "Mainstream Anammox Process Reducing Inhibition Effects, Accumulating Nitrite, and Providing Abundant Functional Microorganisms: A Case Study of Coking Wastewater Treatment",
+        "year": "2026"
+      },
+      "expected_venue_id": "14529ee60f237adc6726",
+      "expected_venue": "ACS Environmental Science & Technology Water",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-0888",
+      "sheet": "_workSheetName",
+      "row": 888,
+      "fields": {
+        "reference": "Janno, Jelizaveta; Koppel, Ott (2026). Bridging Industry Needs And Vocational Education: The Case of Estonia’s Logistics Sector. Logistics Research [ilmumas].",
+        "journal": "Logistics Research",
+        "publication_title": "Special Issue on Transforming Supply Chains in Central and Eastern Europe: Innovations and Challenges",
+        "title": "Bridging Industry Needs And Vocational Education: The Case of Estonia’s Logistics Sector",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0975",
+      "sheet": "_workSheetName",
+      "row": 975,
+      "fields": {
+        "reference": "Sadam, Helle; Maruste, Regina; Rähni, Annika; Toots, Maarja; Piirsalu, Maria; Pihlas, Loviisa; Ausman, Helen; Pihlak, Arno; Laasfeld, Tõnis; Rull, Kristiina; Salumets, Andres; Antson, Anne; Tillmann, Vallo; Aleksejeva, Aira; Rööp, Tiiu; Štšepetova, Jelena; Sepp, Epp; Mändar, Reet; Palm, Kaia (2026). Maternal antibodies shape infant immune response development in an epitope-specific manner. EBioMedicine, 123,  106056. DOI: 10.1016/j.ebiom.2025.106056.",
+        "journal": "EBioMedicine",
+        "title": "Maternal antibodies shape infant immune response development in an epitope-specific manner",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0981",
+      "sheet": "_workSheetName",
+      "row": 981,
+      "fields": {
+        "reference": "Shirodkar, Aditya; Banavath, Satish Naik; Chub, Andrii; Mandrioli, Riccardo; Ricco, Mattia; Vinnikov, Dimitri (2026). Synchronous Switching Scheme - Bringing Modular Fault Tolerance to Power Converters. IEEE Open Journal of Power Electronics, 7,  1265−1280. DOI: 10.1109/OJPEL.2026.3683136.",
+        "journal": "IEEE Open Journal of Power Electronics",
+        "title": "Synchronous Switching Scheme - Bringing Modular Fault Tolerance to Power Converters",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-0997",
+      "sheet": "_workSheetName",
+      "row": 997,
+      "fields": {
+        "reference": "Bento, Ana Margarida; Cordier, Florian; Cuthbertson, Alan; Dewals, Benjamin; Diakakis, Michalis; Di Cristo, Cristiana; Gilja, Gordon; Hamidifar, Hossein; Haun, Stefan; Laanearu, Janek; Latella, Melissa; Lopez-Jimenez, P. Amparo; Majtan, Eda; Prieto Sierra, Cristina; Pummer, Elena; Rowinski, Pawel M.; Schroter, Kai; Stamou, Anastasios I.; Stancanelli, Laura Maria (2026). Recent flood disasters in Europe (2007-2025): comparative analysis and policy implications for climate-resilient governance. International Journal of River Basin Management,  1−18. DOI: 10.1080/15715124.2026.2694415.",
+        "journal": "International Journal of River Basin Management",
+        "title": "Recent flood disasters in Europe (2007-2025): comparative analysis and policy implications for climate-resilient governance",
+        "year": "2026"
+      },
+      "expected_venue_id": "3cedd737709511003eb8",
+      "expected_venue": "International Journal of River Basin Management",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-1010",
+      "sheet": "_workSheetName",
+      "row": 1010,
+      "fields": {
+        "reference": "Hazak, Aaro; Kantojärvi, Katri; Sulkava, Sonja; Kukk, Merike; Jääskeläinen, Tuija; Salomaa, Veikko; Koskinen, Seppo; Perola, Markus; Paunio, Tiina (2026). Genetic disparities in sleep traits and human capital development: A 25-year study in Finnish population-based cohorts. Scandinavian Journal of Work Environment amp; Health, 52 (1),  63−74. DOI: 10.5271/sjweh.4255.",
+        "journal": "Scandinavian Journal of Work Environment  Health",
+        "title": "Genetic disparities in sleep traits and human capital development: A 25-year study in Finnish population-based cohorts",
+        "year": "2026"
+      },
+      "expected_venue_id": "d3d64d2bc6f1e9ef11af",
+      "expected_venue": "Scandinavian Journal of Work, Environment & Health",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-1036",
+      "sheet": "_workSheetName",
+      "row": 1036,
+      "fields": {
+        "reference": "Palanisamy, Angappan; Palanisamy, Duraiswamy; Agarwal, Abhishek; Prakash, Chellamuthu; Manoharan, Sembian; Manikandan, Natarajan (2026). Multi-Response Optimization of Dry Turning Parameters for Incoloy 800H Superalloy Using a Grey-Fuzzy Algorithm. Processes, 14 (15),  art. 2484. DOI: 10.3390/pr14152484.",
+        "journal": "Processes",
+        "title": "Multi-Response Optimization of Dry Turning Parameters for Incoloy 800H Superalloy Using a Grey-Fuzzy Algorithm",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    },
+    {
+      "id": "etis-1070",
+      "sheet": "_workSheetName",
+      "row": 1070,
+      "fields": {
+        "reference": "Xu, Wenqian; Solarte Vasquez, Maria Claudia, Uhlen Obstfelder, Aud; A. Søraa, Roger; Kristian Hurum, Jin; Su, Xingyue; Chen, Honglin; Kangur, Katrin; Frennert, Susanne (2026). Vulnerability intersections: An integrative conceptual approach to vulnerability in AI-assisted care for older adults. The Gerontologist. DOI: 10.1093/geront/gnag239.",
+        "journal": "The Gerontologist",
+        "title": "Vulnerability intersections: An integrative conceptual approach to vulnerability in AI-assisted care for older adults",
+        "year": "2026"
+      },
+      "expected_venue_id": "171caada5201725e95f8",
+      "expected_venue": "Gerontologist",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-1120",
+      "sheet": "_workSheetName",
+      "row": 1120,
+      "fields": {
+        "reference": "Sheng, Chunqi; Yang, Hong; Ma, Pan; Li, Haichao; Prashanth, Konda Gokuldoss; Gargarella, Piter; Wang, Gang; Jia, Yandong (2026). Synergistic strengthening and toughening of a harmonic-structured (FeCoNi)86Al7Ti7 high-entropy alloy via nanoscale precipitation. Materials Science and Engineering A, 971,  art. 150463. DOI: 10.1016/j.msea.2026.150463.",
+        "journal": "Materials Science and Engineering A",
+        "title": "Synergistic strengthening and toughening of a harmonic-structured (FeCoNi)86Al7Ti7 high-entropy alloy via nanoscale precipitation",
+        "year": "2026"
+      },
+      "expected_venue_id": "78474bf87cceccfeb7d9",
+      "expected_venue": "Materials Science and Engineering: A",
+      "rationale": "The complete journal name identifies this catalogue venue, allowing punctuation or a standard abbreviated name."
+    },
+    {
+      "id": "etis-1160",
+      "sheet": "_workSheetName",
+      "row": 1160,
+      "fields": {
+        "reference": "Rampášek, Michal; Andraško, Jozef; Sokol, Pavol; Hamuľák, Ondrej (2026). Hunting for Vulnerabilities: Call for European Protection of Security Researchers. Journal of Cybersecurity, 12 (1),  tyag002. DOI: 10.1093/cybsec/tyag002.",
+        "journal": "Journal of Cybersecurity",
+        "title": "Hunting for Vulnerabilities: Call for European Protection of Security Researchers",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "The actual publication venue is absent from this catalogue; similarly named or related-topic entries are different venues."
+    }
+  ]
+}

@@ -1,0 +1,1071 @@
+{
+  "seed": 20261020,
+  "frozen_at": "2026-10-19T05:53:48.737611+00:00",
+  "annotation_method": "Codex assistant manually reviewed references and catalogue names before model predictions. Not independently human-reviewed.",
+  "selection": "50 random rows without replacement, excluding original 100, LREC row 361, and normalized duplicate references.",
+  "source": "sample_data/Publications.xlsx",
+  "source_sha256": "eea548b38c41e62800dcf50105b4e103c90dac13689c24f469b5573b02906cf0",
+  "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+  "items": [
+    {
+      "id": "etis-0017",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 17,
+      "fields": {
+        "reference": "Kerikmäe, Tanel; Metin, Ebru (2026). Barriers to Legal Tech Minded Education: Why Most Law Schools are Afraid of Change. <i>AI and Legal Methods: Navigating the Frontier: 49th Nordic Conference in Law and IT, Artificial Intelligence and Legal Methods – Navigating the New Frontier, Stockholm, 5-6 November 2024.</i>  Ed. Carey, Samuel. Stockhom: Jure, 147−164. (Nordic Yearbook of Law and Informatics).",
+        "conference": "49th Nordic Conference in Law and IT, Artificial Intelligence and Legal Methods – Navigating the New Frontier, Stockholm, 5-6 November 2024",
+        "publication_title": "AI and Legal Methods: Navigating the Frontier",
+        "title": "Barriers to Legal Tech Minded Education: Why Most Law Schools are Afraid of Change",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Nordic Conference in Law and IT / Nordic Yearbook of Law and Informatics",
+      "rationale": "Neither the conference nor its edited yearbook is listed.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row17",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0076",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 76,
+      "fields": {
+        "reference": "Elkayam, M. Sassonker; Vinnikov, D. (2026). Efficient Phase-Compensated Multi-Resonant Control for Inverter Applications. IEEE Open Journal of Power Electronics, 7,  670−682. DOI: 10.1109/OJPEL.2026.3663332.",
+        "journal": "IEEE Open Journal of Power Electronics",
+        "title": "Efficient Phase-Compensated Multi-Resonant Control for Inverter Applications",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "IEEE Open Journal of Power Electronics",
+      "rationale": "Not IEEE Transactions on Power Electronics or IEEE Journal of Emerging and Selected Topics in Power Electronics.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row76",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0092",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 92,
+      "fields": {
+        "reference": "Konjuhhov, Peeter; Salum, Taavi (2026). EVS-EN IEC 55012:2025 quot;Sõidukid, laevad ja sisepõlemismootori või veoakuga seadmed. Raadiohäiringu tunnussuurused. Piirväärtused ja mõõtemeetodid pardaväliste vastuvõtjate kaitseks.quot;.",
+        "title": "EVS-EN IEC 55012:2025 \"Sõidukid, laevad ja sisepõlemismootori või veoakuga seadmed. Raadiohäiringu tunnussuurused. Piirväärtused ja mõõtemeetodid pardaväliste vastuvõtjate kaitseks.\"",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "EVS-EN IEC 55012:2025",
+      "rationale": "A technical standard, with no listed publication venue.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row92",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0108",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 108,
+      "fields": {
+        "reference": "Vaičiulis, Vidmantas; Domkutė, Gabrielė; Papadima, Anna; Radišauskas, Ričardas; Annus, Ivar; Kaur, Katrin; Kalinienė, Gintarė (2026). Climate Change Impacts on Human Health in the Northern Hemisphere: A Narrative Review. Atmosphere, 17 (8),  736. DOI: 10.3390/atmos17080736.",
+        "journal": "Atmosphere",
+        "title": "Climate Change Impacts on Human Health in the Northern Hemisphere: A Narrative Review",
+        "year": "2026"
+      },
+      "expected_venue_id": "01f475d4e564a846acdd",
+      "expected_venue": "Atmosphere",
+      "resolved_venue": "Atmosphere",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row108",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0115",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 115,
+      "fields": {
+        "reference": "Juuse, Egert; Kuokštis, Vytautas; Raudla, Ringa; Cepilovs, Aleksandrs (2026). Financial bureaucracy featuring innovation bureaucracy – insights from diverging pathways in Estonia and Lithuania. New Political Economy,  1−22. DOI: 10.1080/13563467.2026.2737136.",
+        "journal": "New Political Economy",
+        "title": "Financial bureaucracy featuring innovation bureaucracy – insights from diverging pathways in Estonia and Lithuania",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "New Political Economy",
+      "rationale": "Distinct from Journal of Political Economy and Review of International Political Economy.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row115",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0118",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 118,
+      "fields": {
+        "reference": "Karimi, Hamed; Gustavson, Otto; Česnokova, Irina; Branovets, Jelena; Birkedal, Rikke; Laasmaa, Martin; Vendelin, Marko (2026). A Unified Platform for FCS and RICS Analysis with Advanced Statistical Inference. ACS Omega, 11 (12),  19201−19219. DOI: 10.1021/acsomega.5c12269.",
+        "journal": "ACS Omega",
+        "title": "A Unified Platform for FCS and RICS Analysis with Advanced Statistical Inference",
+        "year": "2026"
+      },
+      "expected_venue_id": "cdc2e2c253940b15d812",
+      "expected_venue": "ACS Omega",
+      "resolved_venue": "ACS Omega",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row118",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0145",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 145,
+      "fields": {
+        "reference": "Kübarsepp, Jakob  (2026). Et eesti keel ei taanduks teaduses kõrvalkeeleks. Novaator, 26.02.2026.",
+        "publication_title": "Novaator",
+        "title": "Et eesti keel ei taanduks teaduses kõrvalkeeleks",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Novaator",
+      "rationale": "Estonian news outlet; absent from the catalogue.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row145",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0153",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 153,
+      "fields": {
+        "reference": "Mohseni, Parham; Husev, Oleksandr; Vinnikov, Dmitri; Kasper, Matthias; Deboy, Gerald (2026). A Universal High-Power-Density AC/DC–DC Onboard EV Charger. IEEE Transactions on Transportation Electrification, 12 (5),  7313−7329. DOI: 10.1109/TTE.2026.3693003.",
+        "journal": "IEEE Transactions on Transportation Electrification",
+        "title": "A Universal High-Power-Density AC/DC–DC Onboard EV Charger",
+        "year": "2026"
+      },
+      "expected_venue_id": "3ae700b039623e6c6462",
+      "expected_venue": "IEEE Transactions on Transportation Electrification",
+      "resolved_venue": "IEEE Transactions on Transportation Electrification",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row153",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0193",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 193,
+      "fields": {
+        "reference": "Petrochenko, Irina; Dulova, Niina; Preis, Sergei (2026). Pulsed Corona Discharge in Valorisation of Urine as a Sustainable Source of Nutrients: Targeted Oxidation of Pharmaceutical Residues and Inhibition of Urea Enzymatic Hydrolysis. Processes, 14 (12),  ARTN 1972. DOI: 10.3390/pr14121972.",
+        "journal": "Processes",
+        "title": "Pulsed Corona Discharge in Valorisation of Urine as a Sustainable Source of Nutrients: Targeted Oxidation of Pharmaceutical Residues and Inhibition of Urea Enzymatic Hydrolysis",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Processes",
+      "rationale": "Distinct from Hydrological Processes, Behavioural Processes and other longer titles.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row193",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0213",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 213,
+      "fields": {
+        "reference": "Shahin, Mahtab; Malhi, Avleen; Khorasani, Mahsa; Palu, Riina; Kim, Austin; Bauk, Sanja; Soe, Ralf-Martin  (2026). CARGO: Compliant Analytics for Resilient Governance and Orchestration of Maritime Emissions in an Explainable Serverless Framework. IEEE Access, 14,  87631−87649. DOI: 10.1109/ACCESS.2026.3694764.",
+        "journal": "IEEE Access",
+        "title": "CARGO: Compliant Analytics for Resilient Governance and Orchestration of Maritime Emissions in an Explainable Serverless Framework",
+        "year": "2026"
+      },
+      "expected_venue_id": "7785cced2c722e38f6a0",
+      "expected_venue": "IEEE Access",
+      "resolved_venue": "IEEE Access",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row213",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0214",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 214,
+      "fields": {
+        "reference": "Nallaparaju, Jagadeesh Varma; Aav, Riina; Kananovich, Dzmitry (2026). Mechanochemistry: A Transformative Technique for the Synthesis of Polar Organometallics from Zero-Valent Metals. ChemPlusChem, 91 (1),  #e202500445. DOI: 10.1002/cplu.202500445.",
+        "journal": "ChemPlusChem",
+        "title": "Mechanochemistry: A Transformative Technique for the Synthesis of Polar Organometallics from Zero-Valent Metals",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "ChemPlusChem",
+      "rationale": "Distinct from ChemSusChem, ChemCatChem and ChemElectroChem.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row214",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0217",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 217,
+      "fields": {
+        "reference": "te Duits, Tijs; Frasincar, Flavius; Robal, Tarmo (2026). Data Augmentation for Aspect Sentiment Classification. <i>SAC #39;26 : Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing: The 41st Annual ACM Symposium on Applied Computing, Thessaloniki, Greece, March 23–27, 2026.</i>  ACM, 2144−2145. DOI: 10.1145/3748522.3779890.",
+        "conference": "The 41st Annual ACM Symposium on Applied Computing, Thessaloniki, Greece, March 23–27, 2026",
+        "publication_title": "SAC '26 : Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing",
+        "title": "Data Augmentation for Aspect Sentiment Classification",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "ACM/SIGAPP Symposium on Applied Computing (SAC)",
+      "rationale": "Not listed; do not substitute ACM Symposium on Theory of Computing.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row217",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0219",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 219,
+      "fields": {
+        "reference": "Sonja, Kõrvits; Tarmo, All; Heidi, Soosalu; Argo, Jõeleht; (2026). Crustal thickness of Estonia – results from seismic receiver function\nmethod and gravimetry. <i>Bulletin of the Geological Society of Finland, Special Volume 2, 2: The 37th Nordic Geological Winter Meeting, 13 th –15 th January 2026, Turku, Finland.</i>  Ed. Heinonen, Jussi, S; Aaltonen, Milla. Geological Society of Finland,, 89−89.",
+        "conference": "The 37th Nordic Geological Winter Meeting, 13 th –15 th January 2026, Turku, Finland",
+        "publication_title": "Bulletin of the Geological Society of Finland, Special Volume 2",
+        "title": "Crustal thickness of Estonia – results from seismic receiver function\nmethod and gravimetry",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Nordic Geological Winter Meeting / Bulletin of the Geological Society of Finland",
+      "rationale": "Neither named meeting nor bulletin is listed.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row219",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0224",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 224,
+      "fields": {
+        "reference": "Gylteryd, Håkon Robbestad; Stenholm, Elisabeth; Veltri, Niccolò (2026). Terminal coalgebras and non-wellfounded sets in homotopy type theory. Logical Methods in Computer Science, 22 (2),  35:1−35:45. DOI: 10.46298/LMCS-22(2:35)2026.",
+        "journal": "Logical Methods in Computer Science",
+        "title": "Terminal coalgebras and non-wellfounded sets in homotopy type theory",
+        "year": "2026"
+      },
+      "expected_venue_id": "98bdfde5e60e6a03dbbc",
+      "expected_venue": "Logical Methods in Computer Science",
+      "resolved_venue": "Logical Methods in Computer Science",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row224",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0270",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 270,
+      "fields": {
+        "reference": "Zhu, Saisai; Liu, Guoqing; Wang, Pei; Zhang, Jian; Yang, Lijun; Wu, Mingwei; Kang, Nan; El Mansori, Mohamed; Prashanth, Konda Gokuldoss; Zhang, Yulei (2026). Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation. Materials amp; Design, 265,  art. 115890. DOI: 10.1016/j.matdes.2026.115890.",
+        "journal": "Materials  Design",
+        "title": "Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Materials & Design",
+      "rationale": "ETIS drops the ampersand. This journal is absent; Materials and Journal of Materials: Design and Applications are different venues.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row270",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0325",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 325,
+      "fields": {
+        "reference": "Vallner, A.; Leismann, E.; Kuusk. P.; Pärtna, J.; Ellmann, A. (2026). MIIGAiK-i lõpetanute meenutusi. Geodeet, 53 (77),  129−132.",
+        "journal": "Geodeet",
+        "title": "MIIGAiK-i lõpetanute meenutusi",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Geodeet",
+      "rationale": "Local surveying journal, absent; not Geoderma.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row325",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0345",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 345,
+      "fields": {
+        "reference": "Sun, Zhenglong; Sun, Bin; Li, Zhenxin; Jia, Songyue; Yang, Hao; Belikov, Juri; Levron, Yoash (2026). Adaptive staged excitation control strategy for distributed synchronous condenser to suppress overvoltage in wind farms of HVDC-based renewable rich systems. Electric Power Systems Research, 252,  Art. no. 112463; 10 pp. DOI: 10.1016/j.epsr.2025.112463.",
+        "journal": "Electric Power Systems Research",
+        "title": "Adaptive staged excitation control strategy for distributed synchronous condenser to suppress overvoltage in wind farms of HVDC-based renewable rich systems",
+        "year": "2026"
+      },
+      "expected_venue_id": "f8f6cdb69f1ed1473224",
+      "expected_venue": "Electric Power Systems Research",
+      "resolved_venue": "Electric Power Systems Research",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row345",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0357",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 357,
+      "fields": {
+        "reference": "Torfing, Jacob; Randma-Liiv, Tiina; Sorensen, Eva (2026). Robust Governance in Response to Societal Turbulence: The Conditioning Role of Multilevel Governance, Hybrid Governance, and Societal Intelligence. Public Policy and Administration,  1−22. DOI: 10.1177/09520767261453180.",
+        "journal": "Public Policy and Administration",
+        "title": "Robust Governance in Response to Societal Turbulence: The Conditioning Role of Multilevel Governance, Hybrid Governance, and Societal Intelligence",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Public Policy and Administration",
+      "rationale": "Distinct from Public Administration and Social Policy & Administration.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row357",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0369",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 369,
+      "fields": {
+        "reference": "Chen, Xinyi; Talpsepp, Tõnn (2026). The Disposition Effect among Uniswap V3 Liquidity Providers: Distinguishing Realization from Rebalancing. <i>Mathematical Research for Blockchain Economy (MARBLE 2026): 7th International Conference on Mathematical Research for Blockchain Economy (MARBLE 2026), Limassol, Cyprus, 16.-18.09.2026.</i>  Cham: Springer. (Lecture Notes in Operations Research) [ilmumas].",
+        "conference": "7th International Conference on Mathematical Research for Blockchain Economy (MARBLE 2026), Limassol, Cyprus, 16.-18.09.2026",
+        "publication_title": "Mathematical Research for Blockchain Economy (MARBLE 2026)",
+        "title": "The Disposition Effect among Uniswap V3 Liquidity Providers: Distinguishing Realization from Rebalancing",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Mathematical Research for Blockchain Economy (MARBLE)",
+      "rationale": "Conference absent; the Springer series is not a substitute venue.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row369",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0395",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 395,
+      "fields": {
+        "reference": "Khalid, Sadia (2026). Inclusive Healthcare: Improving Accessibility and Care for Disabled Patients through Investment and Workforce Innovation. World economic forum/ European sting, 13.02.2026.",
+        "publication_title": "World economic forum/ European sting",
+        "title": "Inclusive Healthcare: Improving Accessibility and Care for Disabled Patients through Investment and Workforce Innovation",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "World economic forum / European sting",
+      "rationale": "Web article, no listed venue.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row395",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0444",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 444,
+      "fields": {
+        "reference": "Ivanov, Aleksandr; Kolosova, Alexandra; Tuhtan, Jeffrey Andrew; Mockenhaupt, Bernd; Scheifhacken, Nicole (2026). Monocular Fish Length Estimation for Video Tunnels in European Rivers. <i>Proceedings of the 16th International Symposium on Ecohydraulics 2026: 16th International Symposium on Ecohydraulics 2026 (ISE), Lausanne, Switzerland, 16-20 August 2026.</i>   IAHR Document Library, 4.",
+        "conference": "16th International Symposium on Ecohydraulics 2026 (ISE), Lausanne, Switzerland, 16-20 August 2026",
+        "publication_title": "Proceedings of the 16th International Symposium on Ecohydraulics 2026",
+        "title": "Monocular Fish Length Estimation for Video Tunnels in European Rivers",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "International Symposium on Ecohydraulics (ISE)",
+      "rationale": "Full conference name absent; acronym alone is insufficient.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row444",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0445",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 445,
+      "fields": {
+        "reference": "Chochia, Archil (2026). Beyond the Lecture: Cultivating Global Legal Minds Through Cognitive Diversity. <i>Legal-tech Conference Future Law, Tallinn, Estonia, 14-15 May, 2026.</i>  LEGID.",
+        "conference": "Legal-tech Conference Future Law, Tallinn, Estonia, 14-15 May, 2026",
+        "title": "Beyond the Lecture: Cultivating Global Legal Minds Through Cognitive Diversity",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Future Law",
+      "rationale": "Legal technology conference absent.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row445",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0473",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 473,
+      "fields": {
+        "reference": "Ahmed, Rozha Kamal; Mahmud, Dara Rashid; Lips, Silvia; Draheim, Dirk (2026). The digital transformation of census in Iraq: challenges and opportunities. <i>Electronic Government and the Information Systems Perspective. Proceedings: 14th International Conference, EGOVIS 2025, Bangkok, Thailand, August 25–27, 2025.</i>  Cham: Springer, 88−102. (Lecture Notes in Computer Science; 16049). DOI: 10.1007/978-3-032-02225-7_7.",
+        "conference": "14th International Conference, EGOVIS 2025, Bangkok, Thailand, August 25–27, 2025",
+        "publication_title": "Electronic Government and the Information Systems Perspective. Proceedings",
+        "title": "The digital transformation of census in Iraq: challenges and opportunities",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Electronic Government and the Information Systems Perspective (EGOVIS)",
+      "rationale": "Conference absent; LNCS is a publishing series, not the conference.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row473",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0475",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 475,
+      "fields": {
+        "reference": "Dikcius, Vytautas; Vilkaite – Vaitone, Neringa; Hollebeek, Linda D.; Adomaviciute – Sakalauske, Karina; Zimaitis, Ignas; Kirse, Sigita; Jansson, Johan (2026). The Effect of Customers’ Extrinsic and Intrinsic Motivation on Their e-Commerce Store Loyalty: A Four-Country Comparison. Journal of International Consumer Marketing, 38 (2),  153−169. DOI: 10.1080/08961530.2025.2549681.",
+        "journal": "Journal of International Consumer Marketing",
+        "title": "The Effect of Customers’ Extrinsic and Intrinsic Motivation on Their e-Commerce Store Loyalty: A Four-Country Comparison",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Journal of International Consumer Marketing",
+      "rationale": "Full journal absent; other international marketing journals are different identities.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row475",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0480",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 480,
+      "fields": {
+        "reference": "Shahid, Arqum; Ahmadiahangar, Roya; Rosin, Argo; Korõtko, Tarmo (2026). Integrating BRP and Aggregator Roles for Imbalance Management and Frequency Regulation using Demand-side Flexibility. <i>2026 IEEE Green Technologies Conference (GreenTech): 2026 IEEE Green Technologies Conference (GreenTech), Boulder, CO, USA, 25-27 March 2026.</i>  IEEE, 1−6. DOI: 10.1109/GreenTech68285.2026.11471579.",
+        "conference": "2026 IEEE Green Technologies Conference (GreenTech), Boulder, CO, USA, 25-27 March 2026",
+        "publication_title": "2026 IEEE Green Technologies Conference (GreenTech)",
+        "title": "Integrating BRP and Aggregator Roles for Imbalance Management and Frequency Regulation using Demand-side Flexibility",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "IEEE Green Technologies Conference (GreenTech)",
+      "rationale": "Conference absent; not a general IEEE or green technology journal.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row480",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0481",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 481,
+      "fields": {
+        "reference": "Nguyen, Thi Thanh Ngân; Pham, Thanh Chung; Osadchuk, Irina; Reitalu, Rauno; Jarg, Tatsiana; Suut-Tuule, Elina; Kudrjašova, Marina; Öeren, Mario; Kananovich, Dzmitry; Dehaen, Wim; Aav, Riina (2026). New BODIPY-Based Fluorescent Probes with Selective Sensing of Salts.  1−25. DOI: 10.26434/chemrxiv.15004625/v2.",
+        "publication_title": "New BODIPY-Based Fluorescent Probes with Selective Sensing of Salts",
+        "title": "New BODIPY-Based Fluorescent Probes with Selective Sensing of Salts",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "ChemRxiv",
+      "rationale": "DOI identifies a preprint, with no evidence of a listed published venue.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row481",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0495",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 495,
+      "fields": {
+        "reference": "Lorenz, Birgy (2026). What Students Expect from Schools About Artificial Intelligence: Rules, Guidance, and Human-Centred Implementation. <i>EDULEARN26 Proceedings: 18th annual International Conference on Education and New Learning Technologies, Palma (Spain) - 29th June - 1st July 2026.</i>   Electronic Conference Proceedings:  IATED, art. 2003. DOI: 10.21125/edulearn.2026.2003.",
+        "conference": "18th annual International Conference on Education and New Learning Technologies, Palma (Spain) - 29th June - 1st July 2026",
+        "publication_title": "EDULEARN26 Proceedings",
+        "title": "What Students Expect from Schools About Artificial Intelligence: Rules, Guidance, and Human-Centred Implementation",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "International Conference on Education and New Learning Technologies (EDULEARN)",
+      "rationale": "Neither full conference name nor EDULEARN is listed.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row495",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0497",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 497,
+      "fields": {
+        "reference": "Laidroo, Laivi; Vanari, Kätlin (2026). Thesis Finalisation Self-efficacy – A Useful Concept for Improving Undergraduate Thesis Supervision. Journal of University Teaching and Learning Practice, 23, 3,  1−25. DOI: 10.53761/kqwc4728.",
+        "journal": "Journal of University Teaching and Learning Practice",
+        "title": "Thesis Finalisation Self-efficacy – A Useful Concept for Improving Undergraduate Thesis Supervision",
+        "year": "2026"
+      },
+      "expected_venue_id": "26ec163ef8d23fe23ec8",
+      "expected_venue": "Journal of University Teaching and Learning Practice",
+      "resolved_venue": "Journal of University Teaching and Learning Practice",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row497",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0501",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 501,
+      "fields": {
+        "reference": "Haidar, Ghadir; Kravchenko, Ilia; Ferrantelli, Andrea (2026). Optimizing the thermal performance of double skin Façades in a cold climate with phase change materials and cavity ventilation. Energy and Buildings, 358,  art. 117248. DOI: 10.1016/j.enbuild.2026.117248.",
+        "journal": "Energy and Buildings",
+        "title": "Optimizing the thermal performance of double skin Façades in a cold climate with phase change materials and cavity ventilation",
+        "year": "2026"
+      },
+      "expected_venue_id": "c50e9454ec558478958d",
+      "expected_venue": "Energy and Buildings",
+      "resolved_venue": "Energy and Buildings",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row501",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0515",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 515,
+      "fields": {
+        "reference": "Tkačevs, Oļegs; Staehr, Karsten (2026). The effects of macroeconomic and budget balance shocks on public debt trajectories in the euro area. International Economics and Economic Policy, 23 (51),  art. 51. DOI: 10.1007/s10368-026-00751-6.",
+        "journal": "International Economics and Economic Policy",
+        "title": "The effects of macroeconomic and budget balance shocks on public debt trajectories in the euro area",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "International Economics and Economic Policy",
+      "rationale": "Distinct from International Economics and American Economic Journal: Economic Policy.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row515",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0567",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 567,
+      "fields": {
+        "reference": "Ellmann, A. (2026). Vaade ruumiandmete hõive ja ruumiandmeteenuste lähitulevikule. Geodeet, 53 (77),  41−46.",
+        "journal": "Geodeet",
+        "title": "Vaade ruumiandmete hõive ja ruumiandmeteenuste lähitulevikule",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Geodeet",
+      "rationale": "Local surveying journal, absent; not Geoderma.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row567",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0616",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 616,
+      "fields": {
+        "reference": "Pallas Tairi; Lips, Silvia; Azmat, Sidra; Täks, Ermo; Ahmed, Rozha (2026). Implementing large-scale information systems in the European Union: challenges, governance, and lessons from practice. <i>The 2nd International Conference on Next Generation Information Systems Engineering Hybrid Conference, NGISE 2026, Ghaziabad, Delhi NCR, India, 28th–29th October 2026.</i>  Springer. (Communications in Computer and Information Science ) [ilmumas].",
+        "publication_title": "The 2nd International Conference on Next Generation Information Systems Engineering Hybrid Conference, NGISE 2026, Ghaziabad, Delhi NCR, India, 28th–29th October 2026",
+        "title": "Implementing large-scale information systems in the European Union: challenges, governance, and lessons from practice",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Next Generation Information Systems Engineering (NGISE)",
+      "rationale": "Conference absent; CCIS is a publishing series, not this conference.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row616",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0629",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 629,
+      "fields": {
+        "reference": "Hordoir, Robinson; Jahanmard, Vahidreza; Isachsen, Pål Erik; Löptien, Ulrike; Dietze, Heiner; Sandø, Anne Britt; Lien, Vidar S. (2026). Barents Sea atlantification driven by a shift in atmospheric synoptic timescale. Nature Climate Change, 16,  179−186. DOI: 10.1038/s41558-025-02535-3.",
+        "journal": "Nature Climate Change",
+        "title": "Barents Sea atlantification driven by a shift in atmospheric synoptic timescale",
+        "year": "2026"
+      },
+      "expected_venue_id": "4b73263746b91d7b0346",
+      "expected_venue": "Nature Climate Change",
+      "resolved_venue": "Nature Climate Change",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row629",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0707",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 707,
+      "fields": {
+        "reference": "Klauson, Deniss; Lember, Erki; Jaaku, Jaak (2026). Bromides in treated wastewater: limiting the choice of quaternary wastewater treatment technologies for residual micropollutant removal. An Estonian case study. Proceedings of the  Estonian  Academy of Sciences, 75 (1),  87−95. DOI: 10.3176/proc.2026.1.08.",
+        "journal": "Proceedings of the  Estonian  Academy of Sciences",
+        "title": "Bromides in treated wastewater: limiting the choice of quaternary wastewater treatment technologies for residual micropollutant removal. An Estonian case study",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Proceedings of the Estonian Academy of Sciences",
+      "rationale": "Not Proceedings of the National Academy of Sciences.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row707",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0711",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 711,
+      "fields": {
+        "reference": "Mazur, Viktoria; Ramiro Troitino, David (2026). Unequal by Design? Reclaiming Digital Access as a Fundamental Right in the EU. Białostockie Studia Prawnicze, 31 (1),  43−60. DOI: 10.15290/bsp.2026.31.01.03.",
+        "journal": "Białostockie Studia Prawnicze",
+        "publication_title": "Bialostockie Studia Prawnicze",
+        "title": "Unequal by Design? Reclaiming Digital Access as a Fundamental Right in the EU",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Białostockie Studia Prawnicze",
+      "rationale": "Neither accented nor unaccented journal name is listed.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row711",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0722",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 722,
+      "fields": {
+        "reference": "Sardar, Muhammad Usman; Vaimann, Toomas; Kütt, Lauri; Asad, Bilal; Kallaste, Ants; Rassõlkin, Anton (2026). Modeling Cable-Fed Induction Motor Drives with Optimized Impedance Characterization Across a Low to High-Frequency Spectrum. IEEE Transactions on Energy Conversion, 41 (2),  1055−1069. DOI: 10.1109/TEC.2025.3630465.",
+        "journal": "IEEE Transactions on Energy Conversion",
+        "title": "Modeling Cable-Fed Induction Motor Drives with Optimized Impedance Characterization Across a Low to High-Frequency Spectrum",
+        "year": "2026"
+      },
+      "expected_venue_id": "53f788751c1dbf5d69ca",
+      "expected_venue": "IEEE Transactions on Energy Conversion",
+      "resolved_venue": "IEEE Transactions on Energy Conversion",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row722",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0725",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 725,
+      "fields": {
+        "reference": "Ahmadzai, Palwasha (2026). A system of systems approach for smart city development: technological innovation, human-centered design, and governance challenges. In: Iman Rahimi, Ali Emrouznejad, Amir Hossein Gandomi (Ed.).  Smart Cities: A System-of-Systems Perspective: Engineering, Analytics, and Innovations for Sustainable Urban Development. (23−37).  Elsevier. DOI: 10.1016/B978-0-443-45550-6.00010-2.",
+        "publication_title": "Smart Cities: A System-of-Systems Perspective: Engineering, Analytics, and Innovations for Sustainable Urban Development",
+        "title": "A system of systems approach for smart city development: technological innovation, human-centered design, and governance challenges",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Smart Cities: A System-of-Systems Perspective",
+      "rationale": "Edited book chapter; book absent, no evidence of journal or conference publication.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row725",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0729",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 729,
+      "fields": {
+        "reference": "Abbasi, N.; Krustok, J.; Kaupmees, R.; Danilson, M.; Hobson, T.D.C.; Major, J.D.; Durose, K.; Kauk-Kuusik, M.; Grossberg-Kuusk, M. (2026). Study of defects in chlorine-doped Sb2Se3 single crystals by photoluminescence spectroscopy. Journal of Alloys and Compounds Communications, 8 (1),  100171. DOI: 10.1016/j.jacomc.2026.100171.",
+        "journal": "Journal of Alloys and Compounds Communications",
+        "title": "Study of defects in chlorine-doped Sb2Se3 single crystals by photoluminescence spectroscopy",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Journal of Alloys and Compounds Communications",
+      "rationale": "Journal absent; do not remove Communications from its identity.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row729",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0825",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 825,
+      "fields": {
+        "reference": "Võsa, Karl-Villem; Simson, Raimo; Mikola, Alo; Kurnitski, Jarek (2026). European Heat Pump Keymark Population Dataset and COP Models for Cold-Climate Building Simulation.  DOI: 10.5281/zenodo.20627396.",
+        "publication_title": "Zenodo",
+        "title": "European Heat Pump Keymark Population Dataset and COP Models for Cold-Climate Building Simulation",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Zenodo",
+      "rationale": "Dataset repository, not a listed journal or conference.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row825",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0890",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 890,
+      "fields": {
+        "reference": "Rafique, Nouman; Koel, Mihkel; Reile, Indrek; Järvik, Oliver (2026). Fatty Acid-Based (Deep) Eutectic Solvents Thermodynamic Behavior and Thermal Properties for Low-Temperature Thermal Energy Storage. Journal of Chemical amp; Engineering Data,  1−16. DOI: 10.1021/acs.jced.6c00328.",
+        "journal": "Journal of Chemical  Engineering Data",
+        "title": "Fatty Acid-Based (Deep) Eutectic Solvents Thermodynamic Behavior and Thermal Properties for Low-Temperature Thermal Energy Storage",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Journal of Chemical & Engineering Data",
+      "rationale": "ETIS drops the ampersand. Full journal absent; other chemical engineering journals differ.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row890",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0910",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 910,
+      "fields": {
+        "reference": "Pikta, M.; Mettis, LJ.; Rea, A.; Titova, T.; Arjakse, J.; Siirand, MS.; Rahuoja, K.; Suursaar, K.; Saks, K. (2026). Preliminary results of the evaluation of pharmacokinetic profiles in Haemophilia A patients receiving Efanesoctocog Alfa. Haemophilia, 32 (S1, 19th Annual Congress of European Association for Haemophilia and Allied Disorders 2026, February 3–6, 2026, Dublin),  41. DOI: 10.1111/hae.70195.",
+        "journal": "Haemophilia",
+        "title": "Preliminary results of the evaluation of pharmacokinetic profiles in Haemophilia A patients receiving Efanesoctocog Alfa",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Haemophilia",
+      "rationale": "Journal supplement; Haemophilia and the named congress are absent. Not Haematologica.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row910",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0956",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 956,
+      "fields": {
+        "reference": "Stinkulis, Ģ., Lukševičs, E., Pipira, D.,Meire-Kārkle, M. and Martma, T. (2026). Dolocretes in the Amata Formation of Latvia as indicators of climate aridification during the Givetian–Frasnian transition. Estonian Journal of Earth Sciences, 75 (1),  67−82. DOI: 10.3176/earth.2026.05.",
+        "journal": "Estonian Journal of Earth Sciences",
+        "title": "Dolocretes in the Amata Formation of Latvia as indicators of climate aridification during the Givetian–Frasnian transition",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Estonian Journal of Earth Sciences",
+      "rationale": "Distinct from Journal of Asian Earth Sciences.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row956",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-0994",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 994,
+      "fields": {
+        "reference": "Harris, Mark T.; Ainsaar, Leho; Hints, Linda; Männik, Peep; Meidla, Tõnu; Nõlvak, Jaak; Schultz, Tory; Sheehan, Peter M. (2026). The Upper Ordovician of Estonia: facies, sequences, and basin development. Estonian Journal of Earth Sciences, 75 (1),  53−66. DOI: 10.3176/earth.2026.04.",
+        "journal": "Estonian Journal of Earth Sciences",
+        "title": "The Upper Ordovician of Estonia: facies, sequences, and basin development",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Estonian Journal of Earth Sciences",
+      "rationale": "Distinct from Journal of Asian Earth Sciences.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row994",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1024",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1024,
+      "fields": {
+        "reference": "Djilvesi, Djula; Lasica, Nebojsa; Golubovic, Jagos; Jelaca, Bojan; Simeunovic, Nenad; Rakic, Slavko (2026). Evaluation of the quality of neurosurgical services using the SERVQUAL method. Vojnosanitetski pregled, 83 (2),  110−118. DOI: 10.2298/VSP250804007D.",
+        "journal": "Vojnosanitetski pregled",
+        "title": "Evaluation of the quality of neurosurgical services using the SERVQUAL method",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Vojnosanitetski pregled",
+      "rationale": "Journal absent.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1024",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1029",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1029,
+      "fields": {
+        "reference": "Matulevičius, Raimundas; Robal, Tarmo; Kornyshova, Elena; Nikiforova, Anastasija;  Liiv, Innar (Ed.) (2026). Matulevičius, Raimundas; Robal, Tarmo; Kornyshova, Elena; Nikiforova, Anastasija;  Liiv, Innar. Digital Business and Intelligent Systems. 17th International Baltic Conference, Baltic DBamp;IS, Tartu, Estonia, June 28–July 1, 2026 :  Proceedings. (XXI, 334).  Cham: Springer. (Communications in Computer and Information Science; 3085). DOI: 10.1007/978-3-032-30863-4.",
+        "publication_title": "17th International Baltic Conference, Baltic DBIS, Tartu, Estonia, June 28–July 1, 2026 :  Proceedings",
+        "title": "Digital Business and Intelligent Systems",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "International Baltic Conference on Databases and Information Systems (Baltic DB&IS)",
+      "rationale": "Edited conference proceedings; neither full name nor Baltic DB&IS is listed.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1029",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1044",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1044,
+      "fields": {
+        "reference": "N. Nazeer, M. Leier, U. Reinsalu, A. Tepljakov (2026). FOCUS: A failure-tolerant visual-inertial odometry using contextual understanding and sensor fusion,. <i>International Conference on Mechatronics and Robotics Engineering (ICMRE).</i>  IEEE [ilmumas].",
+        "conference": "International Conference on Mechatronics and Robotics Engineering (ICMRE)",
+        "title": "FOCUS: A failure-tolerant visual-inertial odometry using contextual understanding and sensor fusion,",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "International Conference on Mechatronics and Robotics Engineering (ICMRE)",
+      "rationale": "Conference absent; not IEEE/ASME Transactions on Mechatronics.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1044",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1081",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1081,
+      "fields": {
+        "reference": "Цыбуленко, Е. (2026). Цивилизация не должна отказываться от развития во имя защиты окружающей среды. Postimees, 07.08.2026.",
+        "publication_title": "Postimees",
+        "title": "Цивилизация не должна отказываться от развития во имя защиты окружающей среды",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Postimees",
+      "rationale": "News outlet absent.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1081",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1113",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1113,
+      "fields": {
+        "reference": "Thirumal Muthu, Kannan; Ojangu, Eve-Ly; Zovo, Kairit; Jõul, Piia; Illarionov, Aleksandr; Ho, Thi  Thuy Tran; Risti, Robert; Karpichev, Yevgen; Lukk, Tiit; Lahtvee, Petri-Jaan (2026). Uncovering the potential of Bacillus licheniformis in the utilisation of lignin-derived aromatics: Insights from transcriptomic analysis. SSRN Working Paper Series,  1−41. DOI: 10.2139/ssrn.6281837.",
+        "journal": "SSRN Working Paper Series",
+        "publication_title": "Uncovering the potential of Bacillus licheniformis in the utilisation of lignin-derived aromatics: Insights from transcriptomic analysis",
+        "title": "Uncovering the potential of Bacillus licheniformis in the utilisation of lignin-derived aromatics: Insights from transcriptomic analysis",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "SSRN Working Paper Series",
+      "rationale": "Working paper/preprint; no listed published venue supplied.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1113",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1137",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1137,
+      "fields": {
+        "reference": "Talvik, Martin; Klõšeiko, Paul; Palmiste, Ülar; Vilba, Kristina; Kalamees, Targo (2026). Modelling Wind-Driven Rain Impact on Plastered Facades Using Direct Measurements, EN ISO 15927 3 Calculations and CFD. <i>Journal of Physics: Conference Series, 3302: 14th Nordic Symposium on Building Physics, NSB 2026, Tampere, 8–10 June 2026.</i>  IOP Publishing, art. 012033. DOI: 10.1088/1742-6596/3302/1/012033.",
+        "conference": "14th Nordic Symposium on Building Physics, NSB 2026, Tampere, 8–10 June 2026",
+        "publication_title": "Journal of Physics: Conference Series",
+        "title": "Modelling Wind-Driven Rain Impact on Plastered Facades Using Direct Measurements, EN ISO 15927 3 Calculations and CFD",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "resolved_venue": "Nordic Symposium on Building Physics / Journal of Physics: Conference Series",
+      "rationale": "Neither conference nor proceedings series is listed.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1137",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    },
+    {
+      "id": "etis-1143",
+      "subset": "fresh",
+      "sheet": "_workSheetName",
+      "row": 1143,
+      "fields": {
+        "reference": "Adegbile, Ademola Michael; Yörük, Can Rüstü; Pantšenko, Nata-Ly; Uibu, Mai; Thomas, Adheena; Trikkel, Andres (2026). Thermal analysis and kinetics of Estonian clays under varied calcination atmospheres. Journal of Thermal Analysis and Calorimetry,  1−12. DOI: 10.1007/s10973-026-15736-5.",
+        "journal": "Journal of Thermal Analysis and Calorimetry",
+        "title": "Thermal analysis and kinetics of Estonian clays under varied calcination atmospheres",
+        "year": "2026"
+      },
+      "expected_venue_id": "9b2670243ddd2836d0c5",
+      "expected_venue": "Journal of Thermal Analysis and Calorimetry",
+      "resolved_venue": "Journal of Thermal Analysis and Calorimetry",
+      "rationale": "Exact journal identity in structured field and reference; catalogue name agrees.",
+      "evidence": [
+        "sample_data/Publications.xlsx#_workSheetName!row1143",
+        "data/venues.json (catalogue a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021); name/acronym inventory reviewed"
+      ],
+      "policy_sensitive": false
+    }
+  ]
+}

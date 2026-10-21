@@ -1,0 +1,25 @@
+{
+  "id": "etis-0361-lrec",
+  "source": "sample_data/Publications.xlsx",
+  "source_sha256": "eea548b38c41e62800dcf50105b4e103c90dac13689c24f469b5573b02906cf0",
+  "sheet": "_workSheetName",
+  "row": 361,
+  "fields": {
+    "reference": "Lillepalu, Helena Grete; Alumäe, Tanel (2026). Estonian native large language model benchmark. <i>Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026.</i>  European Language Resources Association (ELRA), 4257−4267. DOI: 10.63317/5kocg97rooga.",
+    "publication_title": "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026",
+    "title": "Estonian native large language model benchmark",
+    "year": "2026"
+  },
+  "plain_reference": "Helena Grete Lillepalu and Tanel Alumäe. 2026. Estonian Native Large Language Model Benchmark. In Proceedings of the Fifteenth Language Resources and Evaluation Conference, pages 4257–4267, Palma de Mallorca, Spain. ELRA Language Resource Association.",
+  "expected_venue_id": "573bb406d9c234d2dcbc",
+  "expected_venue": "International Conference on Language Resources and Evaluation (LREC)",
+  "expected_rank": 7,
+  "confusable_venue_id": "8f05d8fd5315cc52b8d8",
+  "observed_note": "LREC 2026 is the Language Resources and Evaluation Conference, distinct from the catalogue's Language Resources and Evaluation journal.",
+  "rationale": "The reference explicitly identifies the main LREC 2026 proceedings, not the similarly named journal. Added after a user-reported batch failure; separate from the frozen 100-item benchmark.",
+  "evidence": [
+    "data/venues.json#573bb406d9c234d2dcbc",
+    "https://lrec2026.info/",
+    "https://link.springer.com/journal/10579"
+  ]
+}

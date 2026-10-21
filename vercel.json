@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "flask",
+  "buildCommand": "python build.py",
+  "functions": {
+    "wsgi.py": {
+      "maxDuration": 1800,
+      "excludeFiles": "{tests/**,benchmarks/**,sample_data/**,data/scholar-pages/**,.env*,.venv/**,.local-deps/**,instance/**,.pytest_cache/**,.ruff_cache/**,.git/**,.agents/**,.codex/**,.aws/**,**/._*}"
+    }
+  },
+  "headers": [
+    {
+      "source": "/static/(.*)",
+      "headers": [
+        {"key": "X-Content-Type-Options", "value": "nosniff"},
+        {"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}
+      ]
+    }
+  ]
+}

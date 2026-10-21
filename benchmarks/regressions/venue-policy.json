@@ -1,0 +1,227 @@
+{
+  "policy_version": "2",
+  "prompt_version": "5",
+  "frozen_at": "2026-10-19T08:29:17.452013+00:00",
+  "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+  "annotation_method": "Assistant-authored policy regression cases, frozen before predictions; synthetic references explicitly marked. Not an independent accuracy sample.",
+  "items": [
+    {
+      "id": "eacl-demo",
+      "fields": {
+        "reference": "Podziubanchuk, Bohdan; Olev, Aivo; Kong, Jiaming; Alumäe, Tanel (2026). Simultaneous speech-to-text translation web application for Estonian. <i>The 19th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2026, Proceedings of System Demonstrations, March 24-29, 2026, Rabat, Morocco, 3.</i>  Association for Computational Linguistics, 575−582. (ACL Anthology). DOI: 10.18653/v1/2026.eacl-demo.40.",
+        "publication_title": "The 19th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2026, Proceedings of System Demonstrations, March 24-29, 2026, Rabat, Morocco",
+        "title": "Simultaneous speech-to-text translation web application for Estonian",
+        "year": "2026"
+      },
+      "expected_venue_id": "06d3be002d15cce64615",
+      "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "rationale": "Official demo track inherits EACL, never EMNLP.",
+      "synthetic": false
+    },
+    {
+      "id": "eacl-challenge-track",
+      "fields": {
+        "reference": "Example author (2026). Example paper. EACL 2026 Challenge Track.",
+        "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), Challenge Track"
+      },
+      "expected_venue_id": "06d3be002d15cce64615",
+      "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "rationale": "Official companion track counts as main EACL.",
+      "synthetic": true
+    },
+    {
+      "id": "eacl-findings",
+      "fields": {
+        "reference": "Example author (2026). Example paper. EACL 2026 Findings.",
+        "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), Findings"
+      },
+      "expected_venue_id": "06d3be002d15cce64615",
+      "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "rationale": "Official companion track counts as main EACL.",
+      "synthetic": true
+    },
+    {
+      "id": "eacl-companion-proceedings",
+      "fields": {
+        "reference": "Example author (2026). Example paper. EACL 2026 Companion Proceedings.",
+        "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), Companion Proceedings"
+      },
+      "expected_venue_id": "06d3be002d15cce64615",
+      "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "rationale": "Official companion track counts as main EACL.",
+      "synthetic": true
+    },
+    {
+      "id": "hci-late-breaking",
+      "fields": {
+        "reference": "Muulmann, Triin; Lugo, Ricardo Gregorio; Ottis, Rain (2026). From theory to practice: leveraging VR and CTF competitions for advanced cybersecurity education. <i>HCI International 2025 – Late Breaking Papers 27th International Conference on Human-Computer Interaction, HCII 2025, Gothenburg, Sweden, June 22–27, 2025, Proceedings, Part III.</i>  Cham: Springer, 108−122. (Lecture Notes in Computer Science; 16333). DOI: 10.1007/978-3-032-12660-3_9.",
+        "publication_title": "HCI International 2025 – Late Breaking Papers 27th International Conference on Human-Computer Interaction, HCII 2025, Gothenburg, Sweden, June 22–27, 2025, Proceedings, Part III",
+        "title": "From theory to practice: leveraging VR and CTF competitions for advanced cybersecurity education",
+        "year": "2026"
+      },
+      "expected_venue_id": "df767d1ca593ed3a4c98",
+      "expected_venue": "HCI International",
+      "rationale": "Late-breaking proceedings count as the main conference.",
+      "synthetic": false
+    },
+    {
+      "id": "unlisted-workshop",
+      "fields": {
+        "reference": "Example author. Example paper. Workshop on Unlisted Example Methods, co-located with EACL 2026.",
+        "conference": "Workshop on Unlisted Example Methods, co-located with EACL 2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "Explicit workshop is not the main conference, even within companion proceedings.",
+      "synthetic": true
+    },
+    {
+      "id": "companion-workshop",
+      "fields": {
+        "reference": "Example author. Example paper. EACL 2026 Companion Proceedings: Workshop on Unlisted Example Methods.",
+        "conference": "EACL 2026 Companion Proceedings: Workshop on Unlisted Example Methods"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "Explicit workshop is not the main conference, even within companion proceedings.",
+      "synthetic": true
+    },
+    {
+      "id": "listed-workshop",
+      "fields": {
+        "reference": "Valk, Jörgen, and Tanel Alumäe. VoxLingua107: a dataset for spoken language recognition. 2021 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2021."
+      },
+      "expected_venue_id": "993136ec957af629144d",
+      "expected_venue": "IEEE Spoken Language Technology Workshop (SLT)",
+      "rationale": "A listed workshop is eligible under its own identity.",
+      "synthetic": false
+    },
+    {
+      "id": "speech-missing",
+      "fields": {
+        "reference": "Example author (2026). Example article. Computer Speech  Language.",
+        "journal": "Computer Speech  Language"
+      },
+      "expected_venue_id": "b680ee8ec1f09b9f1342",
+      "expected_venue": "Computer Speech & Language",
+      "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+      "synthetic": true
+    },
+    {
+      "id": "speech-entity",
+      "fields": {
+        "reference": "Example author (2026). Example article. Computer Speech amp; Language.",
+        "journal": "Computer Speech amp; Language"
+      },
+      "expected_venue_id": "b680ee8ec1f09b9f1342",
+      "expected_venue": "Computer Speech & Language",
+      "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+      "synthetic": true
+    },
+    {
+      "id": "speech-and",
+      "fields": {
+        "reference": "Example author (2026). Example article. Computer Speech and Language.",
+        "journal": "Computer Speech and Language"
+      },
+      "expected_venue_id": "b680ee8ec1f09b9f1342",
+      "expected_venue": "Computer Speech & Language",
+      "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+      "synthetic": true
+    },
+    {
+      "id": "security-missing",
+      "fields": {
+        "reference": "Example author (2026). Example article. Computers  Security.",
+        "journal": "Computers  Security"
+      },
+      "expected_venue_id": "20fe0024e443adc37a63",
+      "expected_venue": "Computers & Security",
+      "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+      "synthetic": true
+    },
+    {
+      "id": "biomass-missing",
+      "fields": {
+        "reference": "Example author (2026). Example article. Biomass  Bioenergy.",
+        "journal": "Biomass  Bioenergy"
+      },
+      "expected_venue_id": "538a62acec901c592142",
+      "expected_venue": "Biomass and Bioenergy",
+      "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+      "synthetic": true
+    },
+    {
+      "id": "topology-missing",
+      "fields": {
+        "reference": "Example author (2026). Example article. Algebraic  Geometric Topology.",
+        "journal": "Algebraic  Geometric Topology"
+      },
+      "expected_venue_id": "876b9ec09f7d0674e429",
+      "expected_venue": "Algebraic & Geometric Topology",
+      "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+      "synthetic": true
+    },
+    {
+      "id": "materials-science",
+      "fields": {
+        "reference": "Shamshirgar, Ali Saffar; Ivanov, Roman; Aydinyan, Sofiya; Ghosh, Sohan; Chabanais, Florian; Ronchi, Rodrigo M.; Halim, Joseph; Elsukova, Anna; Qin, Leiqiang; Nazaretyan, Khachik; Zakaryan, Marieta; Kharatyan, Suren; Persson, Per O.Å.; Hussainova, Irina; Rosen, Johanna (2026). Rapid and scalable combustion synthesis of (Mo<sub>2/3</sub>Y<sub>1/3</sub>)<sub>2</sub>AlC <em>i</em>-MAX as the precursor for vacancy-ordered MXene. Journal of Material Science and Technology, 255,  157−169. DOI: 10.1016/j.jmst.2025.09.014.",
+        "journal": "Journal of Material Science and Technology",
+        "title": "Rapid and scalable combustion synthesis of (Mo2/3Y1/3)2AlC i-MAX as the precursor for vacancy-ordered MXene",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "Science and Research are substantive differences; punctuation tolerance does not merge these journals.",
+      "synthetic": false
+    },
+    {
+      "id": "materials-design",
+      "fields": {
+        "reference": "Zhu, Saisai; Liu, Guoqing; Wang, Pei; Zhang, Jian; Yang, Lijun; Wu, Mingwei; Kang, Nan; El Mansori, Mohamed; Prashanth, Konda Gokuldoss; Zhang, Yulei (2026). Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation. Materials amp; Design, 265,  art. 115890. DOI: 10.1016/j.matdes.2026.115890.",
+        "journal": "Materials  Design",
+        "title": "Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation",
+        "year": "2026"
+      },
+      "expected_venue_id": null,
+      "expected_venue": null,
+      "rationale": "Restoring an ampersand still leaves an unlisted journal.",
+      "synthetic": false
+    },
+    {
+      "id": "challenge-in-paper-title",
+      "fields": {
+        "title": "An EACL challenge system",
+        "journal": "IEEE Access",
+        "reference": "Example author (2026). An EACL challenge system. IEEE Access."
+      },
+      "expected_venue_id": "7785cced2c722e38f6a0",
+      "expected_venue": "IEEE Access",
+      "rationale": "A challenge in a paper title does not override the explicit publication venue.",
+      "synthetic": true
+    },
+    {
+      "id": "lrec-plain",
+      "fields": {
+        "reference": "Helena Grete Lillepalu and Tanel Alumäe. 2026. Estonian Native Large Language Model Benchmark. In Proceedings of the Fifteenth Language Resources and Evaluation Conference, pages 4257–4267, Palma de Mallorca, Spain. ELRA Language Resource Association."
+      },
+      "expected_venue_id": "573bb406d9c234d2dcbc",
+      "expected_venue": "International Conference on Language Resources and Evaluation (LREC)",
+      "rationale": "LREC conference retains its own identity, distinct from the similarly named journal.",
+      "synthetic": false
+    },
+    {
+      "id": "lrec-etis",
+      "fields": {
+        "reference": "Lillepalu, Helena Grete; Alumäe, Tanel (2026). Estonian native large language model benchmark. <i>Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026.</i>  European Language Resources Association (ELRA), 4257−4267. DOI: 10.63317/5kocg97rooga.",
+        "publication_title": "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026",
+        "title": "Estonian native large language model benchmark",
+        "year": "2026"
+      },
+      "expected_venue_id": "573bb406d9c234d2dcbc",
+      "expected_venue": "International Conference on Language Resources and Evaluation (LREC)",
+      "rationale": "LREC conference retains its own identity, distinct from the similarly named journal.",
+      "synthetic": false
+    }
+  ]
+}

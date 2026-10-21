@@ -1,0 +1,1367 @@
+{
+  "status": "complete",
+  "model": "gpt-6-luna",
+  "prompt_version": "6",
+  "dataset": {
+    "policy_version": "2",
+    "prompt_version": "5",
+    "frozen_at": "2026-10-19T08:29:17.452013+00:00",
+    "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+    "annotation_method": "Assistant-authored policy regression cases, frozen before predictions; synthetic references explicitly marked. Not an independent accuracy sample.",
+    "items": [
+      {
+        "id": "eacl-demo",
+        "fields": {
+          "reference": "Podziubanchuk, Bohdan; Olev, Aivo; Kong, Jiaming; Alumäe, Tanel (2026). Simultaneous speech-to-text translation web application for Estonian. <i>The 19th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2026, Proceedings of System Demonstrations, March 24-29, 2026, Rabat, Morocco, 3.</i>  Association for Computational Linguistics, 575−582. (ACL Anthology). DOI: 10.18653/v1/2026.eacl-demo.40.",
+          "publication_title": "The 19th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2026, Proceedings of System Demonstrations, March 24-29, 2026, Rabat, Morocco",
+          "title": "Simultaneous speech-to-text translation web application for Estonian",
+          "year": "2026"
+        },
+        "expected_venue_id": "06d3be002d15cce64615",
+        "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+        "rationale": "Official demo track inherits EACL, never EMNLP.",
+        "synthetic": false
+      },
+      {
+        "id": "eacl-challenge-track",
+        "fields": {
+          "reference": "Example author (2026). Example paper. EACL 2026 Challenge Track.",
+          "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), Challenge Track"
+        },
+        "expected_venue_id": "06d3be002d15cce64615",
+        "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+        "rationale": "Official companion track counts as main EACL.",
+        "synthetic": true
+      },
+      {
+        "id": "eacl-findings",
+        "fields": {
+          "reference": "Example author (2026). Example paper. EACL 2026 Findings.",
+          "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), Findings"
+        },
+        "expected_venue_id": "06d3be002d15cce64615",
+        "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+        "rationale": "Official companion track counts as main EACL.",
+        "synthetic": true
+      },
+      {
+        "id": "eacl-companion-proceedings",
+        "fields": {
+          "reference": "Example author (2026). Example paper. EACL 2026 Companion Proceedings.",
+          "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), Companion Proceedings"
+        },
+        "expected_venue_id": "06d3be002d15cce64615",
+        "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+        "rationale": "Official companion track counts as main EACL.",
+        "synthetic": true
+      },
+      {
+        "id": "hci-late-breaking",
+        "fields": {
+          "reference": "Muulmann, Triin; Lugo, Ricardo Gregorio; Ottis, Rain (2026). From theory to practice: leveraging VR and CTF competitions for advanced cybersecurity education. <i>HCI International 2025 – Late Breaking Papers 27th International Conference on Human-Computer Interaction, HCII 2025, Gothenburg, Sweden, June 22–27, 2025, Proceedings, Part III.</i>  Cham: Springer, 108−122. (Lecture Notes in Computer Science; 16333). DOI: 10.1007/978-3-032-12660-3_9.",
+          "publication_title": "HCI International 2025 – Late Breaking Papers 27th International Conference on Human-Computer Interaction, HCII 2025, Gothenburg, Sweden, June 22–27, 2025, Proceedings, Part III",
+          "title": "From theory to practice: leveraging VR and CTF competitions for advanced cybersecurity education",
+          "year": "2026"
+        },
+        "expected_venue_id": "df767d1ca593ed3a4c98",
+        "expected_venue": "HCI International",
+        "rationale": "Late-breaking proceedings count as the main conference.",
+        "synthetic": false
+      },
+      {
+        "id": "unlisted-workshop",
+        "fields": {
+          "reference": "Example author. Example paper. Workshop on Unlisted Example Methods, co-located with EACL 2026.",
+          "conference": "Workshop on Unlisted Example Methods, co-located with EACL 2026"
+        },
+        "expected_venue_id": null,
+        "expected_venue": null,
+        "rationale": "Explicit workshop is not the main conference, even within companion proceedings.",
+        "synthetic": true
+      },
+      {
+        "id": "companion-workshop",
+        "fields": {
+          "reference": "Example author. Example paper. EACL 2026 Companion Proceedings: Workshop on Unlisted Example Methods.",
+          "conference": "EACL 2026 Companion Proceedings: Workshop on Unlisted Example Methods"
+        },
+        "expected_venue_id": null,
+        "expected_venue": null,
+        "rationale": "Explicit workshop is not the main conference, even within companion proceedings.",
+        "synthetic": true
+      },
+      {
+        "id": "listed-workshop",
+        "fields": {
+          "reference": "Valk, Jörgen, and Tanel Alumäe. VoxLingua107: a dataset for spoken language recognition. 2021 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2021."
+        },
+        "expected_venue_id": "993136ec957af629144d",
+        "expected_venue": "IEEE Spoken Language Technology Workshop (SLT)",
+        "rationale": "A listed workshop is eligible under its own identity.",
+        "synthetic": false
+      },
+      {
+        "id": "speech-missing",
+        "fields": {
+          "reference": "Example author (2026). Example article. Computer Speech  Language.",
+          "journal": "Computer Speech  Language"
+        },
+        "expected_venue_id": "b680ee8ec1f09b9f1342",
+        "expected_venue": "Computer Speech & Language",
+        "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+        "synthetic": true
+      },
+      {
+        "id": "speech-entity",
+        "fields": {
+          "reference": "Example author (2026). Example article. Computer Speech amp; Language.",
+          "journal": "Computer Speech amp; Language"
+        },
+        "expected_venue_id": "b680ee8ec1f09b9f1342",
+        "expected_venue": "Computer Speech & Language",
+        "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+        "synthetic": true
+      },
+      {
+        "id": "speech-and",
+        "fields": {
+          "reference": "Example author (2026). Example article. Computer Speech and Language.",
+          "journal": "Computer Speech and Language"
+        },
+        "expected_venue_id": "b680ee8ec1f09b9f1342",
+        "expected_venue": "Computer Speech & Language",
+        "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+        "synthetic": true
+      },
+      {
+        "id": "security-missing",
+        "fields": {
+          "reference": "Example author (2026). Example article. Computers  Security.",
+          "journal": "Computers  Security"
+        },
+        "expected_venue_id": "20fe0024e443adc37a63",
+        "expected_venue": "Computers & Security",
+        "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+        "synthetic": true
+      },
+      {
+        "id": "biomass-missing",
+        "fields": {
+          "reference": "Example author (2026). Example article. Biomass  Bioenergy.",
+          "journal": "Biomass  Bioenergy"
+        },
+        "expected_venue_id": "538a62acec901c592142",
+        "expected_venue": "Biomass and Bioenergy",
+        "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+        "synthetic": true
+      },
+      {
+        "id": "topology-missing",
+        "fields": {
+          "reference": "Example author (2026). Example article. Algebraic  Geometric Topology.",
+          "journal": "Algebraic  Geometric Topology"
+        },
+        "expected_venue_id": "876b9ec09f7d0674e429",
+        "expected_venue": "Algebraic & Geometric Topology",
+        "rationale": "Only punctuation or a connector is lost; substantive full venue identity is unchanged.",
+        "synthetic": true
+      },
+      {
+        "id": "materials-science",
+        "fields": {
+          "reference": "Shamshirgar, Ali Saffar; Ivanov, Roman; Aydinyan, Sofiya; Ghosh, Sohan; Chabanais, Florian; Ronchi, Rodrigo M.; Halim, Joseph; Elsukova, Anna; Qin, Leiqiang; Nazaretyan, Khachik; Zakaryan, Marieta; Kharatyan, Suren; Persson, Per O.Å.; Hussainova, Irina; Rosen, Johanna (2026). Rapid and scalable combustion synthesis of (Mo<sub>2/3</sub>Y<sub>1/3</sub>)<sub>2</sub>AlC <em>i</em>-MAX as the precursor for vacancy-ordered MXene. Journal of Material Science and Technology, 255,  157−169. DOI: 10.1016/j.jmst.2025.09.014.",
+          "journal": "Journal of Material Science and Technology",
+          "title": "Rapid and scalable combustion synthesis of (Mo2/3Y1/3)2AlC i-MAX as the precursor for vacancy-ordered MXene",
+          "year": "2026"
+        },
+        "expected_venue_id": null,
+        "expected_venue": null,
+        "rationale": "Science and Research are substantive differences; punctuation tolerance does not merge these journals.",
+        "synthetic": false
+      },
+      {
+        "id": "materials-design",
+        "fields": {
+          "reference": "Zhu, Saisai; Liu, Guoqing; Wang, Pei; Zhang, Jian; Yang, Lijun; Wu, Mingwei; Kang, Nan; El Mansori, Mohamed; Prashanth, Konda Gokuldoss; Zhang, Yulei (2026). Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation. Materials amp; Design, 265,  art. 115890. DOI: 10.1016/j.matdes.2026.115890.",
+          "journal": "Materials  Design",
+          "title": "Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation",
+          "year": "2026"
+        },
+        "expected_venue_id": null,
+        "expected_venue": null,
+        "rationale": "Restoring an ampersand still leaves an unlisted journal.",
+        "synthetic": false
+      },
+      {
+        "id": "challenge-in-paper-title",
+        "fields": {
+          "title": "An EACL challenge system",
+          "journal": "IEEE Access",
+          "reference": "Example author (2026). An EACL challenge system. IEEE Access."
+        },
+        "expected_venue_id": "7785cced2c722e38f6a0",
+        "expected_venue": "IEEE Access",
+        "rationale": "A challenge in a paper title does not override the explicit publication venue.",
+        "synthetic": true
+      },
+      {
+        "id": "lrec-plain",
+        "fields": {
+          "reference": "Helena Grete Lillepalu and Tanel Alumäe. 2026. Estonian Native Large Language Model Benchmark. In Proceedings of the Fifteenth Language Resources and Evaluation Conference, pages 4257–4267, Palma de Mallorca, Spain. ELRA Language Resource Association."
+        },
+        "expected_venue_id": "573bb406d9c234d2dcbc",
+        "expected_venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "rationale": "LREC conference retains its own identity, distinct from the similarly named journal.",
+        "synthetic": false
+      },
+      {
+        "id": "lrec-etis",
+        "fields": {
+          "reference": "Lillepalu, Helena Grete; Alumäe, Tanel (2026). Estonian native large language model benchmark. <i>Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026.</i>  European Language Resources Association (ELRA), 4257−4267. DOI: 10.63317/5kocg97rooga.",
+          "publication_title": "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), Palma, Mallorca, Spain, 11 - 16 May, 2026",
+          "title": "Estonian native large language model benchmark",
+          "year": "2026"
+        },
+        "expected_venue_id": "573bb406d9c234d2dcbc",
+        "expected_venue": "International Conference on Language Resources and Evaluation (LREC)",
+        "rationale": "LREC conference retains its own identity, distinct from the similarly named journal.",
+        "synthetic": false
+      }
+    ]
+  },
+  "dataset_sha256": "6aa9f37ab05d2839d6388f1cfcdd6d427acce89a7f5df957c83625bb87f926c2",
+  "code_sha256": {
+    "app/matching.py": "19bd599b32572bd6d8aa3a5b921df99cbc7dcff200f3cffd87ae0a1d4e5c1031",
+    "benchmarks/policy_regressions.py": "013a8b9d22c4f16ac69858d577317f7792b2e4a4067a1b7e86fd61122a95e22f"
+  },
+  "started_at": "2026-10-19T08:45:00.171813+00:00",
+  "rounds": [
+    {
+      "method": "single",
+      "seconds": 38.791215207078494,
+      "scores": {
+        "n": 19,
+        "correct": 19,
+        "true_positive": 15,
+        "true_negative": 4,
+        "false_positive": 0,
+        "false_negative": 0,
+        "wrong_venue": 0,
+        "errors": 0,
+        "missing": 0,
+        "positive_errors": 0,
+        "negative_errors": 0,
+        "exact_accuracy": 1.0,
+        "match_precision": 1.0,
+        "match_recall": 1.0
+      },
+      "predictions": {
+        "challenge-in-paper-title": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "7785cced2c722e38f6a0",
+          "venue": "IEEE Access",
+          "memberships": [
+            {
+              "category_id": "eng",
+              "category": "Engineering & Computer Science",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng"
+            },
+            {
+              "category_id": "eng_enggeneral",
+              "category": "Engineering & Computer Science / Engineering & Computer Science (general)",
+              "rank": 1,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral"
+            }
+          ],
+          "note": "The structured journal field identifies IEEE Access; the EACL challenge mention is in the title and does not establish the publication venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "lrec-etis": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "573bb406d9c234d2dcbc",
+          "venue": "International Conference on Language Resources and Evaluation (LREC)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 7,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The reference identifies the proceedings of LREC 2026, matching the listed LREC conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "hci-late-breaking": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "df767d1ca593ed3a4c98",
+          "venue": "HCI International",
+          "memberships": [
+            {
+              "category_id": "eng_humancomputerinteraction",
+              "category": "Engineering & Computer Science / Human Computer Interaction",
+              "rank": 19,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction"
+            }
+          ],
+          "note": "The reference identifies HCI International 2025; its Late Breaking Papers proceedings are part of the conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "listed-workshop": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "993136ec957af629144d",
+          "venue": "IEEE Spoken Language Technology Workshop (SLT)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 11,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The reference identifies the 2021 IEEE Spoken Language Technology Workshop (SLT), matching the catalogue entry.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "lrec-plain": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "573bb406d9c234d2dcbc",
+          "venue": "International Conference on Language Resources and Evaluation (LREC)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 7,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The reference is in the Proceedings of the Language Resources and Evaluation Conference (LREC), matching the listed conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "companion-workshop": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference identifies a workshop in the EACL companion proceedings, not the EACL conference itself; this workshop is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "materials-design": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The venue is Materials & Design; it is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "speech-and": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "b680ee8ec1f09b9f1342",
+          "venue": "Computer Speech & Language",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The journal field identifies Computer Speech & Language; the reference’s spelling without the ampersand is an equivalent name.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-findings": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The reference identifies EACL Findings, an official track of the EACL conference; the catalogue lists the main conference.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "speech-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "b680ee8ec1f09b9f1342",
+          "venue": "Computer Speech & Language",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The journal field identifies Computer Speech & Language; the omitted ampersand is a harmless punctuation variation.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-demo": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The reference is from EACL 2026 System Demonstrations, an official track of the EACL conference.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "biomass-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "538a62acec901c592142",
+          "venue": "Biomass and Bioenergy",
+          "memberships": [
+            {
+              "category_id": "eng_biotechnology",
+              "category": "Engineering & Computer Science / Biotechnology",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_biotechnology"
+            },
+            {
+              "category_id": "eng_sustainableenergy",
+              "category": "Engineering & Computer Science / Sustainable Energy",
+              "rank": 19,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_sustainableenergy"
+            },
+            {
+              "category_id": "bio_biotechnology",
+              "category": "Life Sciences & Earth Sciences / Biotechnology",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_biotechnology"
+            },
+            {
+              "category_id": "bio_sustainableenergy",
+              "category": "Life Sciences & Earth Sciences / Sustainable Energy",
+              "rank": 19,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_sustainableenergy"
+            }
+          ],
+          "note": "The journal field identifies Biomass and Bioenergy; the missing ampersand is a harmless punctuation variation.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "materials-science": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference names “Journal of Material Science and Technology,” which does not clearly identify a listed venue; no match found.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-companion-proceedings": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "EACL Companion Proceedings are part of the EACL venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "topology-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "876b9ec09f7d0674e429",
+          "venue": "Algebraic & Geometric Topology",
+          "memberships": [
+            {
+              "category_id": "phy_geometry",
+              "category": "Physics & Mathematics / Geometry",
+              "rank": 13,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_geometry"
+            }
+          ],
+          "note": "The journal field identifies Algebraic & Geometric Topology; the missing ampersand is a harmless punctuation variation.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-challenge-track": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The EACL Challenge Track is an official track of EACL, so it matches the listed main conference.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "unlisted-workshop": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The cited venue is a workshop, which is distinct from its host conference; the workshop is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "speech-entity": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "b680ee8ec1f09b9f1342",
+          "venue": "Computer Speech & Language",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The reference and journal field identify Computer Speech & Language; the missing ampersand is a harmless export variation.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "security-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "20fe0024e443adc37a63",
+          "venue": "Computers & Security",
+          "memberships": [
+            {
+              "category_id": "eng_computersecuritycryptography",
+              "category": "Engineering & Computer Science / Computer Security & Cryptography",
+              "rank": 2,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computersecuritycryptography"
+            }
+          ],
+          "note": "The supplied journal field matches Computers & Security; the missing ampersand is a harmless punctuation variation.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        }
+      },
+      "requests": [
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112094,
+            "input_tokens_details": {
+              "cache_write_tokens": 41,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 93,
+            "output_tokens_details": {
+              "reasoning_tokens": 27
+            },
+            "total_tokens": 112187
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"7785cced2c722e38f6a0\",\"venue_name\":\"IEEE Access\",\"note\":\"The structured journal field identifies IEEE Access; the EACL challenge mention is in the title and does not establish the publication venue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 4.066026566899382,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112223,
+            "input_tokens_details": {
+              "cache_write_tokens": 170,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112289
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"573bb406d9c234d2dcbc\",\"venue_name\":\"International Conference on Language Resources and Evaluation (LREC)\",\"note\":\"The reference identifies the proceedings of LREC 2026, matching the listed LREC conference venue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.571484426036477,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112281,
+            "input_tokens_details": {
+              "cache_write_tokens": 228,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 87,
+            "output_tokens_details": {
+              "reasoning_tokens": 24
+            },
+            "total_tokens": 112368
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"df767d1ca593ed3a4c98\",\"venue_name\":\"HCI International\",\"note\":\"The reference identifies HCI International 2025; its Late Breaking Papers proceedings are part of the conference venue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.760410762974061,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112113,
+            "input_tokens_details": {
+              "cache_write_tokens": 60,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 102,
+            "output_tokens_details": {
+              "reasoning_tokens": 38
+            },
+            "total_tokens": 112215
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"993136ec957af629144d\",\"venue_name\":\"IEEE Spoken Language Technology Workshop (SLT)\",\"note\":\"The reference identifies the 2021 IEEE Spoken Language Technology Workshop (SLT), matching the catalogue entry.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.9543047869810835,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112124,
+            "input_tokens_details": {
+              "cache_write_tokens": 71,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 107,
+            "output_tokens_details": {
+              "reasoning_tokens": 36
+            },
+            "total_tokens": 112231
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"573bb406d9c234d2dcbc\",\"venue_name\":\"International Conference on Language Resources and Evaluation (LREC)\",\"note\":\"The reference is in the Proceedings of the Language Resources and Evaluation Conference (LREC), matching the listed conference venue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.8545256860088557,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112101,
+            "input_tokens_details": {
+              "cache_write_tokens": 48,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 84,
+            "output_tokens_details": {
+              "reasoning_tokens": 28
+            },
+            "total_tokens": 112185
+          },
+          "output_text": "{\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference identifies a workshop in the EACL companion proceedings, not the EACL conference itself; this workshop is not listed in the catalogue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.8169023540103808,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112227,
+            "input_tokens_details": {
+              "cache_write_tokens": 174,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 41,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112268
+          },
+          "output_text": "{\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The venue is Materials & Design; it is not listed in the catalogue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 2.031466820044443,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112084,
+            "input_tokens_details": {
+              "cache_write_tokens": 31,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 64,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112148
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"b680ee8ec1f09b9f1342\",\"venue_name\":\"Computer Speech & Language\",\"note\":\"The journal field identifies Computer Speech & Language; the reference’s spelling without the ampersand is an equivalent name.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 2.7971287040272728,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112099,
+            "input_tokens_details": {
+              "cache_write_tokens": 46,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 74,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112173
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"The reference identifies EACL Findings, an official track of the EACL conference; the catalogue lists the main conference.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.576070352923125,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112084,
+            "input_tokens_details": {
+              "cache_write_tokens": 31,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 61,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112145
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"b680ee8ec1f09b9f1342\",\"venue_name\":\"Computer Speech & Language\",\"note\":\"The journal field identifies Computer Speech & Language; the omitted ampersand is a harmless punctuation variation.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.7303380660014227,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112269,
+            "input_tokens_details": {
+              "cache_write_tokens": 216,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 73,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112342
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"The reference is from EACL 2026 System Demonstrations, an official track of the EACL conference.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.4898736830800772,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112087,
+            "input_tokens_details": {
+              "cache_write_tokens": 34,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 98,
+            "output_tokens_details": {
+              "reasoning_tokens": 36
+            },
+            "total_tokens": 112185
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"538a62acec901c592142\",\"venue_name\":\"Biomass and Bioenergy\",\"note\":\"The journal field identifies Biomass and Bioenergy; the missing ampersand is a harmless punctuation variation.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 2.2687376480316743,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112314,
+            "input_tokens_details": {
+              "cache_write_tokens": 261,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 50,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112364
+          },
+          "output_text": "{\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference names “Journal of Material Science and Technology,” which does not clearly identify a listed venue; no match found.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.9033712820382789,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112101,
+            "input_tokens_details": {
+              "cache_write_tokens": 48,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112164
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"EACL Companion Proceedings are part of the EACL venue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 2.0488668989855796,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112091,
+            "input_tokens_details": {
+              "cache_write_tokens": 38,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 67,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112158
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"876b9ec09f7d0674e429\",\"venue_name\":\"Algebraic & Geometric Topology\",\"note\":\"The journal field identifies Algebraic & Geometric Topology; the missing ampersand is a harmless punctuation variation.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 2.0593031130265445,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112101,
+            "input_tokens_details": {
+              "cache_write_tokens": 48,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 72,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112173
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"The EACL Challenge Track is an official track of EACL, so it matches the listed main conference.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.9735155699308962,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112105,
+            "input_tokens_details": {
+              "cache_write_tokens": 52,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 72,
+            "output_tokens_details": {
+              "reasoning_tokens": 20
+            },
+            "total_tokens": 112177
+          },
+          "output_text": "{\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The cited venue is a workshop, which is distinct from its host conference; the workshop is not listed in the catalogue.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.9580674089957029,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112086,
+            "input_tokens_details": {
+              "cache_write_tokens": 33,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 112149
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"b680ee8ec1f09b9f1342\",\"venue_name\":\"Computer Speech & Language\",\"note\":\"The reference and journal field identify Computer Speech & Language; the missing ampersand is a harmless export variation.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.8275839219568297,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112083,
+            "input_tokens_details": {
+              "cache_write_tokens": 30,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 80,
+            "output_tokens_details": {
+              "reasoning_tokens": 20
+            },
+            "total_tokens": 112163
+          },
+          "output_text": "{\"matched\":true,\"venue_id\":\"20fe0024e443adc37a63\",\"venue_name\":\"Computers & Security\",\"note\":\"The supplied journal field matches Computers & Security; the missing ampersand is a harmless punctuation variation.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 2.0947741540148854,
+          "http_attempts": 1
+        }
+      ],
+      "fallbacks": 0,
+      "verifications": 0
+    },
+    {
+      "method": "batch",
+      "seconds": 20.873376740026288,
+      "scores": {
+        "n": 19,
+        "correct": 18,
+        "true_positive": 14,
+        "true_negative": 4,
+        "false_positive": 0,
+        "false_negative": 1,
+        "wrong_venue": 0,
+        "errors": 0,
+        "missing": 0,
+        "positive_errors": 0,
+        "negative_errors": 0,
+        "exact_accuracy": 0.9473684210526315,
+        "match_precision": 1.0,
+        "match_recall": 0.9333333333333333
+      },
+      "predictions": {
+        "challenge-in-paper-title": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "7785cced2c722e38f6a0",
+          "venue": "IEEE Access",
+          "memberships": [
+            {
+              "category_id": "eng",
+              "category": "Engineering & Computer Science",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng"
+            },
+            {
+              "category_id": "eng_enggeneral",
+              "category": "Engineering & Computer Science / Engineering & Computer Science (general)",
+              "rank": 1,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral"
+            }
+          ],
+          "note": "The journal field explicitly identifies IEEE Access; the EACL mention in the title does not change the publication venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "lrec-etis": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "573bb406d9c234d2dcbc",
+          "venue": "International Conference on Language Resources and Evaluation (LREC)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 7,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The publication title identifies the LREC proceedings.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "hci-late-breaking": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "df767d1ca593ed3a4c98",
+          "venue": "HCI International",
+          "memberships": [
+            {
+              "category_id": "eng_humancomputerinteraction",
+              "category": "Engineering & Computer Science / Human Computer Interaction",
+              "rank": 19,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction"
+            }
+          ],
+          "note": "Late Breaking Papers are an official HCI International proceedings track, matching the listed main conference.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "listed-workshop": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "993136ec957af629144d",
+          "venue": "IEEE Spoken Language Technology Workshop (SLT)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 11,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The reference identifies the IEEE Spoken Language Technology Workshop.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "lrec-plain": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "573bb406d9c234d2dcbc",
+          "venue": "International Conference on Language Resources and Evaluation (LREC)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 7,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The proceedings reference identifies LREC.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "companion-workshop": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "This is an EACL-associated workshop, which is distinct from the main conference and is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "materials-design": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Materials & Design is not listed in the catalogue; Materials is a different journal.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "speech-and": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Computer Speech and Language is not the listed journal Computer Speech & Language; the substantive connector differs.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-findings": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "Findings is an official EACL proceedings track, matching the listed main conference.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "speech-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "b680ee8ec1f09b9f1342",
+          "venue": "Computer Speech & Language",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The punctuation-free input identifies the listed journal Computer Speech & Language.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-demo": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "System Demonstrations are an official EACL track; matched to the canonical EACL entry.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "biomass-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "538a62acec901c592142",
+          "venue": "Biomass and Bioenergy",
+          "memberships": [
+            {
+              "category_id": "eng_biotechnology",
+              "category": "Engineering & Computer Science / Biotechnology",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_biotechnology"
+            },
+            {
+              "category_id": "eng_sustainableenergy",
+              "category": "Engineering & Computer Science / Sustainable Energy",
+              "rank": 19,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_sustainableenergy"
+            },
+            {
+              "category_id": "bio_biotechnology",
+              "category": "Life Sciences & Earth Sciences / Biotechnology",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_biotechnology"
+            },
+            {
+              "category_id": "bio_sustainableenergy",
+              "category": "Life Sciences & Earth Sciences / Sustainable Energy",
+              "rank": 19,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_sustainableenergy"
+            }
+          ],
+          "note": "The missing ampersand is harmless; this identifies Biomass & Bioenergy.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "materials-science": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Journal of Materials Science and Technology is not listed; the similarly named catalogue venues are distinct.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-companion-proceedings": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "EACL companion proceedings are part of the EACL venue; matched to its canonical entry.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "topology-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "876b9ec09f7d0674e429",
+          "venue": "Algebraic & Geometric Topology",
+          "memberships": [
+            {
+              "category_id": "phy_geometry",
+              "category": "Physics & Mathematics / Geometry",
+              "rank": 13,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_geometry"
+            }
+          ],
+          "note": "The missing ampersand is harmless; this identifies Algebraic & Geometric Topology.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "eacl-challenge-track": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "06d3be002d15cce64615",
+          "venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            }
+          ],
+          "note": "The Challenge Track is an official EACL track; matched to the canonical EACL entry.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "unlisted-workshop": {
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The workshop is a distinct venue and is not listed; co-location with EACL does not make it EACL.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "speech-entity": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "b680ee8ec1f09b9f1342",
+          "venue": "Computer Speech & Language",
+          "memberships": [
+            {
+              "category_id": "eng_computationallinguistics",
+              "category": "Engineering & Computer Science / Computational Linguistics",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computationallinguistics"
+            },
+            {
+              "category_id": "phy_acousticssound",
+              "category": "Physics & Mathematics / Acoustics & Sound",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_acousticssound"
+            }
+          ],
+          "note": "The entity fragment in the input is a punctuation variation for the ampersand.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "security-missing": {
+          "status": "matched",
+          "matched": true,
+          "venue_id": "20fe0024e443adc37a63",
+          "venue": "Computers & Security",
+          "memberships": [
+            {
+              "category_id": "eng_computersecuritycryptography",
+              "category": "Engineering & Computer Science / Computer Security & Cryptography",
+              "rank": 2,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computersecuritycryptography"
+            }
+          ],
+          "note": "The omitted ampersand is harmless; this identifies Computers & Security.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        }
+      },
+      "requests": [
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113128,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 537,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 113665
+          },
+          "output_text": "{\"results\":[{\"id\":\"challenge-in-paper-title\",\"matched\":true,\"venue_id\":\"7785cced2c722e38f6a0\",\"venue_name\":\"IEEE Access\",\"note\":\"The journal field explicitly identifies IEEE Access; the EACL mention in the title does not change the publication venue.\"},{\"id\":\"lrec-etis\",\"matched\":true,\"venue_id\":\"573bb406d9c234d2dcbc\",\"venue_name\":\"International Conference on Language Resources and Evaluation (LREC)\",\"note\":\"The publication title identifies the LREC proceedings.\"},{\"id\":\"hci-late-breaking\",\"matched\":true,\"venue_id\":\"df767d1ca593ed3a4c98\",\"venue_name\":\"HCI International\",\"note\":\"Late Breaking Papers are an official HCI International proceedings track, matching the listed main conference.\"},{\"id\":\"listed-workshop\",\"matched\":true,\"venue_id\":\"993136ec957af629144d\",\"venue_name\":\"IEEE Spoken Language Technology Workshop (SLT)\",\"note\":\"The reference identifies the IEEE Spoken Language Technology Workshop.\"},{\"id\":\"lrec-plain\",\"matched\":true,\"venue_id\":\"573bb406d9c234d2dcbc\",\"venue_name\":\"International Conference on Language Resources and Evaluation (LREC)\",\"note\":\"The proceedings reference identifies LREC.\"},{\"id\":\"companion-workshop\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"This is an EACL-associated workshop, which is distinct from the main conference and is not listed in the catalogue.\"},{\"id\":\"materials-design\",\"matched\":true,\"venue_id\":\"c2cbe?\",\"venue_name\":\"Materials & Design\",\"note\":\"The journal field and reference identify Materials & Design; the missing ampersand in the journal field is a harmless punctuation variation.\"},{\"id\":\"speech-and\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Computer Speech and Language is not the listed journal Computer Speech & Language; the substantive connector differs.\"},{\"id\":\"eacl-findings\",\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"Findings is an official EACL proceedings track, matching the listed main conference.\"},{\"id\":\"speech-missing\",\"matched\":true,\"venue_id\":\"b680ee8ec1f09b9f1342\",\"venue_name\":\"Computer Speech & Language\",\"note\":\"The punctuation-free input identifies the listed journal Computer Speech & Language.\"}] }",
+          "model": "gpt-6-luna",
+          "seconds": 6.602215050952509,
+          "http_attempts": 1
+        },
+        {
+          "batch": false,
+          "verification": false,
+          "usage": {
+            "input_tokens": 112227,
+            "input_tokens_details": {
+              "cache_write_tokens": 174,
+              "cached_tokens": 112050
+            },
+            "output_tokens": 87,
+            "output_tokens_details": {
+              "reasoning_tokens": 43
+            },
+            "total_tokens": 112314
+          },
+          "output_text": "{\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Materials & Design is not listed in the catalogue; Materials is a different journal.\"}",
+          "model": "gpt-6-luna",
+          "seconds": 1.8273598100058734,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113005,
+            "input_tokens_details": {
+              "cache_write_tokens": 836,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 725,
+            "output_tokens_details": {
+              "reasoning_tokens": 201
+            },
+            "total_tokens": 113730
+          },
+          "output_text": "{\"results\":[{\"id\":\"eacl-demo\",\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"System Demonstrations are an official EACL track; matched to the canonical EACL entry.\"},{\"id\":\"biomass-missing\",\"matched\":true,\"venue_id\":\"538a62acec901c592142\",\"venue_name\":\"Biomass and Bioenergy\",\"note\":\"The missing ampersand is harmless; this identifies Biomass & Bioenergy.\"},{\"id\":\"materials-science\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Journal of Materials Science and Technology is not listed; the similarly named catalogue venues are distinct.\"},{\"id\":\"eacl-companion-proceedings\",\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"EACL companion proceedings are part of the EACL venue; matched to its canonical entry.\"},{\"id\":\"topology-missing\",\"matched\":true,\"venue_id\":\"876b9ec09f7d0674e429\",\"venue_name\":\"Algebraic & Geometric Topology\",\"note\":\"The missing ampersand is harmless; this identifies Algebraic & Geometric Topology.\"},{\"id\":\"eacl-challenge-track\",\"matched\":true,\"venue_id\":\"06d3be002d15cce64615\",\"venue_name\":\"Conference of the European Chapter of the Association for Computational Linguistics (EACL)\",\"note\":\"The Challenge Track is an official EACL track; matched to the canonical EACL entry.\"},{\"id\":\"unlisted-workshop\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The workshop is a distinct venue and is not listed; co-location with EACL does not make it EACL.\"},{\"id\":\"speech-entity\",\"matched\":true,\"venue_id\":\"b680ee8ec1f09b9f1342\",\"venue_name\":\"Computer Speech & Language\",\"note\":\"The entity fragment in the input is a punctuation variation for the ampersand.\"},{\"id\":\"security-missing\",\"matched\":true,\"venue_id\":\"20fe0024e443adc37a63\",\"venue_name\":\"Computers & Security\",\"note\":\"The omitted ampersand is harmless; this identifies Computers & Security.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 12.441144485026598,
+          "http_attempts": 1
+        }
+      ],
+      "fallbacks": 1,
+      "verifications": 0
+    }
+  ]
+}

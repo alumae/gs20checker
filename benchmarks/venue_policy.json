@@ -1,0 +1,72 @@
+{
+  "version": "2",
+  "prompt_version": "5",
+  "frozen_at": "2026-10-19T08:26:35.375357+00:00",
+  "authority": "User instruction: count companion/Demo/Challenge proceedings as the main conference, excluding workshops; tolerate special characters lost in ETIS exports.",
+  "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+  "dataset_sha256": {
+    "benchmarks/testset.json": "72050c7efa6acd21409dcf5378a449629e9a8ba717356d0fe4a68cf914f16fc4",
+    "benchmarks/fresh50.json": "84aab48a7e64c065a5c3ffa1373636c16002228b26895d6ce4ab02d7b7ab2aad"
+  },
+  "rules": [
+    "Official companion tracks, including demonstrations, challenges, findings and late-breaking papers, count as the parent conference. Prefer its listed main entry; otherwise accept the exact listed track.",
+    "Workshops never inherit the host conference identity, including workshops in companion volumes. A listed workshop can match its own entry.",
+    "Missing punctuation, ampersands, corrupted HTML entities and connective and do not change identity when the remaining full venue name is clear. Different substantive words still identify different venues.",
+    "Output catalogue IDs and canonical names remain exact; no fuzzy scoring of different journals."
+  ],
+  "changes": [
+    {
+      "id": "etis-0967",
+      "previous_expected_venue_id": null,
+      "expected_venue_id": "06d3be002d15cce64615",
+      "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "resolved_venue": "EACL 2026, Proceedings of System Demonstrations",
+      "rationale": "The reference explicitly identifies the EACL demonstrations proceedings. Under the user-defined companion-track policy this counts as the main EACL conference, not EMNLP demonstrations.",
+      "evidence": [
+        "User-defined venue policy, version 2",
+        "sample_data/Publications.xlsx#row=967",
+        "data/venues.json#06d3be002d15cce64615"
+      ]
+    }
+  ],
+  "reviewed_unchanged": [
+    {
+      "ids": [
+        "etis-1141"
+      ],
+      "reason": "The prior HCI audit already labels Late Breaking Papers as HCI International."
+    },
+    {
+      "ids": [
+        "etis-0032",
+        "etis-0157",
+        "etis-0229",
+        "etis-1062",
+        "etis-1106"
+      ],
+      "reason": "Listed venues already match despite missing ampersands or and/ampersand variants."
+    },
+    {
+      "ids": [
+        "etis-0063",
+        "etis-0270",
+        "etis-0890"
+      ],
+      "reason": "Restoring punctuation does not add an absent venue to the catalogue or replace substantive words; remain unmatched."
+    },
+    {
+      "ids": [
+        "etis-0116",
+        "etis-0658",
+        "etis-0811"
+      ],
+      "reason": "Unlisted workshops remain unmatched; host conference membership is insufficient."
+    },
+    {
+      "ids": [
+        "etis-1152"
+      ],
+      "reason": "Doctoral consortium/companion eligibility does not create membership for an unlisted parent conference."
+    }
+  ]
+}

@@ -1,0 +1,1938 @@
+{
+  "started_at": "2026-10-19T08:42:42.767529+00:00",
+  "model": "gpt-6-luna",
+  "prompt_version": "6",
+  "candidate_verification": false,
+  "status": "complete",
+  "rounds": [
+    {
+      "pass": 1,
+      "order": [
+        "etis-0495",
+        "etis-0325",
+        "etis-0910",
+        "etis-0616",
+        "etis-0480",
+        "etis-1044",
+        "etis-0395",
+        "etis-0722",
+        "etis-0145",
+        "etis-0217",
+        "etis-0725",
+        "etis-0213",
+        "etis-0345",
+        "etis-0890",
+        "etis-0481",
+        "etis-0108",
+        "etis-0475",
+        "etis-0497",
+        "etis-0445",
+        "etis-0707",
+        "etis-1143",
+        "etis-0214",
+        "etis-0515",
+        "etis-0118",
+        "etis-1029",
+        "etis-0270",
+        "etis-1113",
+        "etis-0825",
+        "etis-0629",
+        "etis-0219",
+        "etis-0092",
+        "etis-0115",
+        "etis-1137",
+        "etis-0956",
+        "etis-0501",
+        "etis-0994",
+        "etis-1024",
+        "etis-0017",
+        "etis-0193",
+        "etis-0473",
+        "etis-0076",
+        "etis-0357",
+        "etis-0369",
+        "etis-0711",
+        "etis-0567",
+        "etis-0224",
+        "etis-0153",
+        "etis-1081",
+        "etis-0444",
+        "etis-0729"
+      ],
+      "predictions": {
+        "etis-0495": {
+          "sheet": "_workSheetName",
+          "row": 495,
+          "reference": "Lorenz, Birgy (2026). What Students Expect from Schools About Artificial Intelligence: Rules, Guidance, and Human-Centred Implementation. <i>EDULEARN26 Proceedings: 18th annual International Conference on Education and New Learning Technologies, Palma (Spain) - 29th June - 1st July 2026.</i>   Electronic Conference Proceedings:  IATED, art. 2003. DOI: 10.21125/edulearn.2026.2003.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "EDULEARN26 (International Conference on Education and New Learning Technologies) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0325": {
+          "sheet": "_workSheetName",
+          "row": 325,
+          "reference": "Vallner, A.; Leismann, E.; Kuusk. P.; Pärtna, J.; Ellmann, A. (2026). MIIGAiK-i lõpetanute meenutusi. Geodeet, 53 (77),  129−132.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Geodeet is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0910": {
+          "sheet": "_workSheetName",
+          "row": 910,
+          "reference": "Pikta, M.; Mettis, LJ.; Rea, A.; Titova, T.; Arjakse, J.; Siirand, MS.; Rahuoja, K.; Suursaar, K.; Saks, K. (2026). Preliminary results of the evaluation of pharmacokinetic profiles in Haemophilia A patients receiving Efanesoctocog Alfa. Haemophilia, 32 (S1, 19th Annual Congress of European Association for Haemophilia and Allied Disorders 2026, February 3–6, 2026, Dublin),  41. DOI: 10.1111/hae.70195.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Haemophilia is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0616": {
+          "sheet": "_workSheetName",
+          "row": 616,
+          "reference": "Pallas Tairi; Lips, Silvia; Azmat, Sidra; Täks, Ermo; Ahmed, Rozha (2026). Implementing large-scale information systems in the European Union: challenges, governance, and lessons from practice. <i>The 2nd International Conference on Next Generation Information Systems Engineering Hybrid Conference, NGISE 2026, Ghaziabad, Delhi NCR, India, 28th–29th October 2026.</i>  Springer. (Communications in Computer and Information Science ) [ilmumas].",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The 2nd International Conference on Next Generation Information Systems Engineering is not listed; the cited Communications in Computer and Information Science series is not a matching conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0480": {
+          "sheet": "_workSheetName",
+          "row": 480,
+          "reference": "Shahid, Arqum; Ahmadiahangar, Roya; Rosin, Argo; Korõtko, Tarmo (2026). Integrating BRP and Aggregator Roles for Imbalance Management and Frequency Regulation using Demand-side Flexibility. <i>2026 IEEE Green Technologies Conference (GreenTech): 2026 IEEE Green Technologies Conference (GreenTech), Boulder, CO, USA, 25-27 March 2026.</i>  IEEE, 1−6. DOI: 10.1109/GreenTech68285.2026.11471579.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "IEEE Green Technologies Conference (GreenTech) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1044": {
+          "sheet": "_workSheetName",
+          "row": 1044,
+          "reference": "N. Nazeer, M. Leier, U. Reinsalu, A. Tepljakov (2026). FOCUS: A failure-tolerant visual-inertial odometry using contextual understanding and sensor fusion,. <i>International Conference on Mechatronics and Robotics Engineering (ICMRE).</i>  IEEE [ilmumas].",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "International Conference on Mechatronics and Robotics Engineering (ICMRE) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0395": {
+          "sheet": "_workSheetName",
+          "row": 395,
+          "reference": "Khalid, Sadia (2026). Inclusive Healthcare: Improving Accessibility and Care for Disabled Patients through Investment and Workforce Innovation. World economic forum/ European sting, 13.02.2026.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "World Economic Forum / European Sting is not listed as a publication venue in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0722": {
+          "sheet": "_workSheetName",
+          "row": 722,
+          "reference": "Sardar, Muhammad Usman; Vaimann, Toomas; Kütt, Lauri; Asad, Bilal; Kallaste, Ants; Rassõlkin, Anton (2026). Modeling Cable-Fed Induction Motor Drives with Optimized Impedance Characterization Across a Low to High-Frequency Spectrum. IEEE Transactions on Energy Conversion, 41 (2),  1055−1069. DOI: 10.1109/TEC.2025.3630465.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "53f788751c1dbf5d69ca",
+          "venue": "IEEE Transactions on Energy Conversion",
+          "memberships": [
+            {
+              "category_id": "eng_powerengineering",
+              "category": "Engineering & Computer Science / Power Engineering",
+              "rank": 10,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_powerengineering"
+            }
+          ],
+          "note": "The journal field exactly identifies a listed catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0145": {
+          "sheet": "_workSheetName",
+          "row": 145,
+          "reference": "Kübarsepp, Jakob  (2026). Et eesti keel ei taanduks teaduses kõrvalkeeleks. Novaator, 26.02.2026.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Novaator is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0217": {
+          "sheet": "_workSheetName",
+          "row": 217,
+          "reference": "te Duits, Tijs; Frasincar, Flavius; Robal, Tarmo (2026). Data Augmentation for Aspect Sentiment Classification. <i>SAC #39;26 : Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing: The 41st Annual ACM Symposium on Applied Computing, Thessaloniki, Greece, March 23–27, 2026.</i>  ACM, 2144−2145. DOI: 10.1145/3748522.3779890.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "ACM Symposium on Applied Computing (SAC) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0725": {
+          "sheet": "_workSheetName",
+          "row": 725,
+          "reference": "Ahmadzai, Palwasha (2026). A system of systems approach for smart city development: technological innovation, human-centered design, and governance challenges. In: Iman Rahimi, Ali Emrouznejad, Amir Hossein Gandomi (Ed.).  Smart Cities: A System-of-Systems Perspective: Engineering, Analytics, and Innovations for Sustainable Urban Development. (23−37).  Elsevier. DOI: 10.1016/B978-0-443-45550-6.00010-2.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "This is a chapter in an edited book published by Elsevier, not a venue listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0213": {
+          "sheet": "_workSheetName",
+          "row": 213,
+          "reference": "Shahin, Mahtab; Malhi, Avleen; Khorasani, Mahsa; Palu, Riina; Kim, Austin; Bauk, Sanja; Soe, Ralf-Martin  (2026). CARGO: Compliant Analytics for Resilient Governance and Orchestration of Maritime Emissions in an Explainable Serverless Framework. IEEE Access, 14,  87631−87649. DOI: 10.1109/ACCESS.2026.3694764.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "7785cced2c722e38f6a0",
+          "venue": "IEEE Access",
+          "memberships": [
+            {
+              "category_id": "eng",
+              "category": "Engineering & Computer Science",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng"
+            },
+            {
+              "category_id": "eng_enggeneral",
+              "category": "Engineering & Computer Science / Engineering & Computer Science (general)",
+              "rank": 1,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral"
+            }
+          ],
+          "note": "The structured journal field and reference identify IEEE Access.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0345": {
+          "sheet": "_workSheetName",
+          "row": 345,
+          "reference": "Sun, Zhenglong; Sun, Bin; Li, Zhenxin; Jia, Songyue; Yang, Hao; Belikov, Juri; Levron, Yoash (2026). Adaptive staged excitation control strategy for distributed synchronous condenser to suppress overvoltage in wind farms of HVDC-based renewable rich systems. Electric Power Systems Research, 252,  Art. no. 112463; 10 pp. DOI: 10.1016/j.epsr.2025.112463.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "f8f6cdb69f1ed1473224",
+          "venue": "Electric Power Systems Research",
+          "memberships": [
+            {
+              "category_id": "eng_powerengineering",
+              "category": "Engineering & Computer Science / Power Engineering",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_powerengineering"
+            }
+          ],
+          "note": "The structured journal field and reference identify Electric Power Systems Research.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0890": {
+          "sheet": "_workSheetName",
+          "row": 890,
+          "reference": "Rafique, Nouman; Koel, Mihkel; Reile, Indrek; Järvik, Oliver (2026). Fatty Acid-Based (Deep) Eutectic Solvents Thermodynamic Behavior and Thermal Properties for Low-Temperature Thermal Energy Storage. Journal of Chemical amp; Engineering Data,  1−16. DOI: 10.1021/acs.jced.6c00328.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference identifies Journal of Chemical Engineering Data; that journal is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0481": {
+          "sheet": "_workSheetName",
+          "row": 481,
+          "reference": "Nguyen, Thi Thanh Ngân; Pham, Thanh Chung; Osadchuk, Irina; Reitalu, Rauno; Jarg, Tatsiana; Suut-Tuule, Elina; Kudrjašova, Marina; Öeren, Mario; Kananovich, Dzmitry; Dehaen, Wim; Aav, Riina (2026). New BODIPY-Based Fluorescent Probes with Selective Sensing of Salts.  1−25. DOI: 10.26434/chemrxiv.15004625/v2.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "This is a ChemRxiv preprint, not a published venue listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0108": {
+          "sheet": "_workSheetName",
+          "row": 108,
+          "reference": "Vaičiulis, Vidmantas; Domkutė, Gabrielė; Papadima, Anna; Radišauskas, Ričardas; Annus, Ivar; Kaur, Katrin; Kalinienė, Gintarė (2026). Climate Change Impacts on Human Health in the Northern Hemisphere: A Narrative Review. Atmosphere, 17 (8),  736. DOI: 10.3390/atmos17080736.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "01f475d4e564a846acdd",
+          "venue": "Atmosphere",
+          "memberships": [
+            {
+              "category_id": "bio_atmosphericsciences",
+              "category": "Life Sciences & Earth Sciences / Atmospheric Sciences",
+              "rank": 5,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_atmosphericsciences"
+            }
+          ],
+          "note": "The structured journal field and reference identify Atmosphere.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0475": {
+          "sheet": "_workSheetName",
+          "row": 475,
+          "reference": "Dikcius, Vytautas; Vilkaite – Vaitone, Neringa; Hollebeek, Linda D.; Adomaviciute – Sakalauske, Karina; Zimaitis, Ignas; Kirse, Sigita; Jansson, Johan (2026). The Effect of Customers’ Extrinsic and Intrinsic Motivation on Their e-Commerce Store Loyalty: A Four-Country Comparison. Journal of International Consumer Marketing, 38 (2),  153−169. DOI: 10.1080/08961530.2025.2549681.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Journal of International Consumer Marketing is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0497": {
+          "sheet": "_workSheetName",
+          "row": 497,
+          "reference": "Laidroo, Laivi; Vanari, Kätlin (2026). Thesis Finalisation Self-efficacy – A Useful Concept for Improving Undergraduate Thesis Supervision. Journal of University Teaching and Learning Practice, 23, 3,  1−25. DOI: 10.53761/kqwc4728.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "26ec163ef8d23fe23ec8",
+          "venue": "Journal of University Teaching and Learning Practice",
+          "memberships": [
+            {
+              "category_id": "soc_highereducation",
+              "category": "Social Sciences / Higher Education",
+              "rank": 12,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=soc_highereducation"
+            }
+          ],
+          "note": "The structured journal field and reference identify Journal of University Teaching and Learning Practice.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0445": {
+          "sheet": "_workSheetName",
+          "row": 445,
+          "reference": "Chochia, Archil (2026). Beyond the Lecture: Cultivating Global Legal Minds Through Cognitive Diversity. <i>Legal-tech Conference Future Law, Tallinn, Estonia, 14-15 May, 2026.</i>  LEGID.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Legal-tech Conference Future Law is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0707": {
+          "sheet": "_workSheetName",
+          "row": 707,
+          "reference": "Klauson, Deniss; Lember, Erki; Jaaku, Jaak (2026). Bromides in treated wastewater: limiting the choice of quaternary wastewater treatment technologies for residual micropollutant removal. An Estonian case study. Proceedings of the  Estonian  Academy of Sciences, 75 (1),  87−95. DOI: 10.3176/proc.2026.1.08.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Proceedings of the Estonian Academy of Sciences is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1143": {
+          "sheet": "_workSheetName",
+          "row": 1143,
+          "reference": "Adegbile, Ademola Michael; Yörük, Can Rüstü; Pantšenko, Nata-Ly; Uibu, Mai; Thomas, Adheena; Trikkel, Andres (2026). Thermal analysis and kinetics of Estonian clays under varied calcination atmospheres. Journal of Thermal Analysis and Calorimetry,  1−12. DOI: 10.1007/s10973-026-15736-5.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "9b2670243ddd2836d0c5",
+          "venue": "Journal of Thermal Analysis and Calorimetry",
+          "memberships": [
+            {
+              "category_id": "phy_thermalsciences",
+              "category": "Physics & Mathematics / Thermal Sciences",
+              "rank": 4,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_thermalsciences"
+            }
+          ],
+          "note": "Journal field matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0214": {
+          "sheet": "_workSheetName",
+          "row": 214,
+          "reference": "Nallaparaju, Jagadeesh Varma; Aav, Riina; Kananovich, Dzmitry (2026). Mechanochemistry: A Transformative Technique for the Synthesis of Polar Organometallics from Zero-Valent Metals. ChemPlusChem, 91 (1),  #e202500445. DOI: 10.1002/cplu.202500445.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "ChemPlusChem is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0515": {
+          "sheet": "_workSheetName",
+          "row": 515,
+          "reference": "Tkačevs, Oļegs; Staehr, Karsten (2026). The effects of macroeconomic and budget balance shocks on public debt trajectories in the euro area. International Economics and Economic Policy, 23 (51),  art. 51. DOI: 10.1007/s10368-026-00751-6.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "International Economics and Economic Policy is not listed; it is distinct from International Economics.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0118": {
+          "sheet": "_workSheetName",
+          "row": 118,
+          "reference": "Karimi, Hamed; Gustavson, Otto; Česnokova, Irina; Branovets, Jelena; Birkedal, Rikke; Laasmaa, Martin; Vendelin, Marko (2026). A Unified Platform for FCS and RICS Analysis with Advanced Statistical Inference. ACS Omega, 11 (12),  19201−19219. DOI: 10.1021/acsomega.5c12269.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "cdc2e2c253940b15d812",
+          "venue": "ACS Omega",
+          "memberships": [
+            {
+              "category_id": "chm_chmgeneral",
+              "category": "Chemical & Material Sciences / Chemical & Material Sciences (general)",
+              "rank": 17,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=chm_chmgeneral"
+            }
+          ],
+          "note": "Journal field exactly matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1029": {
+          "sheet": "_workSheetName",
+          "row": 1029,
+          "reference": "Matulevičius, Raimundas; Robal, Tarmo; Kornyshova, Elena; Nikiforova, Anastasija;  Liiv, Innar (Ed.) (2026). Matulevičius, Raimundas; Robal, Tarmo; Kornyshova, Elena; Nikiforova, Anastasija;  Liiv, Innar. Digital Business and Intelligent Systems. 17th International Baltic Conference, Baltic DBamp;IS, Tartu, Estonia, June 28–July 1, 2026 :  Proceedings. (XXI, 334).  Cham: Springer. (Communications in Computer and Information Science; 3085). DOI: 10.1007/978-3-032-30863-4.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The cited publication is a proceedings volume in the Communications in Computer and Information Science series; that series and the International Baltic Conference are not listed as a matching venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0270": {
+          "sheet": "_workSheetName",
+          "row": 270,
+          "reference": "Zhu, Saisai; Liu, Guoqing; Wang, Pei; Zhang, Jian; Yang, Lijun; Wu, Mingwei; Kang, Nan; El Mansori, Mohamed; Prashanth, Konda Gokuldoss; Zhang, Yulei (2026). Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation. Materials amp; Design, 265,  art. 115890. DOI: 10.1016/j.matdes.2026.115890.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Materials & Design is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1113": {
+          "sheet": "_workSheetName",
+          "row": 1113,
+          "reference": "Thirumal Muthu, Kannan; Ojangu, Eve-Ly; Zovo, Kairit; Jõul, Piia; Illarionov, Aleksandr; Ho, Thi  Thuy Tran; Risti, Robert; Karpichev, Yevgen; Lukk, Tiit; Lahtvee, Petri-Jaan (2026). Uncovering the potential of Bacillus licheniformis in the utilisation of lignin-derived aromatics: Insights from transcriptomic analysis. SSRN Working Paper Series,  1−41. DOI: 10.2139/ssrn.6281837.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "SSRN Working Paper Series is a working-paper venue and is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0825": {
+          "sheet": "_workSheetName",
+          "row": 825,
+          "reference": "Võsa, Karl-Villem; Simson, Raimo; Mikola, Alo; Kurnitski, Jarek (2026). European Heat Pump Keymark Population Dataset and COP Models for Cold-Climate Building Simulation.  DOI: 10.5281/zenodo.20627396.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Zenodo is a repository, not a listed publication venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0629": {
+          "sheet": "_workSheetName",
+          "row": 629,
+          "reference": "Hordoir, Robinson; Jahanmard, Vahidreza; Isachsen, Pål Erik; Löptien, Ulrike; Dietze, Heiner; Sandø, Anne Britt; Lien, Vidar S. (2026). Barents Sea atlantification driven by a shift in atmospheric synoptic timescale. Nature Climate Change, 16,  179−186. DOI: 10.1038/s41558-025-02535-3.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "4b73263746b91d7b0346",
+          "venue": "Nature Climate Change",
+          "memberships": [
+            {
+              "category_id": "bio_environmentalsciences",
+              "category": "Life Sciences & Earth Sciences / Environmental Sciences",
+              "rank": 10,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_environmentalsciences"
+            }
+          ],
+          "note": "Journal field matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0219": {
+          "sheet": "_workSheetName",
+          "row": 219,
+          "reference": "Sonja, Kõrvits; Tarmo, All; Heidi, Soosalu; Argo, Jõeleht; (2026). Crustal thickness of Estonia – results from seismic receiver function\nmethod and gravimetry. <i>Bulletin of the Geological Society of Finland, Special Volume 2, 2: The 37th Nordic Geological Winter Meeting, 13 th –15 th January 2026, Turku, Finland.</i>  Ed. Heinonen, Jussi, S; Aaltonen, Milla. Geological Society of Finland,, 89−89.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The cited special-volume proceedings belong to the Nordic Geological Winter Meeting, which is not listed; the publication is not a listed journal venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0092": {
+          "sheet": "_workSheetName",
+          "row": 92,
+          "reference": "Konjuhhov, Peeter; Salum, Taavi (2026). EVS-EN IEC 55012:2025 quot;Sõidukid, laevad ja sisepõlemismootori või veoakuga seadmed. Raadiohäiringu tunnussuurused. Piirväärtused ja mõõtemeetodid pardaväliste vastuvõtjate kaitseks.quot;.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "EVS-EN IEC 55012:2025 is a technical standard, not a listed journal or conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0115": {
+          "sheet": "_workSheetName",
+          "row": 115,
+          "reference": "Juuse, Egert; Kuokštis, Vytautas; Raudla, Ringa; Cepilovs, Aleksandrs (2026). Financial bureaucracy featuring innovation bureaucracy – insights from diverging pathways in Estonia and Lithuania. New Political Economy,  1−22. DOI: 10.1080/13563467.2026.2737136.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "New Political Economy is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1137": {
+          "sheet": "_workSheetName",
+          "row": 1137,
+          "reference": "Talvik, Martin; Klõšeiko, Paul; Palmiste, Ülar; Vilba, Kristina; Kalamees, Targo (2026). Modelling Wind-Driven Rain Impact on Plastered Facades Using Direct Measurements, EN ISO 15927 3 Calculations and CFD. <i>Journal of Physics: Conference Series, 3302: 14th Nordic Symposium on Building Physics, NSB 2026, Tampere, 8–10 June 2026.</i>  IOP Publishing, art. 012033. DOI: 10.1088/1742-6596/3302/1/012033.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The publication venue is Journal of Physics: Conference Series, which is not listed; the Nordic Symposium on Building Physics is also not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0956": {
+          "sheet": "_workSheetName",
+          "row": 956,
+          "reference": "Stinkulis, Ģ., Lukševičs, E., Pipira, D.,Meire-Kārkle, M. and Martma, T. (2026). Dolocretes in the Amata Formation of Latvia as indicators of climate aridification during the Givetian–Frasnian transition. Estonian Journal of Earth Sciences, 75 (1),  67−82. DOI: 10.3176/earth.2026.05.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Estonian Journal of Earth Sciences is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0501": {
+          "sheet": "_workSheetName",
+          "row": 501,
+          "reference": "Haidar, Ghadir; Kravchenko, Ilia; Ferrantelli, Andrea (2026). Optimizing the thermal performance of double skin Façades in a cold climate with phase change materials and cavity ventilation. Energy and Buildings, 358,  art. 117248. DOI: 10.1016/j.enbuild.2026.117248.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "c50e9454ec558478958d",
+          "venue": "Energy and Buildings",
+          "memberships": [
+            {
+              "category_id": "eng_sustainableenergy",
+              "category": "Engineering & Computer Science / Sustainable Energy",
+              "rank": 13,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_sustainableenergy"
+            },
+            {
+              "category_id": "bio_sustainableenergy",
+              "category": "Life Sciences & Earth Sciences / Sustainable Energy",
+              "rank": 13,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_sustainableenergy"
+            }
+          ],
+          "note": "The journal matches the listed Energy and Buildings venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0994": {
+          "sheet": "_workSheetName",
+          "row": 994,
+          "reference": "Harris, Mark T.; Ainsaar, Leho; Hints, Linda; Männik, Peep; Meidla, Tõnu; Nõlvak, Jaak; Schultz, Tory; Sheehan, Peter M. (2026). The Upper Ordovician of Estonia: facies, sequences, and basin development. Estonian Journal of Earth Sciences, 75 (1),  53−66. DOI: 10.3176/earth.2026.04.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Estonian Journal of Earth Sciences is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1024": {
+          "sheet": "_workSheetName",
+          "row": 1024,
+          "reference": "Djilvesi, Djula; Lasica, Nebojsa; Golubovic, Jagos; Jelaca, Bojan; Simeunovic, Nenad; Rakic, Slavko (2026). Evaluation of the quality of neurosurgical services using the SERVQUAL method. Vojnosanitetski pregled, 83 (2),  110−118. DOI: 10.2298/VSP250804007D.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Vojnosanitetski pregled is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0017": {
+          "sheet": "_workSheetName",
+          "row": 17,
+          "reference": "Kerikmäe, Tanel; Metin, Ebru (2026). Barriers to Legal Tech Minded Education: Why Most Law Schools are Afraid of Change. <i>AI and Legal Methods: Navigating the Frontier: 49th Nordic Conference in Law and IT, Artificial Intelligence and Legal Methods – Navigating the New Frontier, Stockholm, 5-6 November 2024.</i>  Ed. Carey, Samuel. Stockhom: Jure, 147−164. (Nordic Yearbook of Law and Informatics).",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference identifies a book chapter in AI and Legal Methods: Navigating the Frontier; the cited Nordic conference/work and publication are not listed as a matching venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0193": {
+          "sheet": "_workSheetName",
+          "row": 193,
+          "reference": "Petrochenko, Irina; Dulova, Niina; Preis, Sergei (2026). Pulsed Corona Discharge in Valorisation of Urine as a Sustainable Source of Nutrients: Targeted Oxidation of Pharmaceutical Residues and Inhibition of Urea Enzymatic Hydrolysis. Processes, 14 (12),  ARTN 1972. DOI: 10.3390/pr14121972.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Processes is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0473": {
+          "sheet": "_workSheetName",
+          "row": 473,
+          "reference": "Ahmed, Rozha Kamal; Mahmud, Dara Rashid; Lips, Silvia; Draheim, Dirk (2026). The digital transformation of census in Iraq: challenges and opportunities. <i>Electronic Government and the Information Systems Perspective. Proceedings: 14th International Conference, EGOVIS 2025, Bangkok, Thailand, August 25–27, 2025.</i>  Cham: Springer, 88−102. (Lecture Notes in Computer Science; 16049). DOI: 10.1007/978-3-032-02225-7_7.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference identifies an EGOVIS proceedings volume in the Lecture Notes in Computer Science series; neither EGOVIS nor the book series is a listed matching venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0076": {
+          "sheet": "_workSheetName",
+          "row": 76,
+          "reference": "Elkayam, M. Sassonker; Vinnikov, D. (2026). Efficient Phase-Compensated Multi-Resonant Control for Inverter Applications. IEEE Open Journal of Power Electronics, 7,  670−682. DOI: 10.1109/OJPEL.2026.3663332.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "IEEE Open Journal of Power Electronics is not listed; the similar IEEE Open Journal of the Communications Society is a different venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0357": {
+          "sheet": "_workSheetName",
+          "row": 357,
+          "reference": "Torfing, Jacob; Randma-Liiv, Tiina; Sorensen, Eva (2026). Robust Governance in Response to Societal Turbulence: The Conditioning Role of Multilevel Governance, Hybrid Governance, and Societal Intelligence. Public Policy and Administration,  1−22. DOI: 10.1177/09520767261453180.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Public Policy and Administration is not the listed Public Administration journal.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0369": {
+          "sheet": "_workSheetName",
+          "row": 369,
+          "reference": "Chen, Xinyi; Talpsepp, Tõnn (2026). The Disposition Effect among Uniswap V3 Liquidity Providers: Distinguishing Realization from Rebalancing. <i>Mathematical Research for Blockchain Economy (MARBLE 2026): 7th International Conference on Mathematical Research for Blockchain Economy (MARBLE 2026), Limassol, Cyprus, 16.-18.09.2026.</i>  Cham: Springer. (Lecture Notes in Operations Research) [ilmumas].",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The publication is a Springer Lecture Notes in Operations Research volume for MARBLE; the conference itself is not listed, and the series is not a substitute.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0711": {
+          "sheet": "_workSheetName",
+          "row": 711,
+          "reference": "Mazur, Viktoria; Ramiro Troitino, David (2026). Unequal by Design? Reclaiming Digital Access as a Fundamental Right in the EU. Białostockie Studia Prawnicze, 31 (1),  43−60. DOI: 10.15290/bsp.2026.31.01.03.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Białostockie Studia Prawnicze is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0567": {
+          "sheet": "_workSheetName",
+          "row": 567,
+          "reference": "Ellmann, A. (2026). Vaade ruumiandmete hõive ja ruumiandmeteenuste lähitulevikule. Geodeet, 53 (77),  41−46.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Geodeet is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0224": {
+          "sheet": "_workSheetName",
+          "row": 224,
+          "reference": "Gylteryd, Håkon Robbestad; Stenholm, Elisabeth; Veltri, Niccolò (2026). Terminal coalgebras and non-wellfounded sets in homotopy type theory. Logical Methods in Computer Science, 22 (2),  35:1−35:45. DOI: 10.46298/LMCS-22(2:35)2026.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "98bdfde5e60e6a03dbbc",
+          "venue": "Logical Methods in Computer Science",
+          "memberships": [
+            {
+              "category_id": "eng_theoreticalcomputerscience",
+              "category": "Engineering & Computer Science / Theoretical Computer Science",
+              "rank": 11,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_theoreticalcomputerscience"
+            }
+          ],
+          "note": "The journal matches the catalogue entry exactly.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0153": {
+          "sheet": "_workSheetName",
+          "row": 153,
+          "reference": "Mohseni, Parham; Husev, Oleksandr; Vinnikov, Dmitri; Kasper, Matthias; Deboy, Gerald (2026). A Universal High-Power-Density AC/DC–DC Onboard EV Charger. IEEE Transactions on Transportation Electrification, 12 (5),  7313−7329. DOI: 10.1109/TTE.2026.3693003.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "3ae700b039623e6c6462",
+          "venue": "IEEE Transactions on Transportation Electrification",
+          "memberships": [
+            {
+              "category_id": "eng_powerengineering",
+              "category": "Engineering & Computer Science / Power Engineering",
+              "rank": 7,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_powerengineering"
+            }
+          ],
+          "note": "The journal matches the catalogue entry exactly.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1081": {
+          "sheet": "_workSheetName",
+          "row": 1081,
+          "reference": "Цыбуленко, Е. (2026). Цивилизация не должна отказываться от развития во имя защиты окружающей среды. Postimees, 07.08.2026.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Postimees is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0444": {
+          "sheet": "_workSheetName",
+          "row": 444,
+          "reference": "Ivanov, Aleksandr; Kolosova, Alexandra; Tuhtan, Jeffrey Andrew; Mockenhaupt, Bernd; Scheifhacken, Nicole (2026). Monocular Fish Length Estimation for Video Tunnels in European Rivers. <i>Proceedings of the 16th International Symposium on Ecohydraulics 2026: 16th International Symposium on Ecohydraulics 2026 (ISE), Lausanne, Switzerland, 16-20 August 2026.</i>   IAHR Document Library, 4.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The International Symposium on Ecohydraulics proceedings venue is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0729": {
+          "sheet": "_workSheetName",
+          "row": 729,
+          "reference": "Abbasi, N.; Krustok, J.; Kaupmees, R.; Danilson, M.; Hobson, T.D.C.; Major, J.D.; Durose, K.; Kauk-Kuusik, M.; Grossberg-Kuusk, M. (2026). Study of defects in chlorine-doped Sb2Se3 single crystals by photoluminescence spectroscopy. Journal of Alloys and Compounds Communications, 8 (1),  100171. DOI: 10.1016/j.jacomc.2026.100171.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Journal of Alloys and Compounds Communications is not listed; the catalogue's similarly named journals are distinct venues.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        }
+      },
+      "requests": [
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113761,
+            "input_tokens_details": {
+              "cache_write_tokens": 1592,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 401,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114162
+          },
+          "output_text": "{\"results\":[{\"id\":\"0\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"EDULEARN26 (International Conference on Education and New Learning Technologies) is not listed in the catalogue.\"},{\"id\":\"1\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Geodeet is not listed in the catalogue.\"},{\"id\":\"2\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Haemophilia is not listed in the catalogue.\"},{\"id\":\"3\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The 2nd International Conference on Next Generation Information Systems Engineering is not listed; the cited Communications in Computer and Information Science series is not a matching conference venue.\"},{\"id\":\"4\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"IEEE Green Technologies Conference (GreenTech) is not listed in the catalogue.\"},{\"id\":\"5\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"International Conference on Mechatronics and Robotics Engineering (ICMRE) is not listed in the catalogue.\"},{\"id\":\"6\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"World Economic Forum / European Sting is not listed as a publication venue in the catalogue.\"},{\"id\":\"7\",\"matched\":true,\"venue_id\":\"53f788751c1dbf5d69ca\",\"venue_name\":\"IEEE Transactions on Energy Conversion\",\"note\":\"The journal field exactly identifies a listed catalogue venue.\"},{\"id\":\"8\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Novaator is not listed in the catalogue.\"},{\"id\":\"9\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"ACM Symposium on Applied Computing (SAC) is not listed in the catalogue.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 35.352025483036414,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113752,
+            "input_tokens_details": {
+              "cache_write_tokens": 1583,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 422,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114174
+          },
+          "output_text": "{\"results\":[{\"id\":\"10\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"This is a chapter in an edited book published by Elsevier, not a venue listed in the catalogue.\"},{\"id\":\"11\",\"matched\":true,\"venue_id\":\"7785cced2c722e38f6a0\",\"venue_name\":\"IEEE Access\",\"note\":\"The structured journal field and reference identify IEEE Access.\"},{\"id\":\"12\",\"matched\":true,\"venue_id\":\"f8f6cdb69f1ed1473224\",\"venue_name\":\"Electric Power Systems Research\",\"note\":\"The structured journal field and reference identify Electric Power Systems Research.\"},{\"id\":\"13\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference identifies Journal of Chemical Engineering Data; that journal is not listed in the catalogue.\"},{\"id\":\"14\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"This is a ChemRxiv preprint, not a published venue listed in the catalogue.\"},{\"id\":\"15\",\"matched\":true,\"venue_id\":\"01f475d4e564a846acdd\",\"venue_name\":\"Atmosphere\",\"note\":\"The structured journal field and reference identify Atmosphere.\"},{\"id\":\"16\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Journal of International Consumer Marketing is not listed in the catalogue.\"},{\"id\":\"17\",\"matched\":true,\"venue_id\":\"26ec163ef8d23fe23ec8\",\"venue_name\":\"Journal of University Teaching and Learning Practice\",\"note\":\"The structured journal field and reference identify Journal of University Teaching and Learning Practice.\"},{\"id\":\"18\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Legal-tech Conference Future Law is not listed in the catalogue.\"},{\"id\":\"19\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Proceedings of the Estonian Academy of Sciences is not listed in the catalogue.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 4.197281353990547,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113848,
+            "input_tokens_details": {
+              "cache_write_tokens": 1679,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 410,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114258
+          },
+          "output_text": "{\"results\":[{\"id\":\"20\",\"matched\":true,\"venue_id\":\"9b2670243ddd2836d0c5\",\"venue_name\":\"Journal of Thermal Analysis and Calorimetry\",\"note\":\"Journal field matches the catalogue venue.\"},{\"id\":\"21\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"ChemPlusChem is not listed in the catalogue.\"},{\"id\":\"22\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"International Economics and Economic Policy is not listed; it is distinct from International Economics.\"},{\"id\":\"23\",\"matched\":true,\"venue_id\":\"cdc2e2c253940b15d812\",\"venue_name\":\"ACS Omega\",\"note\":\"Journal field exactly matches the catalogue venue.\"},{\"id\":\"24\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The cited publication is a proceedings volume in the Communications in Computer and Information Science series; that series and the International Baltic Conference are not listed as a matching venue.\"},{\"id\":\"25\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Materials & Design is not listed in the catalogue.\"},{\"id\":\"26\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"SSRN Working Paper Series is a working-paper venue and is not listed.\"},{\"id\":\"27\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Zenodo is a repository, not a listed publication venue.\"},{\"id\":\"28\",\"matched\":true,\"venue_id\":\"4b73263746b91d7b0346\",\"venue_name\":\"Nature Climate Change\",\"note\":\"Journal field matches the catalogue venue.\"},{\"id\":\"29\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The cited special-volume proceedings belong to the Nordic Geological Winter Meeting, which is not listed; the publication is not a listed journal venue.\"}] }",
+          "model": "gpt-6-luna",
+          "seconds": 7.021740276017226,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113885,
+            "input_tokens_details": {
+              "cache_write_tokens": 1716,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 567,
+            "output_tokens_details": {
+              "reasoning_tokens": 148
+            },
+            "total_tokens": 114452
+          },
+          "output_text": "{\"results\":[{\"id\":\"30\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"EVS-EN IEC 55012:2025 is a technical standard, not a listed journal or conference venue.\"},{\"id\":\"31\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"New Political Economy is not listed in the catalogue.\"},{\"id\":\"32\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The publication venue is Journal of Physics: Conference Series, which is not listed; the Nordic Symposium on Building Physics is also not listed.\"},{\"id\":\"33\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Estonian Journal of Earth Sciences is not listed in the catalogue.\"},{\"id\":\"34\",\"matched\":true,\"venue_id\":\"c50e9454ec558478958d\",\"venue_name\":\"Energy and Buildings\",\"note\":\"The journal matches the listed Energy and Buildings venue.\"},{\"id\":\"35\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Estonian Journal of Earth Sciences is not listed in the catalogue.\"},{\"id\":\"36\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Vojnosanitetski pregled is not listed in the catalogue.\"},{\"id\":\"37\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference identifies a book chapter in AI and Legal Methods: Navigating the Frontier; the cited Nordic conference/work and publication are not listed as a matching venue.\"},{\"id\":\"38\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Processes is not listed in the catalogue.\"},{\"id\":\"39\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference identifies an EGOVIS proceedings volume in the Lecture Notes in Computer Science series; neither EGOVIS nor the book series is a listed matching venue.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 9.21036450797692,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113654,
+            "input_tokens_details": {
+              "cache_write_tokens": 1485,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 401,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114055
+          },
+          "output_text": "{\"results\":[{\"id\":\"40\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"IEEE Open Journal of Power Electronics is not listed; the similar IEEE Open Journal of the Communications Society is a different venue.\"},{\"id\":\"41\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Public Policy and Administration is not the listed Public Administration journal.\"},{\"id\":\"42\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The publication is a Springer Lecture Notes in Operations Research volume for MARBLE; the conference itself is not listed, and the series is not a substitute.\"},{\"id\":\"43\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Białostockie Studia Prawnicze is not listed.\"},{\"id\":\"44\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Geodeet is not listed.\"},{\"id\":\"45\",\"matched\":true,\"venue_id\":\"98bdfde5e60e6a03dbbc\",\"venue_name\":\"Logical Methods in Computer Science\",\"note\":\"The journal matches the catalogue entry exactly.\"},{\"id\":\"46\",\"matched\":true,\"venue_id\":\"3ae700b039623e6c6462\",\"venue_name\":\"IEEE Transactions on Transportation Electrification\",\"note\":\"The journal matches the catalogue entry exactly.\"},{\"id\":\"47\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Postimees is not listed.\"},{\"id\":\"48\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The International Symposium on Ecohydraulics proceedings venue is not listed.\"},{\"id\":\"49\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Journal of Alloys and Compounds Communications is not listed; the catalogue's similarly named journals are distinct venues.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 4.156329036108218,
+          "http_attempts": 1
+        }
+      ],
+      "complete": true,
+      "matching_seconds": 59.94573624199256,
+      "total_seconds": 61.175560745061375,
+      "fallbacks": 0,
+      "verifications": 0,
+      "request_count": 5,
+      "scores": {
+        "all": {
+          "n": 50,
+          "correct": 50,
+          "true_positive": 11,
+          "true_negative": 39,
+          "false_positive": 0,
+          "false_negative": 0,
+          "wrong_venue": 0,
+          "errors": 0,
+          "missing": 0,
+          "positive_errors": 0,
+          "negative_errors": 0,
+          "exact_accuracy": 1.0,
+          "match_precision": 1.0,
+          "match_recall": 1.0
+        },
+        "fresh": {
+          "n": 50,
+          "correct": 50,
+          "true_positive": 11,
+          "true_negative": 39,
+          "false_positive": 0,
+          "false_negative": 0,
+          "wrong_venue": 0,
+          "errors": 0,
+          "missing": 0,
+          "positive_errors": 0,
+          "negative_errors": 0,
+          "exact_accuracy": 1.0,
+          "match_precision": 1.0,
+          "match_recall": 1.0
+        }
+      }
+    },
+    {
+      "pass": 2,
+      "order": [
+        "etis-0825",
+        "etis-0217",
+        "etis-1024",
+        "etis-0480",
+        "etis-0475",
+        "etis-0722",
+        "etis-0017",
+        "etis-0481",
+        "etis-0910",
+        "etis-0495",
+        "etis-0501",
+        "etis-0214",
+        "etis-0395",
+        "etis-1137",
+        "etis-0219",
+        "etis-0369",
+        "etis-0711",
+        "etis-0270",
+        "etis-0193",
+        "etis-0994",
+        "etis-0890",
+        "etis-0473",
+        "etis-0076",
+        "etis-0707",
+        "etis-0145",
+        "etis-0345",
+        "etis-0445",
+        "etis-0725",
+        "etis-0153",
+        "etis-0357",
+        "etis-0729",
+        "etis-0497",
+        "etis-0325",
+        "etis-0115",
+        "etis-1029",
+        "etis-0629",
+        "etis-1044",
+        "etis-0092",
+        "etis-0213",
+        "etis-0118",
+        "etis-0616",
+        "etis-1081",
+        "etis-0108",
+        "etis-0567",
+        "etis-0224",
+        "etis-0444",
+        "etis-0956",
+        "etis-1113",
+        "etis-0515",
+        "etis-1143"
+      ],
+      "predictions": {
+        "etis-0825": {
+          "sheet": "_workSheetName",
+          "row": 825,
+          "reference": "Võsa, Karl-Villem; Simson, Raimo; Mikola, Alo; Kurnitski, Jarek (2026). European Heat Pump Keymark Population Dataset and COP Models for Cold-Climate Building Simulation.  DOI: 10.5281/zenodo.20627396.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Zenodo is a repository, not a publication venue listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0217": {
+          "sheet": "_workSheetName",
+          "row": 217,
+          "reference": "te Duits, Tijs; Frasincar, Flavius; Robal, Tarmo (2026). Data Augmentation for Aspect Sentiment Classification. <i>SAC #39;26 : Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing: The 41st Annual ACM Symposium on Applied Computing, Thessaloniki, Greece, March 23–27, 2026.</i>  ACM, 2144−2145. DOI: 10.1145/3748522.3779890.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "ACM Symposium on Applied Computing (SAC) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1024": {
+          "sheet": "_workSheetName",
+          "row": 1024,
+          "reference": "Djilvesi, Djula; Lasica, Nebojsa; Golubovic, Jagos; Jelaca, Bojan; Simeunovic, Nenad; Rakic, Slavko (2026). Evaluation of the quality of neurosurgical services using the SERVQUAL method. Vojnosanitetski pregled, 83 (2),  110−118. DOI: 10.2298/VSP250804007D.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Vojnosanitetski pregled is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0480": {
+          "sheet": "_workSheetName",
+          "row": 480,
+          "reference": "Shahid, Arqum; Ahmadiahangar, Roya; Rosin, Argo; Korõtko, Tarmo (2026). Integrating BRP and Aggregator Roles for Imbalance Management and Frequency Regulation using Demand-side Flexibility. <i>2026 IEEE Green Technologies Conference (GreenTech): 2026 IEEE Green Technologies Conference (GreenTech), Boulder, CO, USA, 25-27 March 2026.</i>  IEEE, 1−6. DOI: 10.1109/GreenTech68285.2026.11471579.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "IEEE Green Technologies Conference (GreenTech) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0475": {
+          "sheet": "_workSheetName",
+          "row": 475,
+          "reference": "Dikcius, Vytautas; Vilkaite – Vaitone, Neringa; Hollebeek, Linda D.; Adomaviciute – Sakalauske, Karina; Zimaitis, Ignas; Kirse, Sigita; Jansson, Johan (2026). The Effect of Customers’ Extrinsic and Intrinsic Motivation on Their e-Commerce Store Loyalty: A Four-Country Comparison. Journal of International Consumer Marketing, 38 (2),  153−169. DOI: 10.1080/08961530.2025.2549681.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Journal of International Consumer Marketing is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0722": {
+          "sheet": "_workSheetName",
+          "row": 722,
+          "reference": "Sardar, Muhammad Usman; Vaimann, Toomas; Kütt, Lauri; Asad, Bilal; Kallaste, Ants; Rassõlkin, Anton (2026). Modeling Cable-Fed Induction Motor Drives with Optimized Impedance Characterization Across a Low to High-Frequency Spectrum. IEEE Transactions on Energy Conversion, 41 (2),  1055−1069. DOI: 10.1109/TEC.2025.3630465.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "53f788751c1dbf5d69ca",
+          "venue": "IEEE Transactions on Energy Conversion",
+          "memberships": [
+            {
+              "category_id": "eng_powerengineering",
+              "category": "Engineering & Computer Science / Power Engineering",
+              "rank": 10,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_powerengineering"
+            }
+          ],
+          "note": "The journal field directly identifies the listed venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0017": {
+          "sheet": "_workSheetName",
+          "row": 17,
+          "reference": "Kerikmäe, Tanel; Metin, Ebru (2026). Barriers to Legal Tech Minded Education: Why Most Law Schools are Afraid of Change. <i>AI and Legal Methods: Navigating the Frontier: 49th Nordic Conference in Law and IT, Artificial Intelligence and Legal Methods – Navigating the New Frontier, Stockholm, 5-6 November 2024.</i>  Ed. Carey, Samuel. Stockhom: Jure, 147−164. (Nordic Yearbook of Law and Informatics).",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference identifies a Nordic Yearbook of Law and Informatics book/chapter, not the conference itself; no matching publication venue is listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0481": {
+          "sheet": "_workSheetName",
+          "row": 481,
+          "reference": "Nguyen, Thi Thanh Ngân; Pham, Thanh Chung; Osadchuk, Irina; Reitalu, Rauno; Jarg, Tatsiana; Suut-Tuule, Elina; Kudrjašova, Marina; Öeren, Mario; Kananovich, Dzmitry; Dehaen, Wim; Aav, Riina (2026). New BODIPY-Based Fluorescent Probes with Selective Sensing of Salts.  1−25. DOI: 10.26434/chemrxiv.15004625/v2.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The reference gives a ChemRxiv preprint DOI; no published venue is identified.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0910": {
+          "sheet": "_workSheetName",
+          "row": 910,
+          "reference": "Pikta, M.; Mettis, LJ.; Rea, A.; Titova, T.; Arjakse, J.; Siirand, MS.; Rahuoja, K.; Suursaar, K.; Saks, K. (2026). Preliminary results of the evaluation of pharmacokinetic profiles in Haemophilia A patients receiving Efanesoctocog Alfa. Haemophilia, 32 (S1, 19th Annual Congress of European Association for Haemophilia and Allied Disorders 2026, February 3–6, 2026, Dublin),  41. DOI: 10.1111/hae.70195.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Haemophilia is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0495": {
+          "sheet": "_workSheetName",
+          "row": 495,
+          "reference": "Lorenz, Birgy (2026). What Students Expect from Schools About Artificial Intelligence: Rules, Guidance, and Human-Centred Implementation. <i>EDULEARN26 Proceedings: 18th annual International Conference on Education and New Learning Technologies, Palma (Spain) - 29th June - 1st July 2026.</i>   Electronic Conference Proceedings:  IATED, art. 2003. DOI: 10.21125/edulearn.2026.2003.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "EDULEARN26 proceedings are not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0501": {
+          "sheet": "_workSheetName",
+          "row": 501,
+          "reference": "Haidar, Ghadir; Kravchenko, Ilia; Ferrantelli, Andrea (2026). Optimizing the thermal performance of double skin Façades in a cold climate with phase change materials and cavity ventilation. Energy and Buildings, 358,  art. 117248. DOI: 10.1016/j.enbuild.2026.117248.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "c50e9454ec558478958d",
+          "venue": "Energy and Buildings",
+          "memberships": [
+            {
+              "category_id": "eng_sustainableenergy",
+              "category": "Engineering & Computer Science / Sustainable Energy",
+              "rank": 13,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_sustainableenergy"
+            },
+            {
+              "category_id": "bio_sustainableenergy",
+              "category": "Life Sciences & Earth Sciences / Sustainable Energy",
+              "rank": 13,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_sustainableenergy"
+            }
+          ],
+          "note": "The reference and journal field identify Energy and Buildings.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0214": {
+          "sheet": "_workSheetName",
+          "row": 214,
+          "reference": "Nallaparaju, Jagadeesh Varma; Aav, Riina; Kananovich, Dzmitry (2026). Mechanochemistry: A Transformative Technique for the Synthesis of Polar Organometallics from Zero-Valent Metals. ChemPlusChem, 91 (1),  #e202500445. DOI: 10.1002/cplu.202500445.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "ChemPlusChem is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0395": {
+          "sheet": "_workSheetName",
+          "row": 395,
+          "reference": "Khalid, Sadia (2026). Inclusive Healthcare: Improving Accessibility and Care for Disabled Patients through Investment and Workforce Innovation. World economic forum/ European sting, 13.02.2026.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The stated World Economic Forum/European Sting publication is not a listed journal or conference.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1137": {
+          "sheet": "_workSheetName",
+          "row": 1137,
+          "reference": "Talvik, Martin; Klõšeiko, Paul; Palmiste, Ülar; Vilba, Kristina; Kalamees, Targo (2026). Modelling Wind-Driven Rain Impact on Plastered Facades Using Direct Measurements, EN ISO 15927 3 Calculations and CFD. <i>Journal of Physics: Conference Series, 3302: 14th Nordic Symposium on Building Physics, NSB 2026, Tampere, 8–10 June 2026.</i>  IOP Publishing, art. 012033. DOI: 10.1088/1742-6596/3302/1/012033.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The publication venue is Journal of Physics: Conference Series; the Nordic Symposium on Building Physics is only the cited event, not the publication venue, and the journal is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0219": {
+          "sheet": "_workSheetName",
+          "row": 219,
+          "reference": "Sonja, Kõrvits; Tarmo, All; Heidi, Soosalu; Argo, Jõeleht; (2026). Crustal thickness of Estonia – results from seismic receiver function\nmethod and gravimetry. <i>Bulletin of the Geological Society of Finland, Special Volume 2, 2: The 37th Nordic Geological Winter Meeting, 13 th –15 th January 2026, Turku, Finland.</i>  Ed. Heinonen, Jussi, S; Aaltonen, Milla. Geological Society of Finland,, 89−89.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Bulletin of the Geological Society of Finland, Special Volume is not listed; the Geological Winter Meeting is not the publication venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0369": {
+          "sheet": "_workSheetName",
+          "row": 369,
+          "reference": "Chen, Xinyi; Talpsepp, Tõnn (2026). The Disposition Effect among Uniswap V3 Liquidity Providers: Distinguishing Realization from Rebalancing. <i>Mathematical Research for Blockchain Economy (MARBLE 2026): 7th International Conference on Mathematical Research for Blockchain Economy (MARBLE 2026), Limassol, Cyprus, 16.-18.09.2026.</i>  Cham: Springer. (Lecture Notes in Operations Research) [ilmumas].",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Mathematical Research for Blockchain Economy (MARBLE) is not listed; the cited Springer Lecture Notes series does not establish a match to a listed venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0711": {
+          "sheet": "_workSheetName",
+          "row": 711,
+          "reference": "Mazur, Viktoria; Ramiro Troitino, David (2026). Unequal by Design? Reclaiming Digital Access as a Fundamental Right in the EU. Białostockie Studia Prawnicze, 31 (1),  43−60. DOI: 10.15290/bsp.2026.31.01.03.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Białostockie Studia Prawnicze is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0270": {
+          "sheet": "_workSheetName",
+          "row": 270,
+          "reference": "Zhu, Saisai; Liu, Guoqing; Wang, Pei; Zhang, Jian; Yang, Lijun; Wu, Mingwei; Kang, Nan; El Mansori, Mohamed; Prashanth, Konda Gokuldoss; Zhang, Yulei (2026). Fracture mechanism of BJ-CVI SiC lattices with four distinct structures based on finite element simulation and digital image correlation. Materials amp; Design, 265,  art. 115890. DOI: 10.1016/j.matdes.2026.115890.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Materials & Design is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0193": {
+          "sheet": "_workSheetName",
+          "row": 193,
+          "reference": "Petrochenko, Irina; Dulova, Niina; Preis, Sergei (2026). Pulsed Corona Discharge in Valorisation of Urine as a Sustainable Source of Nutrients: Targeted Oxidation of Pharmaceutical Residues and Inhibition of Urea Enzymatic Hydrolysis. Processes, 14 (12),  ARTN 1972. DOI: 10.3390/pr14121972.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Processes is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0994": {
+          "sheet": "_workSheetName",
+          "row": 994,
+          "reference": "Harris, Mark T.; Ainsaar, Leho; Hints, Linda; Männik, Peep; Meidla, Tõnu; Nõlvak, Jaak; Schultz, Tory; Sheehan, Peter M. (2026). The Upper Ordovician of Estonia: facies, sequences, and basin development. Estonian Journal of Earth Sciences, 75 (1),  53−66. DOI: 10.3176/earth.2026.04.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Estonian Journal of Earth Sciences is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0890": {
+          "sheet": "_workSheetName",
+          "row": 890,
+          "reference": "Rafique, Nouman; Koel, Mihkel; Reile, Indrek; Järvik, Oliver (2026). Fatty Acid-Based (Deep) Eutectic Solvents Thermodynamic Behavior and Thermal Properties for Low-Temperature Thermal Energy Storage. Journal of Chemical amp; Engineering Data,  1−16. DOI: 10.1021/acs.jced.6c00328.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "f8ad851194d83e5177f5",
+          "venue": "Journal of Agricultural and Food Chemistry",
+          "memberships": [
+            {
+              "category_id": "eng_foodsciencetechnology",
+              "category": "Engineering & Computer Science / Food Science & Technology",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_foodsciencetechnology"
+            },
+            {
+              "category_id": "bio_foodsciencetechnology",
+              "category": "Life Sciences & Earth Sciences / Food Science & Technology",
+              "rank": 9,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_foodsciencetechnology"
+            }
+          ],
+          "note": "The journal is Journal of Chemical & Engineering Data; that journal is not listed. Correction? No exact entry found.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0473": {
+          "sheet": "_workSheetName",
+          "row": 473,
+          "reference": "Ahmed, Rozha Kamal; Mahmud, Dara Rashid; Lips, Silvia; Draheim, Dirk (2026). The digital transformation of census in Iraq: challenges and opportunities. <i>Electronic Government and the Information Systems Perspective. Proceedings: 14th International Conference, EGOVIS 2025, Bangkok, Thailand, August 25–27, 2025.</i>  Cham: Springer, 88−102. (Lecture Notes in Computer Science; 16049). DOI: 10.1007/978-3-032-02225-7_7.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "EGOVIS is a conference proceedings venue, but the specific conference is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0076": {
+          "sheet": "_workSheetName",
+          "row": 76,
+          "reference": "Elkayam, M. Sassonker; Vinnikov, D. (2026). Efficient Phase-Compensated Multi-Resonant Control for Inverter Applications. IEEE Open Journal of Power Electronics, 7,  670−682. DOI: 10.1109/OJPEL.2026.3663332.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "IEEE Open Journal of Power Electronics is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0707": {
+          "sheet": "_workSheetName",
+          "row": 707,
+          "reference": "Klauson, Deniss; Lember, Erki; Jaaku, Jaak (2026). Bromides in treated wastewater: limiting the choice of quaternary wastewater treatment technologies for residual micropollutant removal. An Estonian case study. Proceedings of the  Estonian  Academy of Sciences, 75 (1),  87−95. DOI: 10.3176/proc.2026.1.08.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Proceedings of the Estonian Academy of Sciences is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0145": {
+          "sheet": "_workSheetName",
+          "row": 145,
+          "reference": "Kübarsepp, Jakob  (2026). Et eesti keel ei taanduks teaduses kõrvalkeeleks. Novaator, 26.02.2026.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Novaator is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0345": {
+          "sheet": "_workSheetName",
+          "row": 345,
+          "reference": "Sun, Zhenglong; Sun, Bin; Li, Zhenxin; Jia, Songyue; Yang, Hao; Belikov, Juri; Levron, Yoash (2026). Adaptive staged excitation control strategy for distributed synchronous condenser to suppress overvoltage in wind farms of HVDC-based renewable rich systems. Electric Power Systems Research, 252,  Art. no. 112463; 10 pp. DOI: 10.1016/j.epsr.2025.112463.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "f8f6cdb69f1ed1473224",
+          "venue": "Electric Power Systems Research",
+          "memberships": [
+            {
+              "category_id": "eng_powerengineering",
+              "category": "Engineering & Computer Science / Power Engineering",
+              "rank": 8,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_powerengineering"
+            }
+          ],
+          "note": "Exact journal match.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0445": {
+          "sheet": "_workSheetName",
+          "row": 445,
+          "reference": "Chochia, Archil (2026). Beyond the Lecture: Cultivating Global Legal Minds Through Cognitive Diversity. <i>Legal-tech Conference Future Law, Tallinn, Estonia, 14-15 May, 2026.</i>  LEGID.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Legal-tech Conference Future Law is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0725": {
+          "sheet": "_workSheetName",
+          "row": 725,
+          "reference": "Ahmadzai, Palwasha (2026). A system of systems approach for smart city development: technological innovation, human-centered design, and governance challenges. In: Iman Rahimi, Ali Emrouznejad, Amir Hossein Gandomi (Ed.).  Smart Cities: A System-of-Systems Perspective: Engineering, Analytics, and Innovations for Sustainable Urban Development. (23−37).  Elsevier. DOI: 10.1016/B978-0-443-45550-6.00010-2.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "This is a book chapter in an edited book, not a listed journal or conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0153": {
+          "sheet": "_workSheetName",
+          "row": 153,
+          "reference": "Mohseni, Parham; Husev, Oleksandr; Vinnikov, Dmitri; Kasper, Matthias; Deboy, Gerald (2026). A Universal High-Power-Density AC/DC–DC Onboard EV Charger. IEEE Transactions on Transportation Electrification, 12 (5),  7313−7329. DOI: 10.1109/TTE.2026.3693003.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "3ae700b039623e6c6462",
+          "venue": "IEEE Transactions on Transportation Electrification",
+          "memberships": [
+            {
+              "category_id": "eng_powerengineering",
+              "category": "Engineering & Computer Science / Power Engineering",
+              "rank": 7,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_powerengineering"
+            }
+          ],
+          "note": "Exact journal match.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0357": {
+          "sheet": "_workSheetName",
+          "row": 357,
+          "reference": "Torfing, Jacob; Randma-Liiv, Tiina; Sorensen, Eva (2026). Robust Governance in Response to Societal Turbulence: The Conditioning Role of Multilevel Governance, Hybrid Governance, and Societal Intelligence. Public Policy and Administration,  1−22. DOI: 10.1177/09520767261453180.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Public Policy and Administration is not listed.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0729": {
+          "sheet": "_workSheetName",
+          "row": 729,
+          "reference": "Abbasi, N.; Krustok, J.; Kaupmees, R.; Danilson, M.; Hobson, T.D.C.; Major, J.D.; Durose, K.; Kauk-Kuusik, M.; Grossberg-Kuusk, M. (2026). Study of defects in chlorine-doped Sb2Se3 single crystals by photoluminescence spectroscopy. Journal of Alloys and Compounds Communications, 8 (1),  100171. DOI: 10.1016/j.jacomc.2026.100171.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Journal of Alloys and Compounds Communications is not listed; it is distinct from similarly named journals in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0497": {
+          "sheet": "_workSheetName",
+          "row": 497,
+          "reference": "Laidroo, Laivi; Vanari, Kätlin (2026). Thesis Finalisation Self-efficacy – A Useful Concept for Improving Undergraduate Thesis Supervision. Journal of University Teaching and Learning Practice, 23, 3,  1−25. DOI: 10.53761/kqwc4728.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "26ec163ef8d23fe23ec8",
+          "venue": "Journal of University Teaching and Learning Practice",
+          "memberships": [
+            {
+              "category_id": "soc_highereducation",
+              "category": "Social Sciences / Higher Education",
+              "rank": 12,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=soc_highereducation"
+            }
+          ],
+          "note": "The journal field exactly matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0325": {
+          "sheet": "_workSheetName",
+          "row": 325,
+          "reference": "Vallner, A.; Leismann, E.; Kuusk. P.; Pärtna, J.; Ellmann, A. (2026). MIIGAiK-i lõpetanute meenutusi. Geodeet, 53 (77),  129−132.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Geodeet is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0115": {
+          "sheet": "_workSheetName",
+          "row": 115,
+          "reference": "Juuse, Egert; Kuokštis, Vytautas; Raudla, Ringa; Cepilovs, Aleksandrs (2026). Financial bureaucracy featuring innovation bureaucracy – insights from diverging pathways in Estonia and Lithuania. New Political Economy,  1−22. DOI: 10.1080/13563467.2026.2737136.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "New Political Economy is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1029": {
+          "sheet": "_workSheetName",
+          "row": 1029,
+          "reference": "Matulevičius, Raimundas; Robal, Tarmo; Kornyshova, Elena; Nikiforova, Anastasija;  Liiv, Innar (Ed.) (2026). Matulevičius, Raimundas; Robal, Tarmo; Kornyshova, Elena; Nikiforova, Anastasija;  Liiv, Innar. Digital Business and Intelligent Systems. 17th International Baltic Conference, Baltic DBamp;IS, Tartu, Estonia, June 28–July 1, 2026 :  Proceedings. (XXI, 334).  Cham: Springer. (Communications in Computer and Information Science; 3085). DOI: 10.1007/978-3-032-30863-4.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The publication identifies the International Baltic Conference (Baltic DB&IS); that conference is not listed. Communications in Computer and Information Science is a book series, not the conference venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0629": {
+          "sheet": "_workSheetName",
+          "row": 629,
+          "reference": "Hordoir, Robinson; Jahanmard, Vahidreza; Isachsen, Pål Erik; Löptien, Ulrike; Dietze, Heiner; Sandø, Anne Britt; Lien, Vidar S. (2026). Barents Sea atlantification driven by a shift in atmospheric synoptic timescale. Nature Climate Change, 16,  179−186. DOI: 10.1038/s41558-025-02535-3.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "4b73263746b91d7b0346",
+          "venue": "Nature Climate Change",
+          "memberships": [
+            {
+              "category_id": "bio_environmentalsciences",
+              "category": "Life Sciences & Earth Sciences / Environmental Sciences",
+              "rank": 10,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_environmentalsciences"
+            }
+          ],
+          "note": "The journal field exactly matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1044": {
+          "sheet": "_workSheetName",
+          "row": 1044,
+          "reference": "N. Nazeer, M. Leier, U. Reinsalu, A. Tepljakov (2026). FOCUS: A failure-tolerant visual-inertial odometry using contextual understanding and sensor fusion,. <i>International Conference on Mechatronics and Robotics Engineering (ICMRE).</i>  IEEE [ilmumas].",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "International Conference on Mechatronics and Robotics Engineering (ICMRE) is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0092": {
+          "sheet": "_workSheetName",
+          "row": 92,
+          "reference": "Konjuhhov, Peeter; Salum, Taavi (2026). EVS-EN IEC 55012:2025 quot;Sõidukid, laevad ja sisepõlemismootori või veoakuga seadmed. Raadiohäiringu tunnussuurused. Piirväärtused ja mõõtemeetodid pardaväliste vastuvõtjate kaitseks.quot;.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "No publication venue is identified in the supplied fields.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0213": {
+          "sheet": "_workSheetName",
+          "row": 213,
+          "reference": "Shahin, Mahtab; Malhi, Avleen; Khorasani, Mahsa; Palu, Riina; Kim, Austin; Bauk, Sanja; Soe, Ralf-Martin  (2026). CARGO: Compliant Analytics for Resilient Governance and Orchestration of Maritime Emissions in an Explainable Serverless Framework. IEEE Access, 14,  87631−87649. DOI: 10.1109/ACCESS.2026.3694764.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "7785cced2c722e38f6a0",
+          "venue": "IEEE Access",
+          "memberships": [
+            {
+              "category_id": "eng",
+              "category": "Engineering & Computer Science",
+              "rank": 6,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng"
+            },
+            {
+              "category_id": "eng_enggeneral",
+              "category": "Engineering & Computer Science / Engineering & Computer Science (general)",
+              "rank": 1,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral"
+            }
+          ],
+          "note": "The journal field exactly matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0118": {
+          "sheet": "_workSheetName",
+          "row": 118,
+          "reference": "Karimi, Hamed; Gustavson, Otto; Česnokova, Irina; Branovets, Jelena; Birkedal, Rikke; Laasmaa, Martin; Vendelin, Marko (2026). A Unified Platform for FCS and RICS Analysis with Advanced Statistical Inference. ACS Omega, 11 (12),  19201−19219. DOI: 10.1021/acsomega.5c12269.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "cdc2e2c253940b15d812",
+          "venue": "ACS Omega",
+          "memberships": [
+            {
+              "category_id": "chm_chmgeneral",
+              "category": "Chemical & Material Sciences / Chemical & Material Sciences (general)",
+              "rank": 17,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=chm_chmgeneral"
+            }
+          ],
+          "note": "The journal field exactly matches the catalogue venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0616": {
+          "sheet": "_workSheetName",
+          "row": 616,
+          "reference": "Pallas Tairi; Lips, Silvia; Azmat, Sidra; Täks, Ermo; Ahmed, Rozha (2026). Implementing large-scale information systems in the European Union: challenges, governance, and lessons from practice. <i>The 2nd International Conference on Next Generation Information Systems Engineering Hybrid Conference, NGISE 2026, Ghaziabad, Delhi NCR, India, 28th–29th October 2026.</i>  Springer. (Communications in Computer and Information Science ) [ilmumas].",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "The publication is in the International Conference on Next Generation Information Systems Engineering (NGISE); it is not listed in the catalogue. The Springer series is not a substitute venue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1081": {
+          "sheet": "_workSheetName",
+          "row": 1081,
+          "reference": "Цыбуленко, Е. (2026). Цивилизация не должна отказываться от развития во имя защиты окружающей среды. Postimees, 07.08.2026.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Postimees is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0108": {
+          "sheet": "_workSheetName",
+          "row": 108,
+          "reference": "Vaičiulis, Vidmantas; Domkutė, Gabrielė; Papadima, Anna; Radišauskas, Ričardas; Annus, Ivar; Kaur, Katrin; Kalinienė, Gintarė (2026). Climate Change Impacts on Human Health in the Northern Hemisphere: A Narrative Review. Atmosphere, 17 (8),  736. DOI: 10.3390/atmos17080736.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "01f475d4e564a846acdd",
+          "venue": "Atmosphere",
+          "memberships": [
+            {
+              "category_id": "bio_atmosphericsciences",
+              "category": "Life Sciences & Earth Sciences / Atmospheric Sciences",
+              "rank": 5,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bio_atmosphericsciences"
+            }
+          ],
+          "note": "The structured journal field and reference identify Atmosphere.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0567": {
+          "sheet": "_workSheetName",
+          "row": 567,
+          "reference": "Ellmann, A. (2026). Vaade ruumiandmete hõive ja ruumiandmeteenuste lähitulevikule. Geodeet, 53 (77),  41−46.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Geodeet is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0224": {
+          "sheet": "_workSheetName",
+          "row": 224,
+          "reference": "Gylteryd, Håkon Robbestad; Stenholm, Elisabeth; Veltri, Niccolò (2026). Terminal coalgebras and non-wellfounded sets in homotopy type theory. Logical Methods in Computer Science, 22 (2),  35:1−35:45. DOI: 10.46298/LMCS-22(2:35)2026.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "98bdfde5e60e6a03dbbc",
+          "venue": "Logical Methods in Computer Science",
+          "memberships": [
+            {
+              "category_id": "eng_theoreticalcomputerscience",
+              "category": "Engineering & Computer Science / Theoretical Computer Science",
+              "rank": 11,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_theoreticalcomputerscience"
+            }
+          ],
+          "note": "The structured journal field and reference identify Logical Methods in Computer Science.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0444": {
+          "sheet": "_workSheetName",
+          "row": 444,
+          "reference": "Ivanov, Aleksandr; Kolosova, Alexandra; Tuhtan, Jeffrey Andrew; Mockenhaupt, Bernd; Scheifhacken, Nicole (2026). Monocular Fish Length Estimation for Video Tunnels in European Rivers. <i>Proceedings of the 16th International Symposium on Ecohydraulics 2026: 16th International Symposium on Ecohydraulics 2026 (ISE), Lausanne, Switzerland, 16-20 August 2026.</i>   IAHR Document Library, 4.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Proceedings of the International Symposium on Ecohydraulics is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0956": {
+          "sheet": "_workSheetName",
+          "row": 956,
+          "reference": "Stinkulis, Ģ., Lukševičs, E., Pipira, D.,Meire-Kārkle, M. and Martma, T. (2026). Dolocretes in the Amata Formation of Latvia as indicators of climate aridification during the Givetian–Frasnian transition. Estonian Journal of Earth Sciences, 75 (1),  67−82. DOI: 10.3176/earth.2026.05.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "Estonian Journal of Earth Sciences is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1113": {
+          "sheet": "_workSheetName",
+          "row": 1113,
+          "reference": "Thirumal Muthu, Kannan; Ojangu, Eve-Ly; Zovo, Kairit; Jõul, Piia; Illarionov, Aleksandr; Ho, Thi  Thuy Tran; Risti, Robert; Karpichev, Yevgen; Lukk, Tiit; Lahtvee, Petri-Jaan (2026). Uncovering the potential of Bacillus licheniformis in the utilisation of lignin-derived aromatics: Insights from transcriptomic analysis. SSRN Working Paper Series,  1−41. DOI: 10.2139/ssrn.6281837.",
+          "status": "unmatched",
+          "matched": false,
+          "venue_id": null,
+          "venue": "",
+          "memberships": [],
+          "note": "SSRN Working Paper Series is a working-paper venue and is not listed in the catalogue.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-0515": {
+          "sheet": "_workSheetName",
+          "row": 515,
+          "reference": "Tkačevs, Oļegs; Staehr, Karsten (2026). The effects of macroeconomic and budget balance shocks on public debt trajectories in the euro area. International Economics and Economic Policy, 23 (51),  art. 51. DOI: 10.1007/s10368-026-00751-6.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "3fef62ad743426c59ebf",
+          "venue": "International Economics",
+          "memberships": [
+            {
+              "category_id": "bus_economicpolicy",
+              "category": "Business, Economics & Management / Economic Policy",
+              "rank": 17,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=bus_economicpolicy"
+            }
+          ],
+          "note": "The publication identifies International Economics and Economic Policy, which is distinct from the catalogue's International Economics.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        },
+        "etis-1143": {
+          "sheet": "_workSheetName",
+          "row": 1143,
+          "reference": "Adegbile, Ademola Michael; Yörük, Can Rüstü; Pantšenko, Nata-Ly; Uibu, Mai; Thomas, Adheena; Trikkel, Andres (2026). Thermal analysis and kinetics of Estonian clays under varied calcination atmospheres. Journal of Thermal Analysis and Calorimetry,  1−12. DOI: 10.1007/s10973-026-15736-5.",
+          "status": "matched",
+          "matched": true,
+          "venue_id": "9b2670243ddd2836d0c5",
+          "venue": "Journal of Thermal Analysis and Calorimetry",
+          "memberships": [
+            {
+              "category_id": "phy_thermalsciences",
+              "category": "Physics & Mathematics / Thermal Sciences",
+              "rank": 4,
+              "source_url": "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=phy_thermalsciences"
+            }
+          ],
+          "note": "The structured journal field and reference identify Journal of Thermal Analysis and Calorimetry.",
+          "snapshot": "2026-10-16T13:23:26.662250+00:00"
+        }
+      },
+      "requests": [
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113980,
+            "input_tokens_details": {
+              "cache_write_tokens": 1811,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 388,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114368
+          },
+          "output_text": "{\"results\":[{\"id\":\"0\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Zenodo is a repository, not a publication venue listed in the catalogue.\"},{\"id\":\"1\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"ACM Symposium on Applied Computing (SAC) is not listed in the catalogue.\"},{\"id\":\"2\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Vojnosanitetski pregled is not listed in the catalogue.\"},{\"id\":\"3\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"IEEE Green Technologies Conference (GreenTech) is not listed in the catalogue.\"},{\"id\":\"4\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Journal of International Consumer Marketing is not listed in the catalogue.\"},{\"id\":\"5\",\"matched\":true,\"venue_id\":\"53f788751c1dbf5d69ca\",\"venue_name\":\"IEEE Transactions on Energy Conversion\",\"note\":\"The journal field directly identifies the listed venue.\"},{\"id\":\"6\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference identifies a Nordic Yearbook of Law and Informatics book/chapter, not the conference itself; no matching publication venue is listed.\"},{\"id\":\"7\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The reference gives a ChemRxiv preprint DOI; no published venue is identified.\"},{\"id\":\"8\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Haemophilia is not listed in the catalogue.\"},{\"id\":\"9\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"EDULEARN26 proceedings are not listed in the catalogue.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 4.111300564021803,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113848,
+            "input_tokens_details": {
+              "cache_write_tokens": 1679,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 411,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114259
+          },
+          "output_text": "{\"results\":[{\"id\":\"10\",\"matched\":true,\"venue_id\":\"c50e9454ec558478958d\",\"venue_name\":\"Energy and Buildings\",\"note\":\"The reference and journal field identify Energy and Buildings.\"},{\"id\":\"11\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"ChemPlusChem is not listed in the catalogue.\"},{\"id\":\"12\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The stated World Economic Forum/European Sting publication is not a listed journal or conference.\"},{\"id\":\"13\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The publication venue is Journal of Physics: Conference Series; the Nordic Symposium on Building Physics is only the cited event, not the publication venue, and the journal is not listed.\"},{\"id\":\"14\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Bulletin of the Geological Society of Finland, Special Volume is not listed; the Geological Winter Meeting is not the publication venue.\"},{\"id\":\"15\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Mathematical Research for Blockchain Economy (MARBLE) is not listed; the cited Springer Lecture Notes series does not establish a match to a listed venue.\"},{\"id\":\"16\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Białostockie Studia Prawnicze is not listed in the catalogue.\"},{\"id\":\"17\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Materials & Design is not listed in the catalogue.\"},{\"id\":\"18\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Processes is not listed in the catalogue.\"},{\"id\":\"19\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Estonian Journal of Earth Sciences is not listed in the catalogue.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 31.574926004977897,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113636,
+            "input_tokens_details": {
+              "cache_write_tokens": 1467,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 381,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114017
+          },
+          "output_text": "{\"results\":[{\"id\":\"20\",\"matched\":true,\"venue_id\":\"f8ad851194d83e5177f5\",\"venue_name\":\"Journal of Agricultural and Food Chemistry\",\"note\":\"The journal is Journal of Chemical & Engineering Data; that journal is not listed. Correction? No exact entry found.\"},{\"id\":\"21\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"EGOVIS is a conference proceedings venue, but the specific conference is not listed.\"},{\"id\":\"22\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"IEEE Open Journal of Power Electronics is not listed.\"},{\"id\":\"23\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Proceedings of the Estonian Academy of Sciences is not listed.\"},{\"id\":\"24\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Novaator is not listed.\"},{\"id\":\"25\",\"matched\":true,\"venue_id\":\"f8f6cdb69f1ed1473224\",\"venue_name\":\"Electric Power Systems Research\",\"note\":\"Exact journal match.\"},{\"id\":\"26\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Legal-tech Conference Future Law is not listed.\"},{\"id\":\"27\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"This is a book chapter in an edited book, not a listed journal or conference venue.\"},{\"id\":\"28\",\"matched\":true,\"venue_id\":\"3ae700b039623e6c6462\",\"venue_name\":\"IEEE Transactions on Transportation Electrification\",\"note\":\"Exact journal match.\"},{\"id\":\"29\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Public Policy and Administration is not listed.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 4.7702984909992665,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113714,
+            "input_tokens_details": {
+              "cache_write_tokens": 1545,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 422,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114136
+          },
+          "output_text": "{\"results\":[{\"id\":\"30\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Journal of Alloys and Compounds Communications is not listed; it is distinct from similarly named journals in the catalogue.\"},{\"id\":\"31\",\"matched\":true,\"venue_id\":\"26ec163ef8d23fe23ec8\",\"venue_name\":\"Journal of University Teaching and Learning Practice\",\"note\":\"The journal field exactly matches the catalogue venue.\"},{\"id\":\"32\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Geodeet is not listed in the catalogue.\"},{\"id\":\"33\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"New Political Economy is not listed in the catalogue.\"},{\"id\":\"34\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The publication identifies the International Baltic Conference (Baltic DB&IS); that conference is not listed. Communications in Computer and Information Science is a book series, not the conference venue.\"},{\"id\":\"35\",\"matched\":true,\"venue_id\":\"4b73263746b91d7b0346\",\"venue_name\":\"Nature Climate Change\",\"note\":\"The journal field exactly matches the catalogue venue.\"},{\"id\":\"36\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"International Conference on Mechatronics and Robotics Engineering (ICMRE) is not listed in the catalogue.\"},{\"id\":\"37\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"No publication venue is identified in the supplied fields.\"},{\"id\":\"38\",\"matched\":true,\"venue_id\":\"7785cced2c722e38f6a0\",\"venue_name\":\"IEEE Access\",\"note\":\"The journal field exactly matches the catalogue venue.\"},{\"id\":\"39\",\"matched\":true,\"venue_id\":\"cdc2e2c253940b15d812\",\"venue_name\":\"ACS Omega\",\"note\":\"The journal field exactly matches the catalogue venue.\"}]}",
+          "model": "gpt-6-luna",
+          "seconds": 6.600220993976109,
+          "http_attempts": 1
+        },
+        {
+          "batch": true,
+          "verification": false,
+          "usage": {
+            "input_tokens": 113722,
+            "input_tokens_details": {
+              "cache_write_tokens": 1553,
+              "cached_tokens": 112166
+            },
+            "output_tokens": 442,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 114164
+          },
+          "output_text": "{\"results\":[{\"id\":\"40\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"The publication is in the International Conference on Next Generation Information Systems Engineering (NGISE); it is not listed in the catalogue. The Springer series is not a substitute venue.\"},{\"id\":\"41\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Postimees is not listed in the catalogue.\"},{\"id\":\"42\",\"matched\":true,\"venue_id\":\"01f475d4e564a846acdd\",\"venue_name\":\"Atmosphere\",\"note\":\"The structured journal field and reference identify Atmosphere.\"},{\"id\":\"43\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Geodeet is not listed in the catalogue.\"},{\"id\":\"44\",\"matched\":true,\"venue_id\":\"98bdfde5e60e6a03dbbc\",\"venue_name\":\"Logical Methods in Computer Science\",\"note\":\"The structured journal field and reference identify Logical Methods in Computer Science.\"},{\"id\":\"45\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Proceedings of the International Symposium on Ecohydraulics is not listed in the catalogue.\"},{\"id\":\"46\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"Estonian Journal of Earth Sciences is not listed in the catalogue.\"},{\"id\":\"47\",\"matched\":false,\"venue_id\":null,\"venue_name\":null,\"note\":\"SSRN Working Paper Series is a working-paper venue and is not listed in the catalogue.\"},{\"id\":\"48\",\"matched\":true,\"venue_id\":\"3fef62ad743426c59ebf\",\"venue_name\":\"International Economics\",\"note\":\"The publication identifies International Economics and Economic Policy, which is distinct from the catalogue's International Economics.\"},{\"id\":\"49\",\"matched\":true,\"venue_id\":\"9b2670243ddd2836d0c5\",\"venue_name\":\"Journal of Thermal Analysis and Calorimetry\",\"note\":\"The structured journal field and reference identify Journal of Thermal Analysis and Calorimetry.\"}] }",
+          "model": "gpt-6-luna",
+          "seconds": 4.992418198962696,
+          "http_attempts": 1
+        }
+      ],
+      "complete": true,
+      "matching_seconds": 52.055688348948024,
+      "total_seconds": 53.07610303792171,
+      "fallbacks": 0,
+      "verifications": 0,
+      "request_count": 5,
+      "scores": {
+        "all": {
+          "n": 50,
+          "correct": 48,
+          "true_positive": 11,
+          "true_negative": 37,
+          "false_positive": 2,
+          "false_negative": 0,
+          "wrong_venue": 0,
+          "errors": 0,
+          "missing": 0,
+          "positive_errors": 0,
+          "negative_errors": 0,
+          "exact_accuracy": 0.96,
+          "match_precision": 0.8461538461538461,
+          "match_recall": 1.0
+        },
+        "fresh": {
+          "n": 50,
+          "correct": 48,
+          "true_positive": 11,
+          "true_negative": 37,
+          "false_positive": 2,
+          "false_negative": 0,
+          "wrong_venue": 0,
+          "errors": 0,
+          "missing": 0,
+          "positive_errors": 0,
+          "negative_errors": 0,
+          "exact_accuracy": 0.96,
+          "match_precision": 0.8461538461538461,
+          "match_recall": 1.0
+        }
+      }
+    }
+  ],
+  "frozen_testset_sha256": "84aab48a7e64c065a5c3ffa1373636c16002228b26895d6ce4ab02d7b7ab2aad",
+  "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+  "annotation_audit": null,
+  "venue_policy": {
+    "version": "2",
+    "prompt_version": "5",
+    "frozen_at": "2026-10-19T08:26:35.375357+00:00",
+    "authority": "User instruction: count companion/Demo/Challenge proceedings as the main conference, excluding workshops; tolerate special characters lost in ETIS exports.",
+    "catalogue_version": "a18b822dabd4821fd7c55df8891970e8bc535f5b5ea283b510ebfaa66ee15021",
+    "dataset_sha256": {
+      "benchmarks/testset.json": "72050c7efa6acd21409dcf5378a449629e9a8ba717356d0fe4a68cf914f16fc4",
+      "benchmarks/fresh50.json": "84aab48a7e64c065a5c3ffa1373636c16002228b26895d6ce4ab02d7b7ab2aad"
+    },
+    "rules": [
+      "Official companion tracks, including demonstrations, challenges, findings and late-breaking papers, count as the parent conference. Prefer its listed main entry; otherwise accept the exact listed track.",
+      "Workshops never inherit the host conference identity, including workshops in companion volumes. A listed workshop can match its own entry.",
+      "Missing punctuation, ampersands, corrupted HTML entities and connective and do not change identity when the remaining full venue name is clear. Different substantive words still identify different venues.",
+      "Output catalogue IDs and canonical names remain exact; no fuzzy scoring of different journals."
+    ],
+    "changes": [
+      {
+        "id": "etis-0967",
+        "previous_expected_venue_id": null,
+        "expected_venue_id": "06d3be002d15cce64615",
+        "expected_venue": "Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+        "resolved_venue": "EACL 2026, Proceedings of System Demonstrations",
+        "rationale": "The reference explicitly identifies the EACL demonstrations proceedings. Under the user-defined companion-track policy this counts as the main EACL conference, not EMNLP demonstrations.",
+        "evidence": [
+          "User-defined venue policy, version 2",
+          "sample_data/Publications.xlsx#row=967",
+          "data/venues.json#06d3be002d15cce64615"
+        ]
+      }
+    ],
+    "reviewed_unchanged": [
+      {
+        "ids": [
+          "etis-1141"
+        ],
+        "reason": "The prior HCI audit already labels Late Breaking Papers as HCI International."
+      },
+      {
+        "ids": [
+          "etis-0032",
+          "etis-0157",
+          "etis-0229",
+          "etis-1062",
+          "etis-1106"
+        ],
+        "reason": "Listed venues already match despite missing ampersands or and/ampersand variants."
+      },
+      {
+        "ids": [
+          "etis-0063",
+          "etis-0270",
+          "etis-0890"
+        ],
+        "reason": "Restoring punctuation does not add an absent venue to the catalogue or replace substantive words; remain unmatched."
+      },
+      {
+        "ids": [
+          "etis-0116",
+          "etis-0658",
+          "etis-0811"
+        ],
+        "reason": "Unlisted workshops remain unmatched; host conference membership is insufficient."
+      },
+      {
+        "ids": [
+          "etis-1152"
+        ],
+        "reason": "Doctoral consortium/companion eligibility does not create membership for an unlisted parent conference."
+      }
+    ]
+  },
+  "policy_sha256": "294f7957baa48a6ddec0bb4b4e220570268086e76fab56ae3919be3f2c93579d",
+  "testset": "benchmarks/fresh50.json",
+  "code_sha256": {
+    "app/matching.py": "19bd599b32572bd6d8aa3a5b921df99cbc7dcff200f3cffd87ae0a1d4e5c1031",
+    "app/processing.py": "0422b01a1d5ad7fa5f7f9b855296065700b40ef06e959f0080ed9f83e8eff44a",
+    "app/workbooks.py": "e9a4b201a479439282e7d5dd5140424b27873c35aef3a55b68cc21d1a8d083cc",
+    "app/candidates.py": "cd93a828e1e24c0905268cbf492fea48661ae12fa16b934358153cda28d60f87"
+  },
+  "finished_at": "2026-10-19T08:44:37.091039+00:00",
+  "acceptance": {
+    "minimum_exact_matches": 98,
+    "exact_matches": 98,
+    "passed": true
+  },
+  "baseline_rescored": {
+    "path": "benchmarks/results/batching-no-verification/fresh50.json",
+    "sha256": "d73262d794d090782955c8389a374a6cb0a389b0140eb48b964b0b08d17e9396",
+    "rounds": [
+      {
+        "pass": 1,
+        "scores": {
+          "n": 50,
+          "correct": 50,
+          "true_positive": 11,
+          "true_negative": 39,
+          "false_positive": 0,
+          "false_negative": 0,
+          "wrong_venue": 0,
+          "errors": 0,
+          "missing": 0,
+          "positive_errors": 0,
+          "negative_errors": 0,
+          "exact_accuracy": 1.0,
+          "match_precision": 1.0,
+          "match_recall": 1.0
+        }
+      },
+      {
+        "pass": 2,
+        "scores": {
+          "n": 50,
+          "correct": 49,
+          "true_positive": 11,
+          "true_negative": 38,
+          "false_positive": 1,
+          "false_negative": 0,
+          "wrong_venue": 0,
+          "errors": 0,
+          "missing": 0,
+          "positive_errors": 0,
+          "negative_errors": 0,
+          "exact_accuracy": 0.98,
+          "match_precision": 0.9166666666666666,
+          "match_recall": 1.0
+        }
+      }
+    ]
+  }
+}

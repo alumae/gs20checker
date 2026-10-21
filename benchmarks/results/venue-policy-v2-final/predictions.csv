@@ -1,0 +1,301 @@
+set,pass,id,expected,actual,correct,note
+Original 100,1,etis-0102,,,True,The publication is in the Lecture Notes in Networks and Systems proceedings of the International Conference on Smart Technologies & Education; that conference is not listed. The listed Smart Technologies entries are not equivalent.
+Original 100,1,etis-1007,,,True,Novaator is not listed in the catalogue.
+Original 100,1,etis-0692,Sustainability,Sustainability,True,"The structured journal field identifies Sustainability, which is listed."
+Original 100,1,etis-0995,Scientific Reports,Scientific Reports,True,"The structured journal field identifies Scientific Reports, which is listed."
+Original 100,1,etis-0938,,,True,Applied Economics Letters is not listed in the catalogue.
+Original 100,1,etis-0457,,,True,Tartu Postimees is not listed in the catalogue.
+Original 100,1,etis-0971,,,True,Beilstein Journal of Organic Chemistry is not listed in the catalogue.
+Original 100,1,etis-0165,Internet Policy Review,Internet Policy Review,True,"The structured journal field identifies Internet Policy Review, which is listed."
+Original 100,1,etis-0011,,,True,Water Research X is a distinct journal and is not listed; Water Research is a different venue.
+Original 100,1,etis-1118,,,True,The publication is the 9th IAHR Europe Congress; that conference is not listed in the catalogue.
+Original 100,1,etis-0447,,,True,Lignin Gordon Research Conference is not listed.
+Original 100,1,etis-1158,,,True,Journal of Economic and Administrative Sciences is not listed.
+Original 100,1,etis-0310,,,True,Data in Brief is not listed.
+Original 100,1,etis-0256,PLOS ONE,PLOS ONE,True,PLoS ONE is a capitalization variant of the listed venue PLOS ONE.
+Original 100,1,etis-0130,IEEE Access,IEEE Access,True,The journal matches the listed venue IEEE Access.
+Original 100,1,etis-1152,,,True,"The Baltic DBIS Conference is not listed; CEUR Workshop Proceedings is a series, not the conference venue."
+Original 100,1,etis-0201,,,True,Eesti Arst is not listed.
+Original 100,1,etis-0046,,,True,ACM Transactions on Programming Languages and Systems is not listed.
+Original 100,1,etis-0211,,,True,Higher Structures is not listed.
+Original 100,1,etis-0411,Journal of Marine Science and Application,Journal of Marine Science and Application,True,The journal matches the listed venue Journal of Marine Science and Application.
+Original 100,1,etis-0658,,,True,"The publication is the Workshop on Mathematically Structured Functional Programming (MSFP), a distinct workshop venue; it is not listed in the catalogue."
+Original 100,1,etis-0914,,,True,Journal of Chromatography Open is not listed; the catalogue's Journal of Chromatography A is a different journal.
+Original 100,1,etis-0275,Journal of Marine Science and Engineering,Journal of Marine Science and Engineering,True,The structured journal field and reference identify this listed journal.
+Original 100,1,etis-0830,,,True,International Wireless Communications and Mobile Computing (IWCMC) is not listed in the catalogue.
+Original 100,1,etis-0229,Astronomy & Astrophysics,Astronomy & Astrophysics,True,"The reference's Astronomy and Astrophysics is the same journal, with the catalogue's ampersand punctuation."
+Original 100,1,etis-0767,International Journal of Public Administration,International Journal of Public Administration,True,The structured journal field and reference identify this listed journal.
+Original 100,1,etis-0737,,,True,Nonprofit and Voluntary Sector Quarterly is not listed in the catalogue.
+Original 100,1,etis-0067,,,True,IEEE Open Journal of Power Electronics is not listed; the catalogue's IEEE Open Journal of the Communications Society is a different journal.
+Original 100,1,etis-0528,Proceedings of the ACM on Programming Languages,Proceedings of the ACM on Programming Languages,True,The structured journal field and reference identify this listed journal.
+Original 100,1,etis-0280,International Journal of Electrical Power & Energy Systems,International Journal of Electrical Power & Energy Systems,True,The ampersand is omitted in the journal field and represented as 'amp;' in the reference; both identify the listed journal.
+Original 100,1,etis-0158,,,True,"MFCS (Mathematical Foundations of Computer Science) is not listed; LIPIcs is a proceedings series, not the venue."
+Original 100,1,etis-1042,,,True,"This is a chapter in a Routledge book, not a listed journal or conference venue."
+Original 100,1,etis-0916,,,True,IEEE Open Journal of Power Electronics is not listed; the listed IEEE Open Journal of the Communications Society is a different journal.
+Original 100,1,etis-0419,,,True,Libertas Fidei is not listed.
+Original 100,1,etis-1030,Advances in Building Energy Research,Advances in Building Energy Research,True,The journal field and reference identify the listed journal.
+Original 100,1,etis-1065,,,True,"Financial Markets, Institutions and Risks is not listed."
+Original 100,1,etis-1107,,,True,Novaator is not listed.
+Original 100,1,etis-0120,Journal of Pure and Applied Algebra,Journal of Pure and Applied Algebra,True,The journal field and reference identify the listed journal.
+Original 100,1,etis-1123,Metals,Metals,True,The journal field and reference identify the listed journal.
+Original 100,1,etis-0676,Scientific Reports,Scientific Reports,True,The journal field and reference identify the listed journal.
+Original 100,1,etis-0238,,,True,Local Environment is not listed in the catalogue.
+Original 100,1,etis-0469,,,True,Journal of Building Physics is not listed in the catalogue.
+Original 100,1,etis-0075,,,True,Journal of Materials Chemistry C is not listed in the catalogue.
+Original 100,1,etis-0811,,,True,IWSPA (International Workshop on Security and Privacy Analytics) is a distinct workshop venue and is not listed in the catalogue.
+Original 100,1,etis-0063,,,True,The cited journal is Journal of Materials Science and Technology; that journal is not listed. The similarly named Journal of Materials Science is not an equivalent venue.
+Original 100,1,etis-0301,,,True,Proceedings of the Estonian Academy of Sciences is not listed in the catalogue.
+Original 100,1,etis-0147,,,True,IEEE Journal of Emerging and Selected Topics in Industrial Electronics is not listed in the catalogue.
+Original 100,1,etis-0476,Control Engineering Practice,Control Engineering Practice,True,"The journal field and reference identify Control Engineering Practice, which is listed."
+Original 100,1,etis-0160,Ocean Modelling,Ocean Modelling,True,"The journal field and reference identify Ocean Modelling, which is listed."
+Original 100,1,etis-0768,,,True,MIE 2026 proceedings published in Studies in Health Technology and Informatics are not listed as a venue; the series is not a listed conference venue.
+Original 100,1,etis-1051,Quaternary Science Reviews,Quaternary Science Reviews,True,The journal field and reference identify Quaternary Science Reviews.
+Original 100,1,etis-1062,Algebraic & Geometric Topology,Algebraic & Geometric Topology,True,The journal field is a punctuation/spacing variant of Algebraic & Geometric Topology.
+Original 100,1,etis-0628,,,True,Faraday Discussions is not listed in the catalogue.
+Original 100,1,etis-0239,,,True,Industry and Innovation is not listed in the catalogue.
+Original 100,1,etis-0164,,,True,"The reference identifies an EGU Sphere conference contribution, not a listed venue."
+Original 100,1,etis-0492,Journal of Geodesy,Journal of Geodesy,True,The journal field and reference identify Journal of Geodesy.
+Original 100,1,etis-0181,Conference on Computational Natural Language Learning (CoNLL),Conference on Computational Natural Language Learning (CoNLL),True,CoNLL 2026 proceedings identify the listed Conference on Computational Natural Language Learning.
+Original 100,1,etis-0408,Clinical Journal of the American Society of Nephrology,Clinical Journal of the American Society of Nephrology,True,The journal field is a capitalization variant of the listed Clinical Journal of the American Society of Nephrology.
+Original 100,1,etis-0943,,,True,Agronoomia 2026 conference proceedings are not listed; Agronomy Journal is a different venue.
+Original 100,1,etis-1045,,,True,IEEE International Instrumentation and Measurement Technology Conference (I2MTC) is not listed.
+Original 100,1,etis-0199,,,True,RP: Raamatupidamise praktik is not listed in the catalogue.
+Original 100,1,etis-1038,,,True,"The 2026 International Conference on Information Communication, IoT Technology, and Smart Cities (IITS) is not listed in the catalogue."
+Original 100,1,etis-0560,IEEE Access,IEEE Access,True,"The structured journal field identifies IEEE Access, which is listed."
+Original 100,1,etis-0035,,,True,The International Conference on Machine Learning and Applications (ICMLA) is not listed in the catalogue.
+Original 100,1,etis-0413,,,True,Journal of Computational Neuroscience is not listed in the catalogue.
+Original 100,1,etis-0116,,,True,Ericsson Estonia workshop is not listed in the catalogue.
+Original 100,1,etis-0884,,,True,"ChemRxiv is a preprint repository, not a listed publication venue."
+Original 100,1,etis-1028,Journal of Paleontology,,False,Journal of Paleontology is not listed in the catalogue.
+Original 100,1,etis-0382,,,True,SECRYPT is not listed in the catalogue.
+Original 100,1,etis-0018,,,True,The publication is in the Energy Informatics Academy Conference proceedings; that venue is not listed. The Lecture Notes in Computer Science book series is not a match.
+Original 100,1,etis-0388,,,True,"Palgauudised.ee is a news website, not a listed journal or conference."
+Original 100,1,etis-0454,,,True,The International Liège Colloquium on Ocean Dynamics is not listed in the catalogue.
+Original 100,1,etis-0187,,,True,Journal of Urbanism: International Research on Placemaking and Urban Sustainability is not listed.
+Original 100,1,etis-0967,Conference of the European Chapter of the Association for Computational Linguistics (EACL),Conference of the European Chapter of the Association for Computational Linguistics (EACL),True,EACL System Demonstrations are an official track of the listed EACL conference.
+Original 100,1,etis-0526,Scientific Reports,Scientific Reports,True,"The journal field identifies Scientific Reports, which is listed."
+Original 100,1,etis-0237,International Journal of Refractory Metals and Hard Materials,International Journal of Refractory Metals and Hard Materials,True,The journal field exactly identifies a listed catalogue venue.
+Original 100,1,etis-0243,,,True,"The reference identifies a report published by Transpordiamet, which is not a listed venue."
+Original 100,1,etis-0436,,,True,Frontiers in Medicine is not listed in the catalogue.
+Original 100,1,etis-0089,,,True,Journal of Physics: Conference Series is not listed; the NSB symposium is a different venue and is also unlisted.
+Original 100,1,etis-0079,,,True,Land is not listed in the catalogue.
+Original 100,1,etis-0352,,,True,Äripäev is a newspaper and is not listed in the catalogue.
+Original 100,1,etis-0841,,,True,"The publication venue is Journal of Physics: Conference Series, which is not listed; the named symposium is conference context, not the journal venue."
+Original 100,1,etis-1074,,,True,"This is an institutional guide/publication, not a listed journal or conference venue."
+Original 100,1,etis-1019,,,True,ECOO project report is not listed in the catalogue.
+Original 100,1,etis-0494,IEEE Transactions on Smart Grids,IEEE Transactions on Smart Grids,True,The structured journal field identifies IEEE Transactions on Smart Grid; this is the listed journal IEEE Transactions on Smart Grids.
+Original 100,1,etis-1141,HCI International,HCI International,True,HCI International Late Breaking Papers are official proceedings of the listed HCI International conference.
+Original 100,1,etis-1106,Computer Speech & Language,Computer Speech & Language,True,The journal field and reference identify Computer Speech & Language; punctuation/entity loss in the reference is harmless.
+Original 100,1,etis-0002,,,True,TalTech Journal of European Studies is not listed in the catalogue.
+Original 100,1,etis-0157,Biomass and Bioenergy,,False,Biomass & Bioenergy is not listed; the catalogue entry Biomass and Bioenergy is a different journal title.
+Original 100,1,etis-0406,,,True,ESANN (European Symposium on Artificial Neural Networks) is not listed in the catalogue.
+Original 100,1,etis-0032,Computers & Security,Computers & Security,True,The journal field and reference identify Computers & Security; the missing ampersand in the field is a punctuation variation.
+Original 100,1,etis-0260,,,True,RMP Nädalakiri is not listed in the catalogue.
+Original 100,1,etis-0284,Conference of the International Speech Communication Association (INTERSPEECH),Conference of the International Speech Communication Association (INTERSPEECH),True,Interspeech 2026 is the named edition of the INTERSPEECH conference.
+Original 100,1,etis-0820,,,True,World Economic Forum / The European Sting is not listed as a publication venue in the catalogue.
+Original 100,1,etis-0604,,,True,IEEE Transactions on Industry Applications is not listed in the catalogue.
+Original 100,1,etis-0223,Computer Human Interaction (CHI),Computer Human Interaction (CHI),True,CHI ’26 is the 2026 edition of the Conference on Human Factors in Computing Systems (CHI).
+Original 100,1,etis-0132,,,True,RTUCON (the IEEE Conference on Power and Electrical Engineering of Riga Technical University) is not listed in the catalogue.
+Original 100,1,etis-1088,IEEE Conference on Decision and Control,IEEE Conference on Decision and Control,True,CDC 2026 is the 2026 edition of the IEEE Conference on Decision and Control.
+Original 100,1,etis-0362,Control Engineering Practice,Control Engineering Practice,True,The structured journal field and reference identify the listed journal.
+Original 100,1,etis-0934,,,True,RP: Raamatupidamise praktik is not listed in the catalogue.
+Original 100,2,etis-1042,,,True,"This is a Routledge book title, not a venue listed in the catalogue."
+Original 100,2,etis-0199,,,True,RP: Raamatupidamise praktik is not listed in the catalogue.
+Original 100,2,etis-0238,,,True,Local Environment is not listed in the catalogue.
+Original 100,2,etis-0011,,,True,Water Research X is not listed; it is distinct from Water Research.
+Original 100,2,etis-0436,,,True,Frontiers in Medicine is not listed in the catalogue.
+Original 100,2,etis-0967,Conference of the European Chapter of the Association for Computational Linguistics (EACL),Conference of the European Chapter of the Association for Computational Linguistics (EACL),True,EACL 2026 System Demonstrations are an official track of EACL.
+Original 100,2,etis-0181,Conference on Computational Natural Language Learning (CoNLL),Conference on Computational Natural Language Learning (CoNLL),True,The proceedings identify the publication as CoNLL 2026.
+Original 100,2,etis-1051,Quaternary Science Reviews,Quaternary Science Reviews,True,The journal field and reference identify Quaternary Science Reviews.
+Original 100,2,etis-0388,,,True,Palgauudised.ee is not listed in the catalogue.
+Original 100,2,etis-0413,,,True,Journal of Computational Neuroscience is not listed in the catalogue.
+Original 100,2,etis-0830,,,True,IWCMC (International Wireless Communications and Mobile Computing) is not listed in the catalogue.
+Original 100,2,etis-1019,,,True,"ECOO is identified as a report/publication, not a listed journal or conference venue."
+Original 100,2,etis-1007,,,True,Novaator is not listed in the catalogue.
+Original 100,2,etis-1088,IEEE Conference on Decision and Control,,False,"IEEE Conference on Decision and Control is not listed under that name; the catalogue entry is American Control Conference, a different venue."
+Original 100,2,etis-0147,,,True,IEEE Journal of Emerging and Selected Topics in Industrial Electronics is not listed; the catalogue's similarly named Power Electronics journal is a distinct venue.
+Original 100,2,etis-0157,Biomass and Bioenergy,Biomass and Bioenergy,True,The journal field 'Biomass Bioenergy' and reference's 'Biomass & Bioenergy' identify the listed journal Biomass and Bioenergy.
+Original 100,2,etis-0604,,,True,IEEE Transactions on Industry Applications is not listed in the catalogue.
+Original 100,2,etis-0971,,,True,Beilstein Journal of Organic Chemistry is not listed in the catalogue.
+Original 100,2,etis-0692,Sustainability,Sustainability,True,The journal field and reference identify the listed journal Sustainability.
+Original 100,2,etis-0132,,,True,RTUCON (International Scientific Conference on Power and Electrical Engineering of Riga Technical University) is not listed in the catalogue.
+Original 100,2,etis-0079,,,True,Land is not listed in the catalogue.
+Original 100,2,etis-0938,,,True,Applied Economics Letters is not listed in the catalogue.
+Original 100,2,etis-0419,,,True,Libertas Fidei is not listed in the catalogue.
+Original 100,2,etis-1065,,,True,"Financial Markets, Institutions and Risks is not listed in the catalogue."
+Original 100,2,etis-0310,,,True,Data in Brief is not listed in the catalogue.
+Original 100,2,etis-0767,International Journal of Public Administration,International Journal of Public Administration,True,Journal name matches the listed venue.
+Original 100,2,etis-0943,,,True,Agronoomia 2026 : konverentsikogumik is a conference collection not listed in the catalogue.
+Original 100,2,etis-0492,Journal of Geodesy,Journal of Geodesy,True,Journal name matches the listed venue.
+Original 100,2,etis-0165,Internet Policy Review,Internet Policy Review,True,Journal name matches the listed venue.
+Original 100,2,etis-0914,,,True,Journal of Chromatography Open is not listed; the listed Journal of Chromatography A is a distinct venue.
+Original 100,2,etis-0411,Journal of Marine Science and Application,Journal of Marine Science and Application,True,Journal name matches the catalogue entry.
+Original 100,2,etis-0256,PLOS ONE,PLOS ONE,True,PLoS ONE is a capitalization variant of the listed journal PLOS ONE.
+Original 100,2,etis-0469,,,True,Journal of Building Physics is not listed in the catalogue.
+Original 100,2,etis-0526,Scientific Reports,Scientific Reports,True,Journal name matches the catalogue entry.
+Original 100,2,etis-0002,,,True,TalTech Journal of European Studies is not listed in the catalogue.
+Original 100,2,etis-0406,,,True,ESANN proceedings are not listed in the catalogue.
+Original 100,2,etis-0201,,,True,Eesti Arst is not listed in the catalogue.
+Original 100,2,etis-0382,,,True,SECRYPT is not listed in the catalogue.
+Original 100,2,etis-0116,,,True,Ericsson Estonia workshop is not listed in the catalogue.
+Original 100,2,etis-0916,,,True,IEEE Open Journal of Power Electronics is not listed in the catalogue.
+Original 100,2,etis-0187,,,True,Journal of Urbanism: International Research on Placemaking and Urban Sustainability is not listed in the catalogue.
+Original 100,2,etis-0018,,,True,"The cited venue is the Energy Informatics Academy Conference proceedings, not a listed venue; Lecture Notes in Computer Science is a series."
+Original 100,2,etis-1152,,,True,The Baltic DB&IS Conference and its Forum/Doctoral Consortium proceedings are not listed in the catalogue.
+Original 100,2,etis-1074,,,True,"This is a book chapter in a guide, not a listed journal or conference venue."
+Original 100,2,etis-0301,,,True,Proceedings of the Estonian Academy of Sciences is not listed in the catalogue.
+Original 100,2,etis-0280,International Journal of Electrical Power & Energy Systems,International Journal of Electrical Power & Energy Systems,True,The journal name matches; the missing ampersand in the supplied field is a harmless punctuation variation.
+Original 100,2,etis-0934,,,True,RP: Raamatupidamise Praktik is not listed in the catalogue.
+Original 100,2,etis-1062,Algebraic & Geometric Topology,Algebraic & Geometric Topology,True,Algebraic and Geometric Topology is the same journal as the catalogue entry.
+Original 100,2,etis-0884,,,True,"ChemRxiv is a preprint repository, not a listed publication venue."
+Original 100,2,etis-0658,,,True,"Mathematically Structured Functional Programming is a workshop, not a listed venue; its proceedings series is not the workshop itself."
+Original 100,2,etis-0811,,,True,IWSPA (ACM International Workshop on Security and Privacy Analytics) is a workshop and is not listed in the catalogue.
+Original 100,2,etis-0237,International Journal of Refractory Metals and Hard Materials,International Journal of Refractory Metals and Hard Materials,True,The journal field matches the catalogue venue.
+Original 100,2,etis-0820,,,True,"The reference names World Economic Forum/The European Sting, which is not listed as a venue."
+Original 100,2,etis-0243,,,True,No publication venue is identified; Transpordiamet is given as the issuing organization.
+Original 100,2,etis-0032,Computers & Security,Computers & Security,True,The reference's Computers & Security matches the catalogue entry; the missing ampersand in the journal field is harmless.
+Original 100,2,etis-1106,Computer Speech & Language,Computer Speech & Language,True,The reference's Computer Speech & Language matches the catalogue entry; punctuation omissions are harmless.
+Original 100,2,etis-0284,Conference of the International Speech Communication Association (INTERSPEECH),Conference of the International Speech Communication Association (INTERSPEECH),True,Interspeech 2026 is the conference venue and matches the catalogue's canonical INTERSPEECH entry.
+Original 100,2,etis-0408,Clinical Journal of the American Society of Nephrology,Clinical Journal of the American Society of Nephrology,True,The journal title matches the catalogue entry despite capitalization and the appended abbreviation.
+Original 100,2,etis-0046,,,True,ACM Transactions on Programming Languages and Systems is not listed in the catalogue.
+Original 100,2,etis-0120,Journal of Pure and Applied Algebra,Journal of Pure and Applied Algebra,True,The journal field matches the catalogue venue.
+Original 100,2,etis-0447,,,True,Lignin Gordon Research Conference is not listed in the catalogue.
+Original 100,2,etis-1038,,,True,"The International Conference on Information Communication, IoT Technology, and Smart Cities (IITS) is not listed."
+Original 100,2,etis-0454,,,True,The International Liège Colloquium on Ocean Dynamics is not listed.
+Original 100,2,etis-1141,HCI International,HCI International,True,HCI International 2025 Late Breaking Papers is an official track of HCI International.
+Original 100,2,etis-0995,Scientific Reports,Scientific Reports,True,"The journal field names Scientific Reports, which is listed."
+Original 100,2,etis-0494,IEEE Transactions on Smart Grids,IEEE Transactions on Smart Grids,True,The journal field identifies IEEE Transactions on Smart Grid; the catalogue's pluralized name is the same venue.
+Original 100,2,etis-1030,Advances in Building Energy Research,Advances in Building Energy Research,True,The journal is listed under this exact name.
+Original 100,2,etis-0275,Journal of Marine Science and Engineering,Journal of Marine Science and Engineering,True,The journal is listed under this exact name.
+Original 100,2,etis-0457,,,True,Tartu Postimees is not listed in the catalogue.
+Original 100,2,etis-0560,IEEE Access,IEEE Access,True,The journal is listed under this exact name.
+Original 100,2,etis-0260,,,True,"RMP Nädalakiri is a newsletter, and it is not listed in the catalogue."
+Original 100,2,etis-0130,IEEE Access,IEEE Access,True,"The journal field identifies IEEE Access, which is listed."
+Original 100,2,etis-0164,,,True,The reference identifies an EGU26 abstract/presentation published by the European Federation of Geologists; no matching venue is listed.
+Original 100,2,etis-1045,,,True,IEEE International Instrumentation and Measurement Technology Conference (I2MTC) is not listed in the catalogue.
+Original 100,2,etis-0063,,,True,"The journal field gives Journal of Material Science and Technology, which is distinct from the listed Journal of Materials Science: Materials in Electronics; the supplied venue is not listed."
+Original 100,2,etis-0160,Ocean Modelling,Ocean Modelling,True,"The journal field identifies Ocean Modelling, which is listed."
+Original 100,2,etis-1107,,,True,Novaator is a publication outlet not listed in the catalogue.
+Original 100,2,etis-0768,,,True,MIE 2026 proceedings in the Studies in Health Technology and Informatics series are not a listed venue; the series is distinct from any listed conference.
+Original 100,2,etis-0229,Astronomy & Astrophysics,Astronomy & Astrophysics,True,Astronomy and Astrophysics is a punctuation variant of the listed Astronomy & Astrophysics.
+Original 100,2,etis-0841,,,True,"Journal of Physics: Conference Series is not listed; the Nordic Symposium named in the conference field is a different, unlisted venue."
+Original 100,2,etis-0102,,,True,"The publication identifies the International Conference on Smart Technologies & Education; it is not listed in the catalogue. Lecture Notes in Networks and Systems is a book series, not the venue."
+Original 100,2,etis-0476,Control Engineering Practice,Control Engineering Practice,True,The structured journal field and reference identify Control Engineering Practice.
+Original 100,2,etis-0239,,,True,Industry and Innovation is not listed in the catalogue.
+Original 100,2,etis-0075,,,True,Journal of Materials Chemistry C is not listed in the catalogue; the related Journal of Materials Chemistry A is a distinct journal.
+Original 100,2,etis-0211,,,True,Higher Structures is not listed in the catalogue.
+Original 100,2,etis-0737,,,True,Nonprofit and Voluntary Sector Quarterly is not listed in the catalogue.
+Original 100,2,etis-0362,Control Engineering Practice,Control Engineering Practice,True,The structured journal field and reference identify Control Engineering Practice.
+Original 100,2,etis-0035,,,True,The publication identifies the International Conference on Machine Learning and Applications (ICMLA); it is not listed in the catalogue. The listed International Conference on Machine Learning is a different conference.
+Original 100,2,etis-0158,,,True,The publication identifies the International Symposium on Mathematical Foundations of Computer Science (MFCS); it is not listed in the catalogue.
+Original 100,2,etis-0089,,,True,"The reference identifies Journal of Physics: Conference Series, a journal, which is not listed. The listed Nordic Symposium on Building Physics is a different venue."
+Original 100,2,etis-0676,Scientific Reports,Scientific Reports,True,Journal field and reference identify Scientific Reports.
+Original 100,2,etis-1123,Metals,Metals,True,Journal field and reference identify Metals.
+Original 100,2,etis-0067,,,True,IEEE Open Journal of Power Electronics is not listed; IEEE Open Journal of the Communications Society is a different venue.
+Original 100,2,etis-0628,,,True,Faraday Discussions is not listed.
+Original 100,2,etis-0223,Computer Human Interaction (CHI),Computer Human Interaction (CHI),True,The publication title identifies the CHI conference; the listed CHI entry is the matching venue.
+Original 100,2,etis-0352,,,True,Äripäev is not listed.
+Original 100,2,etis-1028,Journal of Paleontology,Journal of Paleontology,True,Journal field and reference identify Journal of Paleontology.
+Original 100,2,etis-1118,,,True,"The reference identifies the 9th IAHR Europe Congress book of abstracts, which is not listed."
+Original 100,2,etis-0528,Proceedings of the ACM on Programming Languages,Proceedings of the ACM on Programming Languages,True,Journal field and reference identify Proceedings of the ACM on Programming Languages.
+Original 100,2,etis-1158,,,True,Journal of Economic and Administrative Sciences is not listed; Journal of Economic and Social Geography is a different venue.
+Additional 50,1,etis-0495,,,True,EDULEARN26 (International Conference on Education and New Learning Technologies) is not listed in the catalogue.
+Additional 50,1,etis-0325,,,True,Geodeet is not listed in the catalogue.
+Additional 50,1,etis-0910,,,True,Haemophilia is not listed in the catalogue.
+Additional 50,1,etis-0616,,,True,The 2nd International Conference on Next Generation Information Systems Engineering is not listed; the cited Communications in Computer and Information Science series is not a matching conference venue.
+Additional 50,1,etis-0480,,,True,IEEE Green Technologies Conference (GreenTech) is not listed in the catalogue.
+Additional 50,1,etis-1044,,,True,International Conference on Mechatronics and Robotics Engineering (ICMRE) is not listed in the catalogue.
+Additional 50,1,etis-0395,,,True,World Economic Forum / European Sting is not listed as a publication venue in the catalogue.
+Additional 50,1,etis-0722,IEEE Transactions on Energy Conversion,IEEE Transactions on Energy Conversion,True,The journal field exactly identifies a listed catalogue venue.
+Additional 50,1,etis-0145,,,True,Novaator is not listed in the catalogue.
+Additional 50,1,etis-0217,,,True,ACM Symposium on Applied Computing (SAC) is not listed in the catalogue.
+Additional 50,1,etis-0725,,,True,"This is a chapter in an edited book published by Elsevier, not a venue listed in the catalogue."
+Additional 50,1,etis-0213,IEEE Access,IEEE Access,True,The structured journal field and reference identify IEEE Access.
+Additional 50,1,etis-0345,Electric Power Systems Research,Electric Power Systems Research,True,The structured journal field and reference identify Electric Power Systems Research.
+Additional 50,1,etis-0890,,,True,The reference identifies Journal of Chemical Engineering Data; that journal is not listed in the catalogue.
+Additional 50,1,etis-0481,,,True,"This is a ChemRxiv preprint, not a published venue listed in the catalogue."
+Additional 50,1,etis-0108,Atmosphere,Atmosphere,True,The structured journal field and reference identify Atmosphere.
+Additional 50,1,etis-0475,,,True,Journal of International Consumer Marketing is not listed in the catalogue.
+Additional 50,1,etis-0497,Journal of University Teaching and Learning Practice,Journal of University Teaching and Learning Practice,True,The structured journal field and reference identify Journal of University Teaching and Learning Practice.
+Additional 50,1,etis-0445,,,True,Legal-tech Conference Future Law is not listed in the catalogue.
+Additional 50,1,etis-0707,,,True,Proceedings of the Estonian Academy of Sciences is not listed in the catalogue.
+Additional 50,1,etis-1143,Journal of Thermal Analysis and Calorimetry,Journal of Thermal Analysis and Calorimetry,True,Journal field matches the catalogue venue.
+Additional 50,1,etis-0214,,,True,ChemPlusChem is not listed in the catalogue.
+Additional 50,1,etis-0515,,,True,International Economics and Economic Policy is not listed; it is distinct from International Economics.
+Additional 50,1,etis-0118,ACS Omega,ACS Omega,True,Journal field exactly matches the catalogue venue.
+Additional 50,1,etis-1029,,,True,The cited publication is a proceedings volume in the Communications in Computer and Information Science series; that series and the International Baltic Conference are not listed as a matching venue.
+Additional 50,1,etis-0270,,,True,Materials & Design is not listed in the catalogue.
+Additional 50,1,etis-1113,,,True,SSRN Working Paper Series is a working-paper venue and is not listed.
+Additional 50,1,etis-0825,,,True,"Zenodo is a repository, not a listed publication venue."
+Additional 50,1,etis-0629,Nature Climate Change,Nature Climate Change,True,Journal field matches the catalogue venue.
+Additional 50,1,etis-0219,,,True,"The cited special-volume proceedings belong to the Nordic Geological Winter Meeting, which is not listed; the publication is not a listed journal venue."
+Additional 50,1,etis-0092,,,True,"EVS-EN IEC 55012:2025 is a technical standard, not a listed journal or conference venue."
+Additional 50,1,etis-0115,,,True,New Political Economy is not listed in the catalogue.
+Additional 50,1,etis-1137,,,True,"The publication venue is Journal of Physics: Conference Series, which is not listed; the Nordic Symposium on Building Physics is also not listed."
+Additional 50,1,etis-0956,,,True,Estonian Journal of Earth Sciences is not listed in the catalogue.
+Additional 50,1,etis-0501,Energy and Buildings,Energy and Buildings,True,The journal matches the listed Energy and Buildings venue.
+Additional 50,1,etis-0994,,,True,Estonian Journal of Earth Sciences is not listed in the catalogue.
+Additional 50,1,etis-1024,,,True,Vojnosanitetski pregled is not listed in the catalogue.
+Additional 50,1,etis-0017,,,True,The reference identifies a book chapter in AI and Legal Methods: Navigating the Frontier; the cited Nordic conference/work and publication are not listed as a matching venue.
+Additional 50,1,etis-0193,,,True,Processes is not listed in the catalogue.
+Additional 50,1,etis-0473,,,True,The reference identifies an EGOVIS proceedings volume in the Lecture Notes in Computer Science series; neither EGOVIS nor the book series is a listed matching venue.
+Additional 50,1,etis-0076,,,True,IEEE Open Journal of Power Electronics is not listed; the similar IEEE Open Journal of the Communications Society is a different venue.
+Additional 50,1,etis-0357,,,True,Public Policy and Administration is not the listed Public Administration journal.
+Additional 50,1,etis-0369,,,True,"The publication is a Springer Lecture Notes in Operations Research volume for MARBLE; the conference itself is not listed, and the series is not a substitute."
+Additional 50,1,etis-0711,,,True,Białostockie Studia Prawnicze is not listed.
+Additional 50,1,etis-0567,,,True,Geodeet is not listed.
+Additional 50,1,etis-0224,Logical Methods in Computer Science,Logical Methods in Computer Science,True,The journal matches the catalogue entry exactly.
+Additional 50,1,etis-0153,IEEE Transactions on Transportation Electrification,IEEE Transactions on Transportation Electrification,True,The journal matches the catalogue entry exactly.
+Additional 50,1,etis-1081,,,True,Postimees is not listed.
+Additional 50,1,etis-0444,,,True,The International Symposium on Ecohydraulics proceedings venue is not listed.
+Additional 50,1,etis-0729,,,True,Journal of Alloys and Compounds Communications is not listed; the catalogue's similarly named journals are distinct venues.
+Additional 50,2,etis-0825,,,True,"Zenodo is a repository, not a publication venue listed in the catalogue."
+Additional 50,2,etis-0217,,,True,ACM Symposium on Applied Computing (SAC) is not listed in the catalogue.
+Additional 50,2,etis-1024,,,True,Vojnosanitetski pregled is not listed in the catalogue.
+Additional 50,2,etis-0480,,,True,IEEE Green Technologies Conference (GreenTech) is not listed in the catalogue.
+Additional 50,2,etis-0475,,,True,Journal of International Consumer Marketing is not listed in the catalogue.
+Additional 50,2,etis-0722,IEEE Transactions on Energy Conversion,IEEE Transactions on Energy Conversion,True,The journal field directly identifies the listed venue.
+Additional 50,2,etis-0017,,,True,"The reference identifies a Nordic Yearbook of Law and Informatics book/chapter, not the conference itself; no matching publication venue is listed."
+Additional 50,2,etis-0481,,,True,The reference gives a ChemRxiv preprint DOI; no published venue is identified.
+Additional 50,2,etis-0910,,,True,Haemophilia is not listed in the catalogue.
+Additional 50,2,etis-0495,,,True,EDULEARN26 proceedings are not listed in the catalogue.
+Additional 50,2,etis-0501,Energy and Buildings,Energy and Buildings,True,The reference and journal field identify Energy and Buildings.
+Additional 50,2,etis-0214,,,True,ChemPlusChem is not listed in the catalogue.
+Additional 50,2,etis-0395,,,True,The stated World Economic Forum/European Sting publication is not a listed journal or conference.
+Additional 50,2,etis-1137,,,True,"The publication venue is Journal of Physics: Conference Series; the Nordic Symposium on Building Physics is only the cited event, not the publication venue, and the journal is not listed."
+Additional 50,2,etis-0219,,,True,"Bulletin of the Geological Society of Finland, Special Volume is not listed; the Geological Winter Meeting is not the publication venue."
+Additional 50,2,etis-0369,,,True,Mathematical Research for Blockchain Economy (MARBLE) is not listed; the cited Springer Lecture Notes series does not establish a match to a listed venue.
+Additional 50,2,etis-0711,,,True,Białostockie Studia Prawnicze is not listed in the catalogue.
+Additional 50,2,etis-0270,,,True,Materials & Design is not listed in the catalogue.
+Additional 50,2,etis-0193,,,True,Processes is not listed in the catalogue.
+Additional 50,2,etis-0994,,,True,Estonian Journal of Earth Sciences is not listed in the catalogue.
+Additional 50,2,etis-0890,,Journal of Agricultural and Food Chemistry,False,The journal is Journal of Chemical & Engineering Data; that journal is not listed. Correction? No exact entry found.
+Additional 50,2,etis-0473,,,True,"EGOVIS is a conference proceedings venue, but the specific conference is not listed."
+Additional 50,2,etis-0076,,,True,IEEE Open Journal of Power Electronics is not listed.
+Additional 50,2,etis-0707,,,True,Proceedings of the Estonian Academy of Sciences is not listed.
+Additional 50,2,etis-0145,,,True,Novaator is not listed.
+Additional 50,2,etis-0345,Electric Power Systems Research,Electric Power Systems Research,True,Exact journal match.
+Additional 50,2,etis-0445,,,True,Legal-tech Conference Future Law is not listed.
+Additional 50,2,etis-0725,,,True,"This is a book chapter in an edited book, not a listed journal or conference venue."
+Additional 50,2,etis-0153,IEEE Transactions on Transportation Electrification,IEEE Transactions on Transportation Electrification,True,Exact journal match.
+Additional 50,2,etis-0357,,,True,Public Policy and Administration is not listed.
+Additional 50,2,etis-0729,,,True,Journal of Alloys and Compounds Communications is not listed; it is distinct from similarly named journals in the catalogue.
+Additional 50,2,etis-0497,Journal of University Teaching and Learning Practice,Journal of University Teaching and Learning Practice,True,The journal field exactly matches the catalogue venue.
+Additional 50,2,etis-0325,,,True,Geodeet is not listed in the catalogue.
+Additional 50,2,etis-0115,,,True,New Political Economy is not listed in the catalogue.
+Additional 50,2,etis-1029,,,True,"The publication identifies the International Baltic Conference (Baltic DB&IS); that conference is not listed. Communications in Computer and Information Science is a book series, not the conference venue."
+Additional 50,2,etis-0629,Nature Climate Change,Nature Climate Change,True,The journal field exactly matches the catalogue venue.
+Additional 50,2,etis-1044,,,True,International Conference on Mechatronics and Robotics Engineering (ICMRE) is not listed in the catalogue.
+Additional 50,2,etis-0092,,,True,No publication venue is identified in the supplied fields.
+Additional 50,2,etis-0213,IEEE Access,IEEE Access,True,The journal field exactly matches the catalogue venue.
+Additional 50,2,etis-0118,ACS Omega,ACS Omega,True,The journal field exactly matches the catalogue venue.
+Additional 50,2,etis-0616,,,True,The publication is in the International Conference on Next Generation Information Systems Engineering (NGISE); it is not listed in the catalogue. The Springer series is not a substitute venue.
+Additional 50,2,etis-1081,,,True,Postimees is not listed in the catalogue.
+Additional 50,2,etis-0108,Atmosphere,Atmosphere,True,The structured journal field and reference identify Atmosphere.
+Additional 50,2,etis-0567,,,True,Geodeet is not listed in the catalogue.
+Additional 50,2,etis-0224,Logical Methods in Computer Science,Logical Methods in Computer Science,True,The structured journal field and reference identify Logical Methods in Computer Science.
+Additional 50,2,etis-0444,,,True,Proceedings of the International Symposium on Ecohydraulics is not listed in the catalogue.
+Additional 50,2,etis-0956,,,True,Estonian Journal of Earth Sciences is not listed in the catalogue.
+Additional 50,2,etis-1113,,,True,SSRN Working Paper Series is a working-paper venue and is not listed in the catalogue.
+Additional 50,2,etis-0515,,International Economics,False,"The publication identifies International Economics and Economic Policy, which is distinct from the catalogue's International Economics."
+Additional 50,2,etis-1143,Journal of Thermal Analysis and Calorimetry,Journal of Thermal Analysis and Calorimetry,True,The structured journal field and reference identify Journal of Thermal Analysis and Calorimetry.

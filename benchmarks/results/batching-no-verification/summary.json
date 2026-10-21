@@ -1,0 +1,28 @@
+{
+  "sets": {
+    "existing": {
+      "correct": 197,
+      "decisions": 200,
+      "matching_seconds": 127.3241260870127,
+      "false_positive": 1,
+      "false_negative": 2,
+      "requests": 20,
+      "fallbacks": 0,
+      "errors": 0
+    },
+    "fresh": {
+      "correct": 99,
+      "decisions": 100,
+      "matching_seconds": 69.21718841500115,
+      "false_positive": 1,
+      "false_negative": 0,
+      "requests": 13,
+      "fallbacks": 3,
+      "errors": 0
+    }
+  },
+  "lrec": {
+    "single": 5,
+    "batch": 5
+  }
+}

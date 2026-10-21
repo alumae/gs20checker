@@ -1,0 +1,38 @@
+{
+  "prompt_version": "8",
+  "suites": {
+    "Excel regressions": {
+      "correct": 64,
+      "total": 64,
+      "requests": 8,
+      "fallbacks": 0,
+      "verifications": 0
+    },
+    "Venue policy cases": {
+      "correct": 38,
+      "total": 38,
+      "requests": 4,
+      "fallbacks": 0,
+      "verifications": 0
+    },
+    "Existing 100": {
+      "correct": 198,
+      "total": 200,
+      "requests": 22,
+      "fallbacks": 2,
+      "verifications": 0
+    },
+    "Additional 50": {
+      "correct": 99,
+      "total": 100,
+      "requests": 19,
+      "fallbacks": 9,
+      "verifications": 0
+    }
+  },
+  "limitations": [
+    "Development sets reused during refinement; not independent holdouts.",
+    "Final accuracy runs overlapped; timings are not a controlled speed comparison.",
+    "Supplied workbook was audited but not rerun in full or modified."
+  ]
+}

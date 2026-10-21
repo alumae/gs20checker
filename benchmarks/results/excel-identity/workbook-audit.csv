@@ -1,0 +1,33 @@
+excel_row,source_journal,old_match,old_venue,old_note,reviewed_venue,reviewed_venue_id
+56,Electrical Engineering,Yes,Neural Computing and Applications,"The journal is Electrical Engineering, which is not listed; no catalogue match.",,
+85,AJP Renal Physiology,Yes,American Journal of Physiology-Renal Physiology,AJP Renal Physiology is the standard abbreviation for American Journal of Physiology-Renal Physiology.,American Journal of Physiology-Renal Physiology,31f805107809ab50f7c7
+137,Energy and Buildings,Yes,Energy Conversion and Management,"The journal field identifies Energy and Buildings, which is not the listed Energy Conversion and Management; no match.",Energy and Buildings,c50e9454ec558478958d
+157,Biomass  Bioenergy,Yes,Bioresource Technology,"The publication venue is Biomass & Bioenergy, which is not listed. No catalogue match.",Biomass and Bioenergy,538a62acec901c592142
+202,Music Perception,Yes,Music Perception: An Interdisciplinary Journal,Music Perception is the abbreviated journal name for Music Perception: An Interdisciplinary Journal.,Music Perception: An Interdisciplinary Journal,948d62b35f021501a21f
+239,Industry and Innovation,Yes,Technovation,Industry and Innovation is not listed; Technovation is a distinct journal and is not an equivalent venue.,,
+336,Building Research  Information,Yes,Journal of Documentation,Building Research & Information is not listed; there is no matching catalogue entry.,,
+401,Quality  Quantity,Yes,Scientometrics,Quality & Quantity is not listed; it is a distinct journal and does not match the listed Scientometrics.,,
+408,Clinical Journal of The American Society of Nephrology : Cjasn,Yes,Clinical Journal of the American Society of Nephrology,The supplied journal is an expanded form of the listed journal name.,Clinical Journal of the American Society of Nephrology,492edb58c0b817d3ac16
+494,IEEE Transactions on Smart Grid,Yes,IEEE Transactions on Smart Grids,The journal field identifies IEEE Transactions on Smart Grid; this is a harmless singular/plural variation of the listed venue.,IEEE Transactions on Smart Grids,f2248db189bf76a7f2c8
+519,IEEE Transactions on Intelligent Vehicles,Yes,IEEE Transactions on Intelligent Transportation Systems,"No match: the publication is in IEEE Transactions on Intelligent Vehicles, which is distinct from the similarly named listed IEEE Transactions on Intelligent Transportation Systems.",IEEE Transactions on Intelligent Vehicles,f3fa038e55d21b487dfa
+570,Organization,Yes,Organization Studies,"No match: the journal is Organization, not the listed Organization Studies.",,
+571,,Yes,IEEE Electronic Components and Technology Conference (ECTC),"No match: the stated venue is the International Symposium on Quality Electronic Design, which is different from the listed ECTC.",,
+617,TransNav the International Journal on Marine Navigation and Safety of Sea Transportation,Yes,TransNav: International Journal on Marine Navigation and Safety of Sea Transportation,TransNav the International Journal on Marine Navigation and Safety of Sea Transportation matches the listed journal.,TransNav: International Journal on Marine Navigation and Safety of Sea Transportation,c2c8e8f0d8e029be17f6
+625,AI  Society,Yes,Complex & Intelligent Systems,"The reference identifies AI & Society, which is not listed; no catalogue match.",,
+734,Marketing Intelligence  Planning,Yes,Journal of Product & Brand Management,"The supplied journal name is Marketing Intelligence & Planning, but that venue is not listed; no match.",,
+735,Service Industries Journal,Yes,Tourism Management,Service Industries Journal is not listed in the catalogue; no matching venue.,,
+786,Journal of Service Management,Yes,Journal of Operations Management,"The journal field identifies Journal of Service Management, which is not the catalogue entry Journal of Operations Management.",,
+804,Quaternary Science Reviews,Yes,Quaternary International,"The supplied venue is Quaternary Science Reviews, which is distinct from the listed Quaternary International; no match.",Quaternary Science Reviews,aa3b33863ba1f4668483
+807,European Psychiatry,Yes,Language Assessment Quarterly,European Psychiatry is not listed; no matching catalogue entry.,,
+808,Composites Part B: Engineering,Yes,Composites Part A: Applied Science and Manufacturing,"The supplied venue is Composites Part B: Engineering, which is distinct from the listed Composites Part A; no match.",Composites Part B: Engineering,38aa95fd96f55708b94b
+856,,Yes,Chemosphere,"The reference identifies Toxicology Letters as the journal; that venue is not listed. EUROTOX is conference context, not the publication venue.",,
+868,ACS EST Water,Yes,ACS Environmental Science & Technology Water,ACS ES&T Water is an abbreviation of ACS Environmental Science & Technology Water.,ACS Environmental Science & Technology Water,14529ee60f237adc6726
+888,Logistics Research,Yes,Database,"The journal field identifies Logistics Research, which is not listed in the catalogue; no matching venue is available.",,
+975,EBioMedicine,Yes,Heliyon,EBioMedicine is not the listed Heliyon journal; no matching venue is listed.,,
+981,IEEE Open Journal of Power Electronics,Yes,IEEE Open Journal of the Communications Society,IEEE Open Journal of Power Electronics is a distinct journal; it does not match the listed IEEE Open Journal of the Communications Society.,,
+997,International Journal of River Basin Management,Yes,International Journal of Language & Communication Disorders,The publication venue is International Journal of River Basin Management; the supplied catalogue entry with a similar but different title is not a match.,International Journal of River Basin Management,3cedd737709511003eb8
+1010,Scandinavian Journal of Work Environment  Health,No,,Scandinavian Journal of Work Environment & Health is not listed.,"Scandinavian Journal of Work, Environment & Health",d3d64d2bc6f1e9ef11af
+1036,Processes,Yes,Applied Sciences,Processes is not listed; the publication venue is not Applied Sciences.,,
+1070,The Gerontologist,Yes,Gerontologist,The listed catalogue entry corresponds to the journal The Gerontologist.,Gerontologist,171caada5201725e95f8
+1120,Materials Science and Engineering A,No,,"Materials Science and Engineering A is not listed; the catalogue entry for Materials Science and Engineering: A is a different title, not established as equivalent here.",Materials Science and Engineering: A,78474bf87cceccfeb7d9
+1160,Journal of Cybersecurity,Yes,International Security,"The structured venue is Journal of Cybersecurity, which is not the listed International Security journal; no match.",,

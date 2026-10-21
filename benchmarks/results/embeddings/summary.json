@@ -1,0 +1,91 @@
+{
+  "methods": [
+    {
+      "method": "production",
+      "mean_seconds_per_150": 287.68990871548885,
+      "existing_correct": 197,
+      "existing_decisions": 200,
+      "fresh_correct": 100,
+      "fresh_decisions": 100,
+      "api_requests": 210,
+      "false_positives": 0,
+      "false_negatives": 3,
+      "tokens": {
+        "input": 5737524,
+        "cached_input": 5362308,
+        "output": 28126,
+        "embedding": 0
+      }
+    },
+    {
+      "method": "lexical",
+      "mean_seconds_per_150": 93.66312990803272,
+      "existing_correct": 189,
+      "existing_decisions": 200,
+      "fresh_correct": 99,
+      "fresh_decisions": 100,
+      "api_requests": 30,
+      "false_positives": 0,
+      "false_negatives": 12,
+      "tokens": {
+        "input": 309268,
+        "cached_input": 0,
+        "output": 16230,
+        "embedding": 0
+      }
+    },
+    {
+      "method": "dense",
+      "mean_seconds_per_150": 95.42356514549465,
+      "existing_correct": 188,
+      "existing_decisions": 200,
+      "fresh_correct": 97,
+      "fresh_decisions": 100,
+      "api_requests": 34,
+      "false_positives": 1,
+      "false_negatives": 14,
+      "tokens": {
+        "input": 191222,
+        "cached_input": 0,
+        "output": 16097,
+        "embedding": 5074
+      }
+    },
+    {
+      "method": "hybrid",
+      "mean_seconds_per_150": 94.09560284699546,
+      "existing_correct": 193,
+      "existing_decisions": 200,
+      "fresh_correct": 99,
+      "fresh_decisions": 100,
+      "api_requests": 34,
+      "false_positives": 1,
+      "false_negatives": 7,
+      "tokens": {
+        "input": 199172,
+        "cached_input": 0,
+        "output": 16645,
+        "embedding": 5074
+      }
+    }
+  ],
+  "decision": {
+    "method": "hybrid",
+    "seconds": 188.19120569399092,
+    "existing": 193,
+    "fresh": 99,
+    "baseline_fresh": 100,
+    "speedup": 3.0574213885774046,
+    "gates": {
+      "faster": true,
+      "existing_197": false,
+      "fresh_at_least_baseline": false,
+      "lrec_10": true
+    },
+    "passed": false
+  },
+  "lrec": {
+    "correct": 10,
+    "n": 10
+  }
+}
