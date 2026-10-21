@@ -20,7 +20,7 @@ Run these commands after installing dependencies:
 - `ruff check .`: lint Python code.
 - `ruff format .`: format Python code.
 
-Run `python build.py` to validate the catalogue and copy static assets for Vercel. Local Flask development does not require this build step.
+Run `python build.py` to validate the catalogue and copy static assets for Vercel. Local Flask development does not require this build step. Vercel installs `[project].dependencies` from `pyproject.toml` using uv; keep this list aligned with `requirements.txt` when changing runtime dependencies.
 
 ## Coding Style & Naming Conventions
 

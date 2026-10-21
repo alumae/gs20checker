@@ -7,7 +7,11 @@ deployment are dashboard operations; these files alone do not perform them.
 
 ## Runtime and build
 
-Vercel loads `wsgi:app`, installs `requirements.txt`, and runs `python build.py`.
+Vercel loads `wsgi:app`, installs the `[project].dependencies` from `pyproject.toml`
+using uv, and runs `python build.py`. Keep that runtime list aligned with
+`requirements.txt`, which remains the local pip installation manifest; a regression
+test checks that they agree. A tool-only `pyproject.toml` fails Vercel's `uv lock`
+step because uv requires a `[project]` table.
 The build validates `data/venues.json` and refreshes `public/static/` from the local
 assets. The catalogue and templates ship with the function; sample workbooks,
 benchmarks, tests, development caches, and secrets are excluded. No Scholar collection
@@ -79,7 +83,7 @@ it. Authenticate to GitHub using your normal Git credentials, never a token in a
    | Root Directory | Repository root (`./`) |
    | Framework Preset | Flask |
    | Build Command | `python build.py` (from `vercel.json`) |
-   | Install Command | Default; installs `requirements.txt` |
+   | Install Command | Default; uv installs dependencies from `pyproject.toml` |
    | Output Directory | Default for Flask; do not override |
    | Production Branch | `main` |
 

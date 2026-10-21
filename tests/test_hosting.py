@@ -2,6 +2,7 @@ import asyncio
 import base64
 import json
 import time
+import tomllib
 from io import BytesIO
 from pathlib import Path
 from types import SimpleNamespace
@@ -15,6 +16,19 @@ from app.processing import StreamBudget, process_workbook
 from app.workbooks import extract_rows
 from build import build
 from tests.test_processing import FakeClient, all_negative, workbook
+
+
+def test_vercel_project_declares_local_runtime_dependencies():
+    root = Path(__file__).resolve().parents[1]
+    project = tomllib.loads((root / "pyproject.toml").read_text())["project"]
+    requirements = {
+        line.strip()
+        for line in (root / "requirements.txt").read_text().splitlines()
+        if line.strip() and not line.lstrip().startswith("#")
+    }
+    assert project["name"] and project["version"]
+    assert project["requires-python"] == ">=3.12"
+    assert set(project["dependencies"]) == requirements
 
 
 def test_vercel_limits_and_rendered_upload_configuration(monkeypatch, catalogue, tmp_path):
